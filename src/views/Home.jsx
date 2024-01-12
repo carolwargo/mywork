@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import { Link } from "react-router-dom";  
-import Header from "../../components/Header/index.jsx";
-import "../../App.css";
+import Header from "../components/Header/Header.jsx";
+import "../App.css";
 import { GiShoppingCart } from "react-icons/gi";
 import { RiComputerLine } from "react-icons/ri";
 import { IoColorPaletteOutline } from "react-icons/io5";
@@ -12,9 +12,9 @@ import { GiGraduateCap } from "react-icons/gi";
 import { GiBasketballJersey } from "react-icons/gi";
 import { BsArrowThroughHeart } from "react-icons/bs";
 import { PiTShirtDuotone } from "react-icons/pi";
-import Business from "../../assets/images/Business.png";
-import Promo from "../../assets/images/Home/Promo.png";
-import Organizations from "../../assets/images/Organizations.png";
+import Business from "../assets/images/Business.png";
+import Promo from "../assets/images/Promo.png";
+import Organizations from "../assets/images/Organizations.png";
 
 const Home = () => {
   return (

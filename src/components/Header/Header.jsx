@@ -30,6 +30,7 @@ const Header = () => {
               style={{
                 textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
                 fontFamily: 'roboto',
+                lineHeight: '1.25', 
               }}
             >
               <i>"Make a lasting</i>
@@ -41,6 +42,7 @@ const Header = () => {
               >
                 <b> <i>VISUAL IMPACT</i> </b>
               </span>
+              <br></br>
               <i> with stunning graphics or build a powerful</i>
               <span
                 style={{
@@ -54,8 +56,9 @@ const Header = () => {
               <i>through web development."</i>
             </h3>
             <br></br>
-          <p>Choose your path to get started!</p>
-
+            <br></br>
+          <h5>Choose your path to get started!</h5>
+          <br></br>
             <Link to='/graphic-design'>
               <button
                 type='button'
