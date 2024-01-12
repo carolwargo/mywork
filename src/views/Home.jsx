@@ -22,6 +22,8 @@ const Home = () => {
      
     >
       <Header />
+
+      {/**Business Essentials Container */}
       <div className="container mt-5">
       <div className="row d-flex justify-content-center align-items-center">
       <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
@@ -34,11 +36,16 @@ const Home = () => {
               <h1>BUSINESS ESSENTIALS</h1>
               </div>
               <p className="business-essentials-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi perspiciatis consequatur magnam, aperiam alias saepe reprehenderit id animi soluta quae, neque commodi ratione dolor. Dolorum ut assumenda inventore ratione nesciunt!
-              </p>
+           
+  Explore our range of "Business Essentials" custom products tailored 
+  to your requirements. We offer a variety of design solutions 
+  to include graphic and digital design, promotional campaigns, as well as 
+  software solutions and server-side integrations.
+</p>
+
               <p className="mt-5">
               <a
-                href="/business"
+                href="/business-essentials"
                 className="text-decoration-none"
               >
               See Business Essentials

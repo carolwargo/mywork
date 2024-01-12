@@ -62,7 +62,7 @@ const Header = () => {
             <Link to='/graphic-design'>
               <button
                 type='button'
-                className='btn btn-outline-light bg-black btn-sm m-1 px-5'
+                className='btn btn-outline-light bg-black btn-sm m-1 px-3'
                 data-mdb-ripple-init
               >
                 <b>Graphic Design</b>
@@ -73,7 +73,7 @@ const Header = () => {
               <button
                 type='button'
                 className='btn btn-outline-black bg-light text-black btn-sm m-1'
-                style={{ paddingRight: '2.25rem', paddingLeft: '2.25rem' }}
+                style={{ paddingRight: '1', paddingLeft: '1rem' }}
                 data-mdb-ripple-init
               >
                 <b>Web Development</b>
