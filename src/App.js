@@ -8,7 +8,7 @@ import BusinessEssentials from './views/Business/BusinessEssentials';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/react-portfolio" >
+      <BrowserRouter basename="/mywork" >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/business-essentials" element={<BusinessEssentials />} />
