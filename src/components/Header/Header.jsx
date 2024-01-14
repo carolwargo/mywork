@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import HomeBig from '../../assets/images/HomeBig.png';
 
 const Header = () => {
@@ -24,7 +23,7 @@ const Header = () => {
         <div className='row d-flex h-100 px-5 text-center position-relative'>
           <div className='col-md-4 text-white'></div>
           <div className='col-md-8 text-white p-3 position-relative z-index-1'>
-            {/* Your content goes here */}
+         
             <h3
               className='mt-2 mb-2 '
               style={{
@@ -57,6 +56,17 @@ const Header = () => {
             </h3>
             <br></br>
             <br></br>
+            <p style={{fontSize:'12px'}}><b>Preface Statements: </b>
+            </p>
+            <p style={{fontSize:'12px'}}>   <i>
+  * This site is crafted from scratch, avoiding the use of CMS 
+  software like WordPress or Wix, preconfigured plug-in components. It is 
+  built on the React.js framework, the very same framework employed by 
+  Facebook for building and maintaining their applications. <br></br>** All graphics displayed are my own work.
+  </i>
+</p>
+        
+            {/* 
           <h5>Choose your path to get started!</h5>
           <br></br>
             <Link to='/graphic-design'>
@@ -79,6 +89,7 @@ const Header = () => {
                 <b>Web Development</b>
               </button>
             </Link>
+            */}
           </div>
         </div>
       </div>

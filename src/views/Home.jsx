@@ -28,69 +28,6 @@ const Home = () => {
   return (
     <main>
       <Header />
-      <div className="container mt-4 p-2">
-        <div className="row d-flex justify-content-center align-items-center p-4">
-          <h1>Welcome!</h1>
-          <p>Introduction</p>
-          <h3>Preface Statement & Roadmap</h3>
-          <p>
-            This site consists of coding and programming from scratch- No CMA
-            software is utilized such as WordPress or Wix preconfigured plug-in
-            components. The framework used is React.js, the same framework used
-            to build, maintain and aquired by Facebook.
-          </p>
-          <div className="row d-flex">
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>The benefits of coding from scratch are as follows:</p>
-              <ul>
-                <li>Customization</li>
-                <li>Security</li>
-                <li>Speed</li>
-                <li>Scalability</li>
-                <li>SEO</li>
-                <li>Flexibility</li>
-              </ul>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>The benefits of using React.js are as follows:</p>
-              <ul>
-                <li>
-                  <b>Virtual DOM:</b> Enhances performance by minimizing actual
-                  DOM manipulations.
-                </li>
-                <li>
-                  <b>JSX (JavaScript XML):</b> Enables a concise way to mix HTML
-                  with JavaScript.
-                </li>
-                <li>
-                  <b>Flexibility and Integration:</b> Easily integrates with
-                  other libraries and frameworks.
-                </li>
-                <li>
-                  <b>Great Performance:</b> Uses code splitting to break down
-                  your application into smaller chunks that can be loaded on
-                  demand, instead of loading the entire application.
-                </li>
-                <li>
-                  <b>Maintained by Facebook:</b> Regular updates, improvements,
-                  and support.
-                </li>
-                <li>
-                  <b>Mobile Development:</b> Allows building mobile apps with
-                  the same codebase.
-                  <p>
-                    Have you had an image fall off screen when viewing on your
-                    mobile device and only render a portion of it?
-                  </p>
-                  <h6>LIKE THIS:</h6>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p>React.js is a JavaScript library for building user interfaces.</p>
-        </div>
-      </div>
-
       <div className="container mt-5">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
@@ -130,8 +67,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-<br></br>
-<br></br>
+
 <br></br>
 <br></br>
       {/*recruit SITE start */}
