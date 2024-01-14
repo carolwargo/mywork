@@ -9,6 +9,11 @@ import YogaMat from "../../assets/images/YogaStory/YogaMat.png";
 import YogaMember from "../../assets/images/YogaStory/YogaMember.png";
 import YogaMorning from "../../assets/images/YogaStory/YogaMorning.png";
 
+import LashLove from "../../assets/images/BeatuyStory/LashLove.png";
+import FaceCare from "../../assets/images/BeatuyStory/FaceCare.png";
+import FaceMenu from "../../assets/images/BeatuyStory/FaceMenu.png";
+import BookNow from "../../assets/images/BeatuyStory/BookNow.png";
+
 const BusinessEssentials = () => {
   return (
     <main className="business-essentials p-3">
@@ -49,7 +54,59 @@ const BusinessEssentials = () => {
         </div>
       </div>
 
-      <div className="row business-gallery">
+      <div className="row business-gallery p-4">
+        <div className="col-sm-12 col-md-3 col-lg-3">
+        <MDBCard>
+                <MDBCarousel showControls fade showIndicators={false}>
+                  <MDBCarouselItem itemId={1}>
+                    <img
+                      src={LashLove}
+                      className="d-block w-100"
+                      alt="..."
+                    />
+                  </MDBCarouselItem>
+                  <MDBCarouselItem itemId={2}>
+                    <img
+                      src={FaceCare}
+                      className="d-block w-100"
+                      alt="..."
+                    />
+                  </MDBCarouselItem>
+                  <MDBCarouselItem itemId={3}>
+                    <img
+                      src={FaceMenu}
+                      className="d-block w-100"
+                      alt="..."
+                    />
+                  </MDBCarouselItem>
+                  <MDBCarouselItem itemId={4}>
+                    <img
+                      src={BookNow}
+                      className="d-block w-100"
+                      alt="..."
+                    />
+                  </MDBCarouselItem>
+                </MDBCarousel>
+           
+              </MDBCard>
+        </div>
+      <div className="col-sm-12 col-md-3 col-lg-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            quaerat tempore nesciunt et. Qui optio minus a fuga reprehenderit
+            voluptates, dolorem consectetur placeat est eum nobis atque debitis
+            nulla maxime.
+          </p>
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            quaerat tempore nesciunt et. Qui optio minus a fuga reprehenderit
+            voluptates, dolorem consectetur placeat est eum nobis atque debitis
+            nulla maxime.
+          </p>
+        </div>
+     
         <div className="col-sm-12 col-md-3 col-lg-3">
       
               <MDBCard>
@@ -105,35 +162,39 @@ const BusinessEssentials = () => {
                   </MDBCarouselItem>
                   
                 </MDBCarousel>
-                <MDBCardBody>
-                  <MDBCardTitle>Instagram Story Campaign</MDBCardTitle>
-                  <MDBCardText>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </MDBCardText>
-                </MDBCardBody>
               </MDBCard>
 </div> 
-<div className="col-sm-12 col-md-3 col-lg-3">
+
+      
+      </div>
+      <div className="row beauty-story">
+      <div className="col-sm-12 col-md-3 col-lg-3">
               <MDBCard>
                 <MDBCarousel showControls fade showIndicators={false}>
                   <MDBCarouselItem itemId={1}>
                     <img
-                      src={YogaLetters}
+                      src={LashLove}
                       className="d-block w-100"
                       alt="..."
                     />
                   </MDBCarouselItem>
                   <MDBCarouselItem itemId={2}>
                     <img
-                      src={YogaDay}
+                      src={FaceCare}
                       className="d-block w-100"
                       alt="..."
                     />
                   </MDBCarouselItem>
                   <MDBCarouselItem itemId={3}>
                     <img
-                      src={YogaSteps3}
+                      src={FaceMenu}
+                      className="d-block w-100"
+                      alt="..."
+                    />
+                  </MDBCarouselItem>
+                  <MDBCarouselItem itemId={4}>
+                    <img
+                      src={BookNow}
                       className="d-block w-100"
                       alt="..."
                     />
@@ -148,14 +209,6 @@ const BusinessEssentials = () => {
                 </MDBCardBody>
               </MDBCard>
           
-        </div>
-        <div className="col-sm-12 col-md-6 col-lg-6">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            quaerat tempore nesciunt et. Qui optio minus a fuga reprehenderit
-            voluptates, dolorem consectetur placeat est eum nobis atque debitis
-            nulla maxime.
-          </p>
         </div>
       </div>
  </main>
