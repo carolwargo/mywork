@@ -71,13 +71,17 @@ const Home = () => {
 <p>All whole images or individual components, layers & text within the image can be animated separately.<br></br><span className="text-secondary" style={{fontSize:'12px'}}>"I typically save superficial functions like, animations & audio until the layout and content are set."</span></p>
 <Graphics/>
       </div>
-
+<br></br>
       {/*recruit SITE start */}
       <div className="container mt-5">
-        <h1 className="mt-5">DIGITAL RECRUITING TOOL</h1>
-        <p> Why recruiting "TOOL", instead of recruiting "site"? 
-          BECAUSE...I designed it to be flexible— Capable of rendering either as a complete entity or as individual components. 
-  With its responsive design, the tool seamlessly adapts to all screen sizes, ensuring no overflow or loss of content. The graphics and content are easily converted to print media or used on social platforms.
+        <h1 className="mt-5"
+        style={{
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+          color:'#304E7C'
+        }}>DIGITAL RECRUITING TOOL</h1>
+        <p> <i>Why call it a recruiting "TOOL", instead of recruiting "site"? 
+          Because, I designed it to be flexible- Capable of rendering either as a complete entity or as individual components. 
+  With its responsive design, the tool seamlessly adapts to all screen sizes, ensuring no overflow or loss of content. The graphics and content are easily converted to print media or used on social platforms.</i>
  </p>
 
         {/*recruit HOMEPAGE start */}
@@ -85,7 +89,13 @@ const Home = () => {
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="service-body p-5 justify-content-center align-items-center">
               <div className="service-title">
-                <h1>1. LANDING PAGE </h1>
+                <h1 
+                style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >
+                  1. LANDING PAGE </h1>
               </div>
               <p className="service-text">
              
@@ -102,7 +112,7 @@ prompt for the user.</p>
               className="mb-2 border border-black"
               style={{ width: "80%", height: "auto" }}
             />
-            <p style={{ fontSize: "12px" }}>
+            <p style={{ fontSize: "12px", color:'#304E7C' }}>
               {" "}
               <i>"1. Recruit landing sample page"</i>
             </p>
@@ -114,7 +124,12 @@ prompt for the user.</p>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="recruit-profile-body p-5 justify-content-center align-items-center">
               <div className="recruit-profile-title">
-                <h1>2. PROFILE PAGE </h1>
+                <h1
+                 style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >2. PROFILE PAGE </h1>
               </div>
               <p className="recruit-profile-text">
   The Profile Page offers essential information at a glance, including graduation year, 
@@ -133,7 +148,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px" }}>
+            <p style={{ fontSize: "12px", color:'#304E7C' }}>
               {" "}
               <i>"2. Recruit profile sample page."</i>
             </p>
@@ -145,7 +160,12 @@ prompt for the user.</p>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="recruit-stats-body p-5 justify-content-center align-items-center">
               <div className="recruit-stats-title">
-                <h1>3. STATS PAGE </h1>
+                <h1
+                 style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >3. STATS PAGE </h1>
               </div>
               <p className="recruit-stats-text">
                 Recruit stats consist of BAT, ARM, RUN & PERFORMANCE metrics, to include speed & velocity, and average & max.
@@ -165,7 +185,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px" }}>
+            <p style={{ fontSize: "12px", color:'#304E7C' }}>
               {" "}
               <i>"3. Recruit stats sample page."</i>
             </p>
@@ -177,7 +197,12 @@ prompt for the user.</p>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="recruit-dashboard-body p-5 justify-content-center align-items-center">
               <div className="recruit-dashboard-title">
-                <h1>4. DASHBOARD PAGE </h1>
+                <h1  
+                style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >4. DASHBOARD PAGE </h1>
               </div>
               <p className="recruit-dashboard-text">
                 Recruit Dashboard consists of test scores, gpa, academic
@@ -200,7 +225,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px" }}>
+            <p style={{ fontSize: "12px", color:'#304E7C' }}>
               {" "}
               <i>"4. Recruit dashboard sample page."</i>
             </p>
@@ -213,7 +238,12 @@ prompt for the user.</p>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="recruit-videos-body p-5 justify-content-center align-items-center">
               <div className="recruit-videos-title">
-                <h1>5. VIDEO LIBRARY PAGE </h1>
+                <h1
+                 style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >5. VIDEO LIBRARY PAGE </h1>
               </div>
               <p className="recruit-videos-text">
                This video library page consists of a collection of 3 videos; defense, hitting, MLB bullpens.
@@ -233,7 +263,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px" }}>
+            <p style={{ fontSize: "12px", color:'#304E7C' }}>
               {" "}
               <i>"5. Recruit video library sample page."</i>
             </p>
@@ -245,7 +275,13 @@ prompt for the user.</p>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="recruit-affiliation-body p-5 justify-content-center align-items-center">
               <div className="recruit-affiliation-title">
-                <h1>6. LEAGUE AFFILIATION PAGE </h1>
+                <h1
+                 style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >
+                  6. LEAGUE AFFILIATION PAGE </h1>
               </div>
               <p className="recruit-affiliation-text">        
   The League Affiliation page displays the current team affiliations; high school team & summer team details include coach & league, and are accompanied by buttons, that are linked to the league website. 
@@ -266,19 +302,22 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px" }}>
+            <p style={{ fontSize: "12px", color:'#304E7C' }}>
               {" "}
               <i>"6. Recruit league affiliation sample page."</i>
             </p>
           </div>
         </div>
 
+<br></br>
+<br></br>
+<br></br>
 
-<p>---------EMAIL CAMPAIGN IMAGES--------</p>
+<p className="text-danger"><b>---------EMAIL CAMPAIGN IMAGES--------</b></p>
 
 
         <br></br>
-<p>-------------------THIS IS THE OFFICIAL END FOR NOW---------------<br></br>MORE TO COME!</p>
+<p className="text-danger"><b>-------------------THIS IS THE OFFICIAL END FOR NOW---------------</b><br></br>MORE TO COME!</p>
 
 <br></br>
 <br></br>
