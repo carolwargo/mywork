@@ -23,7 +23,7 @@ const Header = () => {
         <div className='row d-flex h-100 px-5 text-center position-relative'>
           <div className='col-md-4 text-white'></div>
           <div className='col-md-8 text-white p-3 position-relative z-index-1'>
-         
+          <br></br>
             <h3
               className='mt-2 mb-2 '
               style={{
@@ -54,18 +54,19 @@ const Header = () => {
 
               <i>through web development."</i>
             </h3>
+          
             <br></br>
-            <br></br>
-            <p style={{fontSize:'12px'}}><b>Preface Statements: </b>
+            <div className='p-2'>
+            <p style={{fontSize:'12px', paddingBottom:'0px'}}>PREFACE STATEMENT: 
             </p>
             <p style={{fontSize:'12px'}}>   <i>
   * This site is crafted from scratch, avoiding the use of CMS 
   software like WordPress or Wix, preconfigured plug-in components. It is 
   built on the React.js framework, the very same framework employed by 
-  Facebook for building and maintaining their applications. <br></br>** All graphics displayed are my own work.
+  Facebook for building and maintaining their applications. <br></br>** All graphics showcased are original creations, with the exception of logos or instances where inspiration may have been drawn from a concept or function of other works. 
   </i>
 </p>
-        
+</div>    
             {/* 
           <h5>Choose your path to get started!</h5>
           <br></br>

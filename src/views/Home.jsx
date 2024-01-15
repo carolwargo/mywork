@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import { Link } from "react-router-dom";
 import Header from "../components/Header/Header.jsx";
+import Graphics from "../components/Graphics/Graphics.jsx";
 import "../App.css";
 import { GiShoppingCart } from "react-icons/gi";
 import { RiComputerLine } from "react-icons/ri";
@@ -31,11 +32,11 @@ const Home = () => {
       <div className="container mt-5">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-            <div className="business-essentials-body p-4 justify-content-center align-bottom">
-              <div className="business-essentials-title">
+            <div className="story-essentials-body p-4 justify-content-center align-bottom">
+              <div className="story-essentials-title">
                 <h4 className="mt-0">TELL YOUR STORY...</h4>
               </div>
-              <p className="business-essentials-text">
+              <p className="story-essentials-text">
                 In the enchanting realm of digital storytelling, businesses are
                 weaving captivating tales using the magical wand of social media
                 to captivate an audience.
@@ -62,7 +63,7 @@ const Home = () => {
             />
             <p style={{ fontSize: "12px" }}>
               {" "}
-              <i>"Recruit landing sample page"</i>
+              <i>"SAMPLE: digital marketing campaign"</i>
             </p>
           </div>
         </div>
@@ -70,6 +71,15 @@ const Home = () => {
 
 <br></br>
 <br></br>
+
+
+{/**Graphic Designs*/}
+<div className="container mt-5">
+<h1>GRAPHICS PORTFOLIO</h1>
+<p>All whole images or individual components, layers & text within the image can be animated separately.<br></br><span className="text-secondary" style={{fontSize:'12px'}}>"I typically save superficial functions like, animations & audio until the layout and content are set."</span></p>
+<Graphics/>
+      </div>
+
       {/*recruit SITE start */}
       <div className="container mt-5">
         <h1 className="mt-5">DIGITAL RECRUITING TOOL</h1>
@@ -354,6 +364,9 @@ prompt for the user.</p>
               </p>
             </div>
           </div>
+
+
+          
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <img
               src={RecruitHome}
