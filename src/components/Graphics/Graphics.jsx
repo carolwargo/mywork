@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal} from 'react-bootstrap';
+import ImageModal from '../Modal/ImageModal.jsx';
 
 import { HiMagnifyingGlassPlus } from "react-icons/hi2";
 import Business from '../../assets/images/Business.png';
@@ -18,117 +18,107 @@ import NorthernGolf from '../../assets/images/Graphics/NorthernGolf.png';
 
 const BusinessEssentials = () => {
   const [showModal, setShowModal] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
 
-  const handleModalOpen = () => setShowModal(true);
-  const handleModalClose = () => setShowModal(false);
+  const handleModalOpen = (image) => {
+    setSelectedImage(image);
+    setShowModal(true);
+  };
 
+  const handleModalClose = () => {
+    setSelectedImage(null);
+    setShowModal(false);
+  };
   return (
     <div className='container mt-4'>
-    <div className="row graphics-container">
-    <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={Business}
-            alt="Business"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
+      <div className="row graphics-container">
+        {/* Business Image */}
+        <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+          <div className="graphics-body p-4 justify-content-center align-bottom">
+            <div className="graphics-title">
+              <img
+                src={Business}
+                alt="Business"
+                className="mb-2 border border-black clickable-image"
+                style={{ width: "80%", height: "auto" }}
+                onClick={() => handleModalOpen(Business)}
+              />
+              <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+              <h1>TITLE</h1>
+            </div>
+            <p className="business-essentials-text">
+              Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+            </p>
+          </div>
+
+          {/* ImageModal for Business Image */}
+          <ImageModal
+            showModal={showModal}
+            handleModalClose={handleModalClose}
+            imageSrc={selectedImage}
+            altText="Enlarged Business Image"
+            title="Click to Close"
           />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
         </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
-      </div>
 
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={Business}
-            alt="Business"
-            className="w-100 h-auto"
+        {/* Red Baseball Image */}
+        <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+          <div className="graphics-body p-4 justify-content-center align-bottom">
+            <div className="graphics-title">
+              <img
+                src={RedBaseball}
+                alt="RedBaseball"
+                className="mb-2 border border-black clickable-image"
+                style={{ width: "80%", height: "auto" }}
+                onClick={() => handleModalOpen(RedBaseball)}
+              />
+              <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+              <h1>TITLE</h1>
+            </div>
+            <p className="business-essentials-text">
+              Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+            </p>
+          </div>
+
+          {/* ImageModal for Red Baseball Image */}
+          <ImageModal
+            showModal={showModal}
+            handleModalClose={handleModalClose}
+            imageSrc={selectedImage}
+            altText="Enlarged Red Baseball Image"
+            title="Click to Close"
           />
-        </Modal.Body>
-       
-      </Modal>
-    </div>
-
-
-    <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={RedBaseball}
-            alt="RedBaseball"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
         </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
-      </div>
 
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-          <Modal.Title style={{fontSize:'1rem'}}>click to close</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={RedBaseball}
-            alt="RedBaseball"
-            className="w-100 h-auto"
+        {/* Product Campaign Image */}
+        <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+          <div className="graphics-body p-4 justify-content-center align-bottom">
+            <div className="graphics-title">
+              <img
+                src={ProductCampaign}
+                alt="ProductCampaign"
+                className="mb-2 border border-black clickable-image"
+                style={{ width: "80%", height: "auto" }}
+                onClick={() => handleModalOpen(ProductCampaign)}
+              />
+              <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+              <h1>TITLE</h1>
+            </div>
+            <p className="business-essentials-text">
+              Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+            </p>
+          </div>
+
+          {/* ImageModal for Product Campaign Image */}
+          <ImageModal
+            showModal={showModal}
+            handleModalClose={handleModalClose}
+            imageSrc={selectedImage}
+            altText="Enlarged Product Campaign Image"
+            title="Click to Close"
           />
-        </Modal.Body>
-     
-      </Modal>
-    </div>
-
-
-    <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={ProductCampaign}
-            alt="ProductCampaign"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
         </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
-
-        <p className="mt-5">
-            See Business Essentials
-        </p>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={ProductCampaign}
-            alt="ProductCampaign"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-    
-      </Modal>
-    </div>
-
-    </div>
 
 
 
@@ -140,107 +130,93 @@ const BusinessEssentials = () => {
 
     {/* third row */  }
     <div className="row graphics-container">
-    <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={LineUp}
-            alt="LineUp"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+  {/* LineUp Image */}
+  <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={LineUp}
+          alt="LineUp"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(LineUp)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={LineUp}
-            alt="LineUp"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-       
-      </Modal>
+      <p className="business-essentials-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
 
+    {/* ImageModal for LineUp Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged LineUp Image"
+      title="Click to Close"
+    />
+  </div>
 
-    <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={CheckOut}
-            alt="CheckOut"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="graphics-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+  {/* CheckOut Image */}
+  <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={CheckOut}
+          alt="CheckOut"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(CheckOut)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-          <Modal.Title style={{fontSize:'1rem'}}>click to close</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={CheckOut}
-            alt="CheckOut"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-     
-      </Modal>
+      <p className="graphics-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
 
+    {/* ImageModal for CheckOut Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged CheckOut Image"
+      title="Click to Close"
+    />
+  </div>
 
-    <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={MidSeason}
-            alt="MidSeason"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+  {/* MidSeason Image */}
+  <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={MidSeason}
+          alt="MidSeason"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(MidSeason)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={MidSeason}
-            alt="MidSeason"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-    
-      </Modal>
+      <p className="business-essentials-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
 
-    </div>
-
+    {/* ImageModal for MidSeason Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged MidSeason Image"
+      title="Click to Close"
+    />
+  </div>
+</div>
 
      {/* fourth row */  }
    
@@ -249,140 +225,128 @@ const BusinessEssentials = () => {
 
 {/*row 6 */}
 
-    <div className="row graphics-container">
-    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={CuttersFlyers}
-            alt="CuttersFlyers"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+<div className="row graphics-container">
+  {/* CuttersFlyers Image */}
+  <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={CuttersFlyers}
+          alt="CuttersFlyers"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(CuttersFlyers)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={CuttersFlyers}
-            alt="CuttersFlyers"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-       
-      </Modal>
+      <p className="business-essentials-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
-    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={NorthernGolf}
-            alt="NorthernGolf"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="graphics-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+
+    {/* ImageModal for CuttersFlyers Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged CuttersFlyers Image"
+      title="Click to Close"
+    />
+  </div>
+
+  {/* NorthernGolf Image */}
+  <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={NorthernGolf}
+          alt="NorthernGolf"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(NorthernGolf)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-          <Modal.Title style={{fontSize:'1rem'}}>click to close</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={NorthernGolf}
-            alt="NorthernGolf"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-      </Modal>
-    </div>
+      <p className="graphics-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
 
+    {/* ImageModal for NorthernGolf Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged NorthernGolf Image"
+      title="Click to Close"
+    />
+  </div>
+</div>
 
-    <div className="row graphics-container">
-    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={Canceled}
-            alt="Canceled"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="business-essentials-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+
+
+<div className="row graphics-container">
+  {/* Canceled Image */}
+  <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={Canceled}
+          alt="Canceled"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(Canceled)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={Canceled}
-            alt="Canceled"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-       
-      </Modal>
+      <p className="business-essentials-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
-    <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-      <div className="graphics-body p-4 justify-content-center align-bottom">
-        <div className="graphics-title">
-          <img
-            src={Catching}
-            alt="Catching"
-            className="mb-2 border border-black clickable-image"
-            style={{ width: "80%", height: "auto" }}
-            onClick={handleModalOpen}
-          />
-          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-          <h1>TITLE</h1>
-        </div>
-        <p className="graphics-text">
-          Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
-        </p>
+
+    {/* ImageModal for Canceled Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged Canceled Image"
+      title="Click to Close"
+    />
+  </div>
+
+  {/* Catching Image */}
+  <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
+    <div className="graphics-body p-4 justify-content-center align-bottom">
+      <div className="graphics-title">
+        <img
+          src={Catching}
+          alt="Catching"
+          className="mb-2 border border-black clickable-image"
+          style={{ width: "80%", height: "auto" }}
+          onClick={() => handleModalOpen(Catching)}
+        />
+        <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+        <h1>TITLE</h1>
       </div>
-
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header closeButton>
-          <Modal.Title style={{fontSize:'1rem'}}>click to close</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img
-            src={Catching}
-            alt="Catching"
-            className="w-100 h-auto"
-          />
-        </Modal.Body>
-      </Modal>
-    </div>
+      <p className="graphics-text">
+        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+      </p>
     </div>
 
-
-
-    
+    {/* ImageModal for Catching Image */}
+    <ImageModal
+      showModal={showModal}
+      handleModalClose={handleModalClose}
+      imageSrc={selectedImage}
+      altText="Enlarged Catching Image"
+      title="Click to Close"
+    />
+  </div>
+</div>
+ 
      </div>
   );
 };

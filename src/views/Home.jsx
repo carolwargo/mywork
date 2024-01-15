@@ -308,7 +308,7 @@ prompt for the user.</p>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="service-body p-5 justify-content-center align-items-center">
               <div className="service-title">
-                <p><div className="container mt-5">----------------------PLACEHOLDER----------------------</div></p>
+              <div className="container mt-5"><p>----------------------PLACEHOLDER----------------------</p></div>
                 <h1>TITLE</h1>
               </div>
               <p className="service-text">
