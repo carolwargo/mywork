@@ -3,14 +3,14 @@ import HomeBig from '../../assets/images/HomeBig.png';
 
 const Header = () => {
   return (
-    <header>
+    <header className='bg-black'>
       <div
         id='intro-example'
         className='p-4 bg-image position-relative'
         style={{
           backgroundImage: `url(${HomeBig})`,
-          backgroundSize: '100vw 100vh', // Set the background size to cover the entire viewport
-          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'contain', // Set the background size to contain the entire image without distortion
+         backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed', // Optional: Keep the background fixed while scrolling
         }}
       >
