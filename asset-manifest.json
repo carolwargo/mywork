@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mywork/static/css/main.ca1761b8.css",
-    "main.js": "/mywork/static/js/main.da349801.js",
+    "main.js": "/mywork/static/js/main.c431fc25.js",
     "static/media/YogaDay.png": "/mywork/static/media/YogaDay.030e3ba5ad0ee0b07b35.png",
     "static/media/YogaMat.png": "/mywork/static/media/YogaMat.f86d5a482d6a30acc661.png",
     "static/media/YogaSteps3.png": "/mywork/static/media/YogaSteps3.432ad8db2baaffe58f42.png",
@@ -34,10 +34,10 @@
     "static/media/RecruitProfile.png": "/mywork/static/media/RecruitProfile.b30a8c01f99f3ebab9c1.png",
     "index.html": "/mywork/index.html",
     "main.ca1761b8.css.map": "/mywork/static/css/main.ca1761b8.css.map",
-    "main.da349801.js.map": "/mywork/static/js/main.da349801.js.map"
+    "main.c431fc25.js.map": "/mywork/static/js/main.c431fc25.js.map"
   },
   "entrypoints": [
     "static/css/main.ca1761b8.css",
-    "static/js/main.da349801.js"
+    "static/js/main.c431fc25.js"
   ]
 }
