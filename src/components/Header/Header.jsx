@@ -18,7 +18,9 @@ const Header = () => {
         <div
           className='position-absolute top-0 start-0 w-100 h-100'
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
-        ></div>
+        >
+
+        </div>
 
         <div className='row d-flex h-100 px-5 text-center position-relative'>
           <div className='col-md-4 text-white'></div>
@@ -64,6 +66,7 @@ const Header = () => {
   software like WordPress or Wix, preconfigured plug-in components. It is 
   built on the React.js framework, the very same framework employed by 
   Facebook for building and maintaining their applications. <br></br>** All graphics showcased are original creations, with the exception of logos or instances where inspiration may have been drawn from a concept or function of other works. 
+  <br></br> *** KEEP IN MIND THIS SITE IS UNDER CONSTRUCTION...
   </i>
 </p>
 </div>    
