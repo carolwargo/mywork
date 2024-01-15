@@ -309,7 +309,7 @@ prompt for the user.</p>
             <div className="service-body p-5 justify-content-center align-items-center">
               <div className="service-title">
                 <p><div className="container mt-5">----------------------PLACEHOLDER----------------------</div></p>
-                <h1>SERVICES</h1>
+                <h1>TITLE</h1>
               </div>
               <p className="service-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal} from 'react-bootstrap';
 
-
+import { HiMagnifyingGlassPlus } from "react-icons/hi2";
 import Business from '../../assets/images/Business.png';
 import RedBaseball from '../../assets/images/Graphics/RedBaseball.png';
 import ProductCampaign from '../../assets/images/Graphics/ProductCampaign.png';
@@ -35,8 +35,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -68,8 +68,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -102,8 +102,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -150,8 +150,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -183,8 +183,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="graphics-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -217,8 +217,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -260,8 +260,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -291,8 +291,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="graphics-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -326,8 +326,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="business-essentials-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
@@ -357,8 +357,8 @@ const BusinessEssentials = () => {
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
           />
-          <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-          <h1>BUSINESS ESSENTIALS</h1>
+          <p style={{fontSize:'12px'}}><HiMagnifyingGlassPlus /> click image to enlarge</p>
+          <h1>TITLE</h1>
         </div>
         <p className="graphics-text">
           Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
