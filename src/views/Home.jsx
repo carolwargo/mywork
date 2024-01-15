@@ -26,7 +26,12 @@ const Home = () => {
           <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
             <div className="story-essentials-body p-4 justify-content-center align-bottom">
               <div className="story-essentials-title">
-                <h4 className="mt-0">TELL YOUR STORY...</h4>
+                <h4 className="mt-0"
+                 style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:'#304E7C'
+                }}
+                >TELL YOUR STORY...</h4>
               </div>
               <p className="story-essentials-text">
                 In the enchanting realm of digital storytelling, businesses are
@@ -67,7 +72,12 @@ const Home = () => {
 
 {/**Graphic Designs*/}
 <div className="container mt-5">
-<h1>GRAPHICS PORTFOLIO</h1>
+<h1
+ style={{
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+  color:'#304E7C'
+}}
+>GRAPHICS PORTFOLIO</h1>
 <p>All whole images or individual components, layers & text within the image can be animated separately.<br></br><span className="text-secondary" style={{fontSize:'12px'}}>"I typically save superficial functions like, animations & audio until the layout and content are set."</span></p>
 <Graphics/>
       </div>
