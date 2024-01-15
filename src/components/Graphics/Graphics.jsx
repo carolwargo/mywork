@@ -57,7 +57,7 @@ const BusinessEssentials = () => {
             handleModalClose={handleModalClose}
             imageSrc={selectedImage}
             altText="Enlarged Business Image"
-            title="Click to Close"
+            title="close"
           />
         </div>
 
@@ -86,7 +86,7 @@ const BusinessEssentials = () => {
             handleModalClose={handleModalClose}
             imageSrc={selectedImage}
             altText="Enlarged Red Baseball Image"
-            title="Click to Close"
+            title="close"
           />
         </div>
 
@@ -115,7 +115,7 @@ const BusinessEssentials = () => {
             handleModalClose={handleModalClose}
             imageSrc={selectedImage}
             altText="Enlarged Product Campaign Image"
-            title="Click to Close"
+            title="close"
           />
         </div>
       </div>
@@ -155,7 +155,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged LineUp Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 
@@ -184,7 +184,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged CheckOut Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 
@@ -213,7 +213,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged MidSeason Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 </div>
@@ -251,7 +251,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged CuttersFlyers Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 
@@ -280,7 +280,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged NorthernGolf Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 </div>
@@ -313,7 +313,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged Canceled Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 
@@ -342,7 +342,7 @@ const BusinessEssentials = () => {
       handleModalClose={handleModalClose}
       imageSrc={selectedImage}
       altText="Enlarged Catching Image"
-      title="Click to Close"
+      title="close"
     />
   </div>
 </div>
