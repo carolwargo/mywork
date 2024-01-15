@@ -33,7 +33,7 @@ const BusinessEssentials = () => {
     <div className='container mt-4'>
       <div className="row graphics-container">
         {/* Business Image */}
-        <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
           <div className="graphics-body p-4 justify-content-center align-bottom">
             <div className="graphics-title">
               <img
@@ -62,7 +62,7 @@ const BusinessEssentials = () => {
         </div>
 
         {/* Red Baseball Image */}
-        <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
           <div className="graphics-body p-4 justify-content-center align-bottom">
             <div className="graphics-title">
               <img
@@ -91,7 +91,7 @@ const BusinessEssentials = () => {
         </div>
 
         {/* Product Campaign Image */}
-        <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
           <div className="graphics-body p-4 justify-content-center align-bottom">
             <div className="graphics-title">
               <img
@@ -131,7 +131,7 @@ const BusinessEssentials = () => {
     {/* third row */  }
     <div className="row graphics-container">
   {/* LineUp Image */}
-  <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+  <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
     <div className="graphics-body p-4 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
@@ -160,7 +160,7 @@ const BusinessEssentials = () => {
   </div>
 
   {/* CheckOut Image */}
-  <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+  <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
     <div className="graphics-body p-4 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
@@ -189,7 +189,7 @@ const BusinessEssentials = () => {
   </div>
 
   {/* MidSeason Image */}
-  <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
+  <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
     <div className="graphics-body p-4 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
