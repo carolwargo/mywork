@@ -47,7 +47,7 @@ const BusinessEssentials = () => {
               <h1>TITLE</h1>
             </div>
             <p className="business-essentials-text">
-              Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
             </p>
           </div>
 
@@ -76,7 +76,7 @@ const BusinessEssentials = () => {
               <h1>TITLE</h1>
             </div>
             <p className="business-essentials-text">
-              Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
             </p>
           </div>
 
@@ -105,7 +105,7 @@ const BusinessEssentials = () => {
               <h1>TITLE</h1>
             </div>
             <p className="business-essentials-text">
-              Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
             </p>
           </div>
 
@@ -145,7 +145,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="business-essentials-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
@@ -174,7 +174,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="graphics-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
@@ -203,7 +203,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="business-essentials-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
@@ -241,7 +241,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="business-essentials-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
@@ -270,7 +270,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="graphics-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
@@ -303,7 +303,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="business-essentials-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
@@ -332,7 +332,7 @@ const BusinessEssentials = () => {
         <h1>TITLE</h1>
       </div>
       <p className="graphics-text">
-        Explore our range of "Business Essentials" custom products tailored to your requirements. We offer a variety of design solutions to include graphic and digital design, promotional campaigns, as well as software solutions and server-side integrations.
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
       </p>
     </div>
 
