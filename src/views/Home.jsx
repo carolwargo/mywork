@@ -274,11 +274,11 @@ prompt for the user.</p>
         </div>
 
 
-
+<p>---------EMAIL CAMPAIGN IMAGES--------</p>
 
 
         <br></br>
-<p>----------------------THIS IS THE OFFICIAL END FOR NOW----------------------</p>
+<p>-------------------THIS IS THE OFFICIAL END FOR NOW---------------<br></br>MORE TO COME!</p>
 
 <br></br>
 <br></br>
