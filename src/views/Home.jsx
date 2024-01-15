@@ -313,14 +313,14 @@ prompt for the user.</p>
 <br></br>
 <br></br>
 
-<p className="text-danger"><b>---------EMAIL CAMPAIGN IMAGES--------</b></p>
+<p className="text-black p-4 bg-warning"><b>-------------------site undergoing renovations! --------------- <br></br>THIS IS THE OFFICIAL END FOR NOW</b><br></br>MORE TO COME!</p>
+
+<p className="text-black"><b>---------EMAIL CAMPAIGN IMAGES--------</b></p>
 
 
         <br></br>
-<p className="text-danger"><b>-------------------THIS IS THE OFFICIAL END FOR NOW---------------</b><br></br>MORE TO COME!</p>
 
-<br></br>
-<br></br>
+
 <br></br>
 <br></br>
 
