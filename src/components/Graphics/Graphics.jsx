@@ -40,7 +40,7 @@ const BusinessEssentials = () => {
                 src={Business}
                 alt="Business"
                 className="mb-2 border border-black clickable-image"
-                style={{ width: "80%", height: "auto" }}
+                style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                 onClick={() => handleModalOpen(Business)}
               />
               <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -69,7 +69,7 @@ const BusinessEssentials = () => {
                 src={RedBaseball}
                 alt="RedBaseball"
                 className="mb-2 border border-black clickable-image"
-                style={{ width: "80%", height: "auto" }}
+                style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                 onClick={() => handleModalOpen(RedBaseball)}
               />
               <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -98,7 +98,7 @@ const BusinessEssentials = () => {
                 src={ProductCampaign}
                 alt="ProductCampaign"
                 className="mb-2 border border-black clickable-image"
-                style={{ width: "80%", height: "auto" }}
+                style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                 onClick={() => handleModalOpen(ProductCampaign)}
               />
               <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -138,7 +138,7 @@ const BusinessEssentials = () => {
           src={LineUp}
           alt="LineUp"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(LineUp)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -167,7 +167,7 @@ const BusinessEssentials = () => {
           src={CheckOut}
           alt="CheckOut"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(CheckOut)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -196,7 +196,7 @@ const BusinessEssentials = () => {
           src={MidSeason}
           alt="MidSeason"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(MidSeason)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -234,7 +234,7 @@ const BusinessEssentials = () => {
           src={CuttersFlyers}
           alt="CuttersFlyers"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(CuttersFlyers)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -263,7 +263,7 @@ const BusinessEssentials = () => {
           src={NorthernGolf}
           alt="NorthernGolf"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(NorthernGolf)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -296,7 +296,7 @@ const BusinessEssentials = () => {
           src={Canceled}
           alt="Canceled"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(Canceled)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
@@ -325,7 +325,7 @@ const BusinessEssentials = () => {
           src={Catching}
           alt="Catching"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto" }}
+          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(Catching)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
