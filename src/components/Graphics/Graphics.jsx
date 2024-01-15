@@ -20,7 +20,6 @@ import CuttersFlyers from '../../assets/images/Graphics/CuttersFlyers.png';
 import NorthernGolf from '../../assets/images/Graphics/NorthernGolf.png';
 
 
-
 const BusinessEssentials = () => {
   const [showModal, setShowModal] = useState(false);
 
@@ -552,7 +551,7 @@ const BusinessEssentials = () => {
 
 
 
-
+{/*row 6 */}
 
     <div className="row graphics-container">
     <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
@@ -660,8 +659,8 @@ const BusinessEssentials = () => {
       <div className="graphics-body p-4 justify-content-center align-bottom">
         <div className="graphics-title">
           <img
-            src={301}
-            alt="301"
+            src={301Catching}
+            alt="301Catching"
             className="mb-2 border border-black clickable-image"
             style={{ width: "80%", height: "auto" }}
             onClick={handleModalOpen}
@@ -680,8 +679,8 @@ const BusinessEssentials = () => {
         </Modal.Header>
         <Modal.Body>
           <img
-            src={301}
-            alt="301"
+            src={301Catching}
+            alt="301Catching"
             className="w-100 h-auto"
           />
         </Modal.Body>
