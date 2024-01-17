@@ -110,7 +110,7 @@ const Home = () => {
               <p className="service-text">
              
 The Landing or Home page features a brief introduction of the recruit accompanied by a photo. The pivotal 
-element of the page is the "Call to Action" bottons. Serving as a directional 
+element of the page is the "Call to Action" buttons. Serving as a directional 
 prompt for the user.</p>
               <p className='text-secondary' style={{fontSize:'12px'}}><i>"CTA FACT- Using a personalized call-to-action (CTA) boosts your conversion rate by 42% more than generic or vague CTAs, or having none at all."</i></p>
             </div>
@@ -145,7 +145,7 @@ prompt for the user.</p>
   The Profile Page offers essential information at a glance, including graduation year, 
   primary and secondary positions, height, weight, and batting/throwing stats. 
   It also features clickable contact links for user convenience.</p>
-              <p className='text-secondary' style={{fontSize:'12px'}}><i>"CLICKABLE CONTACT LINKS FACT: 64% of User will leave a site contact information to be readily available."</i></p>
+              <p className='text-secondary' style={{fontSize:'12px'}}><i>"CLICKABLE CONTACT LINKS FACT: 64% of User will leave a site if contact information is not easily accessible."</i></p>
             </div>
           </div>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
