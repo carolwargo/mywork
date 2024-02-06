@@ -11,7 +11,7 @@ import BusinessEssentials from './views/Business/BusinessEssentials';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter >
+        <BrowserRouter basename="/mywork" >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/test" element={<Test />} />
