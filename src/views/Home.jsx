@@ -4,12 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../components/Header/Header.jsx";
 import Graphics from "../components/Graphics/Graphics.jsx";
 import "../App.css";
-import { FaArrowLeft } from "react-icons/fa";
+//import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 
-import Business from "../assets/images/Business.png";
-import Organizations from "../assets/images/Organizations.png";
+//import Business from "../assets/images/Business.png";
+//import Organizations from "../assets/images/Organizations.png";
 import YogaSet from "../assets/images/YogaStory/YogaSet.png";
 import RecruitHome from "../assets/images/RecruitSite/RecruitHome.png";
 import RecruitProfile from "../assets/images/RecruitSite/RecruitProfile.png";
@@ -91,7 +91,7 @@ const Home = () => {
 
 
 
-      {/**Business Essentials Container */}
+      {/**Business Essentials Container 
       <div className="container mt-5">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
@@ -291,7 +291,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-       
+      */} 
 <br></br>
 {/**Graphic Designs*/}
 <div className="container mt-5">
@@ -557,6 +557,8 @@ prompt for the user.</p>
 <br></br>
 <br></br>
 
+{/** 
+
 
 
         <div className="container mt-5">
@@ -605,9 +607,10 @@ prompt for the user.</p>
             </div>
           </div>
         </div>
+        */}
       </div>
 
-   
+  
 
 
 

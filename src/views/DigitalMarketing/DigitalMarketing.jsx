@@ -4,13 +4,12 @@ import ServicesDropdown from "../../components/ServicesDropdown/ServicesDropdown
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../../components/Header/Header.jsx";
 import "../../App.css";
-import { FaArrowLeft } from "react-icons/fa";
+//import { FaArrowLeft } from "react-icons/fa";
 //import { FaArrowRight } from "react-icons/fa";
 
 import Business from "../../assets/images/Business.png";
-import Organizations from "../../assets/images/Organizations.png";
 import MainImage from "../../assets/images/DigitalMarketing/main image.png";
-import RecruitHome from "../../assets/images/RecruitSite/RecruitHome.png";
+//import RecruitHome from "../../assets/images/RecruitSite/RecruitHome.png";
 import SocialMedia from "../../components/SocialMedia/SocialMedia.jsx";
 //import RecruitProfile from "../../assets/images/RecruitSite/RecruitProfile.png";
 //import RecruitStats from "../../assets/images/RecruitSite/RecruitStats.png";
@@ -206,8 +205,8 @@ const DigitalMarketing = () => {
           </div>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
             <img
-              src={Organizations}
-              alt="Organizations"
+              src={Business}
+              alt="Business"
               className="mb-2 border border-black"
               style={{ width: "80%", height: "auto" }}
             />
@@ -253,7 +252,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                   3. STRATEGIC PARTNERSHIPS
                 </h1>
                 <p style={{fontSize:'14px', fontFamily:'serif'}}>
-<i>"Strategic partnerships refer to collaborative arrangements between two or more organizations with complementary capabilities, resources, or market presence."</i></p>
+<i>"Strategic partnerships refer to collaborative arrangements between two or more Business with complementary capabilities, resources, or market presence."</i></p>
               </div>
               <p className="mb-2" style={{ fontSize: "12px" }}>
                 <b>AFFILIATE MARKETING:</b>Partnering with affiliates to promote
@@ -309,8 +308,8 @@ This manipulation can involve tailoring content formats, optimizing posting time
           </div>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
             <img
-              src={Organizations}
-              alt="Organizations"
+              src={Business}
+              alt="Business"
               className="mb-2 border border-black"
               style={{ width: "80%", height: "auto" }}
             />
@@ -406,8 +405,8 @@ This manipulation can involve tailoring content formats, optimizing posting time
           </div>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
             <img
-              src={Organizations}
-              alt="Organizations"
+              src={Business}
+              alt="Business"
               className="mb-2 border border-black"
               style={{ width: "80%", height: "auto" }}
             />
@@ -800,64 +799,13 @@ This manipulation can involve tailoring content formats, optimizing posting time
         <br></br>
         <br></br>
 
-        <p className="text-black p-4 bg-warning">
-          <b>
-            -------------------site undergoing renovations! ---------------{" "}
-            <br></br>THIS IS THE OFFICIAL END FOR NOW
-          </b>
-          <br></br>MORE TO COME!
-        </p>
+      
 
-        <p className="text-black">
-          <b>---------EMAIL CAMPAIGN IMAGES--------</b>
-        </p>
 
-        <br></br>
 
         <br></br>
         <br></br>
 
-        <div className="container mt-5"></div>
-
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-            <img
-              src={RecruitHome}
-              alt="RecruitHome"
-              className="mb-2 border border-black"
-              style={{
-                width: "80%",
-                height: "auto",
-                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
-              }}
-            />
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
-            <div className="service-body p-5 justify-content-center align-items-center">
-              <div className="service-title">
-                <div className="container mt-5">
-                  <p>----------------------PLACEHOLDER----------------------</p>
-                </div>
-                <h1>TITLE</h1>
-              </div>
-              <p className="service-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi perspiciatis consequatur magnam, aperiam alias saepe
-                reprehenderit id animi soluta quae, neque commodi ratione dolor.
-                Dolorum ut assumenda inventore ratione nesciunt!
-              </p>
-              <p className="mt-5">
-                <a
-                  href="/graphic-design/contact-form"
-                  className="text-decoration-none"
-                >
-                  See Services Offered
-                  <FaArrowLeft className="ms-2" />
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
   );
