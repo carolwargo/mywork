@@ -179,9 +179,9 @@ function SocialMedia() {
             />
           </div>
            <div className="mt-5 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
-            <p>HERE IS HOW...</p>
-          <h4><b>SEARCH ENGINE STRATEGIES ARE EVOLVING:</b></h4>
-         <p>"Although keywords remain important, modern SEO algorithms prioritize providing unique and comprehensive answers to users' search queries. Emphasizing valuable and relevant content overall is essential for improving website rankings."   
+            <p>HERE IS A PLACEHOLDER...</p>
+          <h4><b>LEARN MORE ABOUT SOMETHING:</b></h4>
+         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
          </p>
          <p>
          <a href="#menu" className="text-decoration-none">

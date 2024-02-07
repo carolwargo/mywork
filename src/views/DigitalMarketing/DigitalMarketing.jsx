@@ -283,7 +283,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
       </div>
 
       {/**PERFORMANCE Container */}
-      <div className="container mt-5" id="performance-based-incentives">
+      <div className="container mt-3" id="performance-based-incentives">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="performance-body p-5 justify-content-center align-items-center">
@@ -314,7 +314,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
               style={{ width: "80%", height: "auto" }}
             />
           </div>
-           <div className="mt-5 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
+           <div className="mt-3 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
             <p>PASSIVE COMPENSATION IN A SINGLE CLICK...</p>
           <h4><b>INCENTIVES BASED ON MEASURABLE RESULTS:</b></h4>
          <p>"By aligning incentives with measurable results, businesses can motivate digital marketing teams to focus on activities that drive meaningful outcomes and contribute to the overall success of marketing campaigns and initiatives. This approach encourages accountability, innovation, and continuous improvement in digital marketing strategies and tactics."   
@@ -331,7 +331,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
       </div>
 
       {/**DATA-DRIVEN STRATEGIES Container */}
-      <div className="container mt-5" id="data-driven-strategies">
+      <div className="container mt-3" id="data-driven-strategies">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
             <img
@@ -362,7 +362,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
               </p>
             </div>
           </div>
-           <div className="mt-5 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
+           <div className="mt-3 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
             <p>STUDY THE DATA...</p>
           <h4><b>TAILOR YOUR STRATEGIES TO TARGET YOUR MARKET:</b></h4>
          <p>"Data-based insights enable marketers to create more targeted and personalized marketing campaigns, tailor content to specific audience segments, and optimize the allocation of resources for maximum impact. Data-driven strategies also allow marketers to measure the effectiveness of their campaigns in real-time, track key performance indicators (KPIs), and identify areas for improvement."   
@@ -379,7 +379,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
       </div>
 
       {/**REPUTATION Container */}
-      <div className="container mt-5" id="reputation-management">
+      <div className="container mt-3" id="reputation-management">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="reputation-body p-5 justify-content-center align-items-center">
@@ -411,15 +411,10 @@ This manipulation can involve tailoring content formats, optimizing posting time
               style={{ width: "80%", height: "auto" }}
             />
           </div>
-           <div className="mt-5 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
-            <p>DON'T AVOID, ADDRESS...</p>
-          <h4><b>REPUTATION IS EVERYTHING:</b></h4>
-         <p>"Overall, reputation management in digital marketing is essential for building and maintaining trust, credibility, and goodwill with customers, stakeholders, and the broader online community, ultimately contributing to long-term success and sustainability for the brand."   
-         </p>
-         <p>
-         <a href="#menu" className="text-decoration-none">
-              Back to Menu <i className="fas fa-arrow-up"></i>
-            </a>
+           <div className="mt-3 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
+           <p>STUDY THE DATA...</p>
+          <h4><b>TAILOR YOUR STRATEGIES TO TARGET YOUR MARKET:</b></h4>
+         <p>"Data-based insights enable marketers to create more targeted and personalized marketing campaigns, tailor content to specific audience segments, and optimize the allocation of resources for maximum impact. Data-driven strategies also allow marketers to measure the effectiveness of their campaigns in real-time, track key performance indicators (KPIs), and identify areas for improvement."   
          </p>
          <br></br>
          <br></br>
