@@ -33,18 +33,18 @@ const BusinessEssentials = () => {
     <div className='container mt-4'>
       <div className="row graphics-container">
         {/* Business Image */}
-        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
-          <div className="graphics-body p-4 justify-content-center align-bottom">
-            <div className="graphics-title">
+        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-items-center">
+      <div className="graphics-body p-2 d-flex flex-column justify-content-center align-items-center">
+        <div className="graphics-title">
               <img
                 src={Business}
                 alt="Business"
                 className="mb-2 border border-black clickable-image"
-                style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+                style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                 onClick={() => handleModalOpen(Business)}
               />
               <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-              <h1>TITLE</h1>
+              <h4>TITLE</h4>
             </div>
             <p className="business-essentials-text">
              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -62,18 +62,18 @@ const BusinessEssentials = () => {
         </div>
 
         {/* Red Baseball Image */}
-        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
-          <div className="graphics-body p-4 justify-content-center align-bottom">
-            <div className="graphics-title">
+        <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-items-center">
+      <div className="graphics-body p-2 d-flex flex-column justify-content-center align-items-center">
+        <div className="graphics-title">
               <img
                 src={RedBaseball}
                 alt="RedBaseball"
                 className="mb-2 border border-black clickable-image"
-                style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+                style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                 onClick={() => handleModalOpen(RedBaseball)}
               />
               <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-              <h1>TITLE</h1>
+              <h4>TITLE</h4>
             </div>
             <p className="business-essentials-text">
              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -92,17 +92,17 @@ const BusinessEssentials = () => {
 
         {/* Product Campaign Image */}
         <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
-          <div className="graphics-body p-4 justify-content-center align-bottom">
+          <div className="graphics-body p-2 justify-content-center align-bottom">
             <div className="graphics-title">
               <img
                 src={ProductCampaign}
                 alt="ProductCampaign"
                 className="mb-2 border border-black clickable-image"
-                style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+                style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                 onClick={() => handleModalOpen(ProductCampaign)}
               />
               <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-              <h1>TITLE</h1>
+              <h4>TITLE</h4>
             </div>
             <p className="business-essentials-text">
              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -132,17 +132,17 @@ const BusinessEssentials = () => {
     <div className="row graphics-container">
   {/* LineUp Image */}
   <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={LineUp}
           alt="LineUp"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(LineUp)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="business-essentials-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -161,17 +161,17 @@ const BusinessEssentials = () => {
 
   {/* CheckOut Image */}
   <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={CheckOut}
           alt="CheckOut"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(CheckOut)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="graphics-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -190,17 +190,17 @@ const BusinessEssentials = () => {
 
   {/* MidSeason Image */}
   <div className="col-sm-12 col-md-4 col-lg-4 mb-2 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={MidSeason}
           alt="MidSeason"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(MidSeason)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="business-essentials-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -228,17 +228,17 @@ const BusinessEssentials = () => {
 <div className="row graphics-container">
   {/* CuttersFlyers Image */}
   <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={CuttersFlyers}
           alt="CuttersFlyers"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(CuttersFlyers)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="business-essentials-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -257,17 +257,17 @@ const BusinessEssentials = () => {
 
   {/* NorthernGolf Image */}
   <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={NorthernGolf}
           alt="NorthernGolf"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(NorthernGolf)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="graphics-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -290,17 +290,17 @@ const BusinessEssentials = () => {
 <div className="row graphics-container">
   {/* Canceled Image */}
   <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={Canceled}
           alt="Canceled"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(Canceled)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="business-essentials-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?
@@ -319,17 +319,17 @@ const BusinessEssentials = () => {
 
   {/* Catching Image */}
   <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-    <div className="graphics-body p-4 justify-content-center align-bottom">
+    <div className="graphics-body p-2 justify-content-center align-bottom">
       <div className="graphics-title">
         <img
           src={Catching}
           alt="Catching"
           className="mb-2 border border-black clickable-image"
-          style={{ width: "80%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+          style={{ width: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
           onClick={() => handleModalOpen(Catching)}
         />
         <p style={{ fontSize: '12px', color: 'blue' }}><HiMagnifyingGlassPlus /> click image to enlarge</p>
-        <h1>TITLE</h1>
+        <h4>TITLE</h4>
       </div>
       <p className="graphics-text">
        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quidem rerum recusandae nulla alias voluptate eius temporibus cum beatae maxime pariatur ullam, aliquid, molestiae, repellendus enim consectetur vitae placeat tenetur?

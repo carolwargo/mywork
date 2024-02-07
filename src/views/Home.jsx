@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import { Link } from "react-router-dom";
-import Header from "../components/Header/Header.jsx";
 import Graphics from "../components/Graphics/Graphics.jsx";
 import "../App.css";
 //import { FaArrowLeft } from "react-icons/fa";
@@ -21,7 +20,6 @@ import RecruitLeagues from "../assets/images/RecruitSite/RecruitLeages.png";
 const Home = () => {
   return (
     <main>
-      <Header />
       <div className="container mt-5" style={{fontFamily:'sans-serif'}}>
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">

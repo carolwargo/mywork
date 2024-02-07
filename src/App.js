@@ -7,11 +7,13 @@ import Test from './views/Test/Test';
 import DigitalMarketing from './views/DigitalMarketing/DigitalMarketing';
 import WebDevelopment from './views/WebDevelopment/WebDevelopment';
 import BusinessEssentials from './views/Business/BusinessEssentials';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
         <BrowserRouter basename="/mywork" >
+          <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/test" element={<Test />} />

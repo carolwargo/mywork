@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ServicesDropdown from "../../components/ServicesDropdown/ServicesDropdown";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "../../components/Header/Header.jsx";
 import "../../App.css";
 //import { FaArrowLeft } from "react-icons/fa";
 //import { FaArrowRight } from "react-icons/fa";
@@ -22,7 +21,6 @@ const DigitalMarketing = () => {
 
   return (
     <main style={{fontFamily:'serif'}}>
-      <Header />
       <div className="container mt-5" style={{ fontFamily: "sans-serif" }}>
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">

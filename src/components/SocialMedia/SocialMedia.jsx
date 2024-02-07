@@ -160,7 +160,7 @@ function SocialMedia() {
                  POWER 5 SOCIAL MEDIA PLATFORMS
                 </h1>
                 <p style={{fontSize:'14px', fontFamily:'serif'}}>
-<i>"A search engine is a software system designed to retrieve and display information stored on the internet in response to user queries."</i></p>
+<i>"Lorem"</i></p>
               </div>
 
               <p className="mb-2" style={{ fontSize: "12px" }}>

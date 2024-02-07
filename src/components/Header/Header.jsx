@@ -1,9 +1,12 @@
 import React from "react";
 import HomeBig from "../../assets/images/HomeBig.png";
+import { Link } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
     <header>
+     <Navbar />
       <div
         id="intro-example"
         className="p-4 bg-image position-relative"
@@ -63,51 +66,35 @@ const Header = () => {
 
             <br></br>
             <div className="p-2">
-              <p style={{ fontSize: "12px", paddingBottom: "0px" }}>
-                PREFACE STATEMENT:
-              </p>
-              <p style={{ fontSize: "12px" }}>
-                {" "}
-                <i>
-                  * This site is crafted from scratch, avoiding the use of CMS
-                  software like WordPress or Wix, preconfigured plug-in
-                  components. It is built on the React.js framework, the very
-                  same framework employed by Facebook for building and
-                  maintaining their applications. <br></br>** All graphics
-                  showcased are original creations, with the exception of logos
-                  or instances where inspiration may have been drawn from a
-                  concept or function of other works.
-                  <br></br> *** KEEP IN MIND THIS SITE IS UNDER CONSTRUCTION...
-                </i>
-              </p>
+              <Link to="/web-development">
+                <button
+                  type="button"
+                  className="btn btn-outline-light bg-black btn-sm m-1 px-2"
+                  data-mdb-ripple-init
+                >
+                  <b>Web Development</b>
+                </button>
+              </Link>
+              <Link to="/digital-marketing">
+                <button
+                  type="button"
+                  className="btn btn-outline-light bg-black btn-sm m-1 px-2"
+                  data-mdb-ripple-init
+                >
+                  <b>Digital Marketing</b>
+                </button>
+              </Link>
+              <Link to="/">
+                <button
+                  type="button"
+                  className="btn btn-outline-light bg-black btn-sm m-1 px-2"
+                  data-mdb-ripple-init
+                >
+                  <b>Home</b>
+                </button>
+              </Link>
             </div>
-            {/* 
-          <h5>Choose your path to get started!</h5>
-          <br></br>
-            <Link to='/graphic-design'>
-              <button
-                type='button'
-                className='btn btn-outline-light bg-black btn-sm m-1 px-3'
-                data-mdb-ripple-init
-              >
-                <b>Graphic Design</b>
-              </button>
-            </Link>
-
-            <Link to='/web-dev'>
-              <button
-                type='button'
-                className='btn btn-outline-black bg-light text-black btn-sm m-1'
-                style={{ paddingRight: '1', paddingLeft: '1rem' }}
-                data-mdb-ripple-init
-              >
-                <b>Web Development</b>
-              </button>
-            </Link>
-            */}
-        
           </div>
-
         </div>
       </div>
     </header>
