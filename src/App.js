@@ -8,7 +8,7 @@ import DigitalMarketing from './views/DigitalMarketing/DigitalMarketing';
 import WebDevelopment from './views/WebDevelopment/WebDevelopment';
 import BusinessEssentials from './views/Business/BusinessEssentials';
 import Header from './components/Header/Header';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
