@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mywork/static/css/main.1970f85f.css",
-    "main.js": "/mywork/static/js/main.fa5469b3.js",
+    "main.css": "/mywork/static/css/main.5dea0b16.css",
+    "main.js": "/mywork/static/js/main.d3b89744.js",
     "static/media/YogaDay.png": "/mywork/static/media/YogaDay.030e3ba5ad0ee0b07b35.png",
     "static/media/YogaMat.png": "/mywork/static/media/YogaMat.f86d5a482d6a30acc661.png",
     "static/media/YogaSteps3.png": "/mywork/static/media/YogaSteps3.432ad8db2baaffe58f42.png",
@@ -14,7 +14,6 @@
     "static/media/YogaSet.png": "/mywork/static/media/YogaSet.5b7bef601b298c2fce5f.png",
     "static/media/Creator.png": "/mywork/static/media/Creator.fcda349c963c0fc63dc2.png",
     "static/media/CuttersFlyers.png": "/mywork/static/media/CuttersFlyers.f5a9088e8fa1791cda6f.png",
-    "static/media/Organizations.png": "/mywork/static/media/Organizations.c6cc129c9f9585ed00b2.png",
     "static/media/FaceMenu.png": "/mywork/static/media/FaceMenu.6161177feb8c706cc662.png",
     "static/media/RedBaseball.png": "/mywork/static/media/RedBaseball.f6c7bc7b20e12eda61a2.png",
     "static/media/RecruitHome.png": "/mywork/static/media/RecruitHome.e53685c76a646e79f2d7.png",
@@ -44,11 +43,11 @@
     "static/media/fa-v4compatibility.ttf": "/mywork/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/mywork/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/mywork/index.html",
-    "main.1970f85f.css.map": "/mywork/static/css/main.1970f85f.css.map",
-    "main.fa5469b3.js.map": "/mywork/static/js/main.fa5469b3.js.map"
+    "main.5dea0b16.css.map": "/mywork/static/css/main.5dea0b16.css.map",
+    "main.d3b89744.js.map": "/mywork/static/js/main.d3b89744.js.map"
   },
   "entrypoints": [
-    "static/css/main.1970f85f.css",
-    "static/js/main.fa5469b3.js"
+    "static/css/main.5dea0b16.css",
+    "static/js/main.d3b89744.js"
   ]
 }
