@@ -63,9 +63,13 @@ const Header = () => {
 
               <i>through web development."</i>
             </h3>
-
+            <br></br>
             <br></br>
             <div className="p-2">
+              <h6   style={{
+                  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+                  color: "#FDC5E8",
+                }}>CHOOSE YOUR PATH...</h6>
               <Link to="/web-development">
                 <button
                   type="button"
@@ -84,15 +88,7 @@ const Header = () => {
                   <b>Digital Marketing</b>
                 </button>
               </Link>
-              <Link to="/">
-                <button
-                  type="button"
-                  className="btn btn-outline-light bg-black btn-sm m-1 px-2"
-                  data-mdb-ripple-init
-                >
-                  <b>Home</b>
-                </button>
-              </Link>
+           
             </div>
           </div>
         </div>

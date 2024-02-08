@@ -2,6 +2,7 @@ import React from "react";
 //import Business from "../../assets/images/Business.png";
 //import SevenThings from '../../assets/images/SocialMedia/SevenThings.png'
 import Power5 from '../../assets/images/SocialMedia/Power5.png'
+import PlatformTable from "../../components/SocialMedia/PlatformTable";
 
 function SocialMedia() {
 
@@ -45,6 +46,8 @@ function SocialMedia() {
 
 {/**SOCIAL MEDIA PROS & CONS AND REMEDIES*/}
       {/**PROS Container */}
+{/**SOCIAL MEDIA PROS & CONS AND REMEDIES*/}
+      {/**PROS Container */}
       <div className="container border border-5 mt-5" id="social-pros-cons" style={{fontFamily:'serif'}}>
       <div className="row mt-5 mb-0 d-flex justify-content-center align-items-center text-center">
        <p>WHERE THERE IS A WILL, THERE IS A WAY...</p>
@@ -58,8 +61,8 @@ function SocialMedia() {
         
         </div>
         <div className="row px-3 d-flex justify-content-center align-items-center">
-           <div className="col-sm-12 col-md-3 col-lg-3 p-2 d-flex justify-content-center">
-             <div className="data-body p-2 ">
+        <div className="col-sm-12 col-md-3 col-lg-3 p-2 d-flex flex-column justify-content-center">
+   <div className="data-body p-2 ">
                <div className="data-title">
                  <h4
                    style={{
@@ -86,8 +89,8 @@ function SocialMedia() {
            </div>
 
 {/**cons Container */}
-           <div className="col-sm-12 col-md-3 col-lg-3 p-2 d-flex justify-content-center ">
-             <div className="data-body p-3 ">
+<div className="col-sm-12 col-md-3 col-lg-3 p-2 d-flex flex-column justify-content-center">
+   <div className="data-body p-3 ">
                <div className="data-title">
                  <h4
                    style={{
@@ -115,8 +118,8 @@ function SocialMedia() {
 
 
 {/**REMEDIES Container */}
-          <div className="col-sm-12 col-md-6 col-lg-6 p-2 d-flex ">
-            <div className="data-body p-2 ">
+<div className="col-sm-12 col-md-3 col-lg-3 p-2 d-flex flex-column justify-content-center">
+  <div className="data-body p-2 ">
               <div className="data-title">
                 <h4
                   style={{
@@ -145,8 +148,9 @@ function SocialMedia() {
         </div>
       </div>
 
-      {/**power-five Container */}
+     
       <div className="container mt-5" id="power-five">
+         {/**power-five Container 
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
             <div className="power-five-body p-5 justify-content-center align-items-center">
@@ -159,15 +163,13 @@ function SocialMedia() {
                 >
                  POWER 5 SOCIAL MEDIA PLATFORMS
                 </h1>
-                <p style={{fontSize:'14px', fontFamily:'serif'}}>
-<i>"Lorem"</i></p>
+                <p className="mb-2" style={{ fontSize: "12px", lineHeight: "1.5" }}>
+  YouTube, Facebook, Instagram, TikTok, and Twitter are among the most influential social media platforms today. Each platform offers distinct features and reaches diverse audiences. Keep in mind, businesses must adapt their strategies to leverage the unique dynamics of each platform effectively.
+</p>
+
               </div>
 
-              <p className="mb-2" style={{ fontSize: "12px" }}>
-                <b>PUBLIC RELATIONS MANAGEMENT</b>Managing a brand's online
-                reputation through press releases, influencer collaborations,
-                and addressing customer feedback.
-              </p>
+
             </div>
           </div>
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
@@ -178,20 +180,115 @@ function SocialMedia() {
               style={{ width: "80%", height: "auto" }}
             />
           </div>
-           <div className="mt-5 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
-            <p>HERE IS A PLACEHOLDER...</p>
-          <h4><b>LEARN MORE ABOUT SOMETHING:</b></h4>
-         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
-         </p>
-         <p>
-         <a href="#menu" className="text-decoration-none">
-              Back to Menu <i className="fas fa-arrow-up"></i>
-            </a>
-         </p>
-         <br></br>
-         <br></br>
-          </div>
         </div>
+        */}
+<br></br>
+<br></br>
+          {/**best practice */}
+        <div className="row d-flex justify-content-center align-items-center mt-5 mb-5">
+        <div className="col-sm-12 col-md-6 col-lg-6 p-4 px-5 d-flex justify-content-center align-items-center">
+            <div className="power-five-best-practice-body justify-content-center align-items-center text-center">
+                <h2
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                    color: "#304E7C",
+                  }}
+                >
+                 POWER 5 SOCIAL MEDIA PLATFORMS
+                </h2>
+                <p className="mb-2" style={{ lineHeight: "1.5", fontSize:'14px' }}>
+  YouTube, Facebook, Instagram, TikTok, and Twitter are among the most influential social media platforms today. Each platform offers distinct features and reaches diverse audiences. Keep in mind, businesses must adapt their strategies to leverage the unique dynamics of each platform effectively.
+</p>
+<br></br>
+<img
+              src={Power5}
+              alt="Power5"
+              className="mb-2"
+              style={{ width: "100%", height: "auto", boxShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+            />
+              </div>
+              </div>
+             
+          <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex flex-column justify-content-center ">
+            <div className="power-five-best-practice-body justify-content-center align-items-center ">
+              <div className="power-five-best-practice-title"> 
+             
+         <PlatformTable/> 
+              </div>
+              <p className='mt-4 mb-2 text-center'
+                  style={{
+                    fontFamily: "sans-serif", 
+                    fontSize: "12px",
+                  }}
+                >
+                 Power 5 Usage Guidelines
+                </p>
+              </div>
+              </div>
+             
+
+{/**
+              <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
+            <div className="power-five-body p-5 justify-content-center align-items-center">
+              <div className="power-five-title">
+              </div>
+              </div>
+              </div>
+              */}
+              </div>
+            
+        {/**algorithim */}
+        <div className="row d-flex justify-content-center align-items-center mt-4">
+        <div className="mt-5 p-2 text-center" style={{fontSize:'14px', fontFamily:'serif'}}>
+           <p>HOW DOES YOUR STRATEGY HOLD UP</p>
+           <h3
+              style={{
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                color: "#304E7C",
+              }}><b>SOCIAL MEDIA ALGORITHIM UPDATES</b></h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam saepe, minus aspernatur fugit explicabo iste minima officia autem nisi aliquid ullam illo sit facere accusamus et quas, nesciunt, tempora nam?</p>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
+            <div className="algorithim-body p-5 justify-content-center align-items-center">
+              <div className="algorithim-title">
+              <p>HOW DOES YOUR STRATEGY HOLD UP</p>
+           <h4
+               style={{
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                color: "#304E7C",
+              }}
+           ><b>SOCIAL MEDIA ALGORITHIM UPDATES:</b></h4>
+              </div>
+
+              <p className="mb-2" style={{ fontSize: "12px" }}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nobis soluta cumque laboriosam! Enim, cum placeat vitae voluptas expedita ducimus dolore unde, adipisci saepe eos, esse consequatur ad corrupti rerum.
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
+            <div className="algorithim-body p-5 justify-content-center align-items-center">
+              <div className="algorithim-title">
+              <p>HOW DOES YOUR STRATEGY HOLD UP</p>
+           <h4
+               style={{
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                color: "#304E7C",
+              }}
+           ><b>SOCIAL MEDIA ALGORITHIM UPDATES:</b></h4>
+              </div>
+
+              <p className="mb-2" style={{ fontSize: "12px" }}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nobis soluta cumque laboriosam! Enim, cum placeat vitae voluptas expedita ducimus dolore unde, adipisci saepe eos, esse consequatur ad corrupti rerum.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      {/*******************************8 */}
+      <div className="container mt-5" id="power-five">
+        
       </div>
         </div>
     );
