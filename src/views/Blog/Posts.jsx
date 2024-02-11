@@ -1,5 +1,5 @@
 import React from 'react';
-
+import blogPosts from '../../components/Blog/blogPosts';
 
 
 const Posts = () => {
@@ -9,7 +9,7 @@ const Posts = () => {
         <div>
             <div>
                 <h1>Blog Posts</h1>
-        
+        <blogPosts />
             </div>
          
         </div>

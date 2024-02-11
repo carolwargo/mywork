@@ -10,7 +10,9 @@ import BusinessEssentials from './views/Business/BusinessEssentials';
 //import Header from './components/Header/Header';
 import Blog from './views/Blog/Blog';
 import Posts from './views/Blog/Posts';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App">
