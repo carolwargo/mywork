@@ -9,6 +9,7 @@ import WebDevelopment from './views/WebDevelopment/WebDevelopment';
 import BusinessEssentials from './views/Business/BusinessEssentials';
 //import Header from './components/Header/Header';
 import Blog from './views/Blog/Blog';
+import Posts from './views/Blog/Posts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/business-essentials" element={<BusinessEssentials />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/posts" element={<Posts />} />
       </Routes>
       </BrowserRouter>
     </div>
