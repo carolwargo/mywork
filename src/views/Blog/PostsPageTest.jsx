@@ -3,7 +3,12 @@ import Business from "../../assets/images/Business.png";
 import BlogHeader from "../../components/Blog/BlogHeader";
 import YogaSet from "../../assets/images/YogaStory/YogaSet.png";
 import moment from "moment";
-
+import { FaFacebook, FaTwitter, FaPinterest } from "react-icons/fa";
+import {
+  TwitterShareButton,
+  FacebookShareButton,
+  PinterestShareButton,
+} from "react-share";
 
 // Create blog post objects with Moment.js timestamp
 const blogPosts = [
@@ -21,20 +26,20 @@ const blogPosts = [
     title: "Blog Post 2",
     timestamp: moment().toISOString(), // Current date and time
     content:
-    "Lorem unde omnis iste natus error sit Sed ut perspiciatis unde omnis Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis...",
-   imageUrl: YogaSet,
+      "Lorem unde omnis iste natus error sit Sed ut perspiciatis unde omnis Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis...",
+    imageUrl: YogaSet,
     comments: 10,
   },
   // Add more blog post objects as needed
 ];
 
-const Blog = () => {
+const PostsPageTest = () => {
   return (
     <div>
       <BlogHeader />
       <main className="w3-light-grey">
         <div className="w3-content" style={{ maxWidth: "1400px" }}>
-            {/* start Header */}
+            {/* start Header
           <header className="w3-container w3-center w3-padding-32 pb-1 mt-2 border-bottom">
             <h1>
               <b>BITS & PIXELS</b>
@@ -45,7 +50,10 @@ const Blog = () => {
                 2FACE<span style={{ fontFamily: "tangerine" }}>Inc.</span>
               </span>
             </p>
-          </header>  {/* end Header */}
+          </header>  end Header */}
+
+
+
             {/*row start for the whole page with exception of header & footer */}
           <div className="w3-row p-2">
             {" "}
@@ -153,66 +161,7 @@ const Blog = () => {
 
 
               
-              <div className="w3-card w3-margin m-4">
-                {" "}
-                {/*card start for all tags elements*/}
-                <div className="w3-container w3-padding">
-                  {" "}
-                  {/*container start for tags Header*/}
-                  <h4>Tags</h4>
-                </div>{" "}
-                {/*container end for tags Header*/}
-                <div className="w3-container w3-white">
-                  {" "}
-                  {/*container start for tags*/}
-                  <p>
-                    <span className="w3-tag w3-black w3-margin-bottom">
-                      Travel
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      New York
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      London
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      IKEA
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      NORWAY
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      DIY
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Ideas
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Baby
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Family
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      News
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Clothing
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Shopping
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Sports
-                    </span>
-                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-                      Games
-                    </span>
-                  </p>
-                </div>{" "}
-                {/*container end for tags only*/}
-              </div>{" "}
-              {/*card end for all tags elements*/}
+         
             </div>{" "}
             {/*col end for bio, popular posts & tags*/}
 
@@ -232,7 +181,7 @@ const Blog = () => {
                 
 
                   <div className="w3-container m-2">  
-              
+                  
                     <br></br>
                     <h3>
                       <b>
@@ -257,17 +206,95 @@ const Blog = () => {
                     <p>{post.content}</p>
                     {/* start entries card content container ROW*/}
                     <div className="w3-row">
-                      {/* start entries card content container COL BUT*/}
-                      <div className="w3-col p-4 m12 s12">
                         <p>
-                          <button className="w3-button w3-padding-large w3-white w3-border">
+                          <button className="w3-button w3-padding-small w3-white w3-border">
                             <b>READ MORE »</b>
                           </button>
                         </p>
-                      </div>
-                      {/* start entries card content container COL COMMENTS*/}
                     </div>
-                    {/* end entries card content container ROW*/}
+                    <div className="row">
+                        <div className="w3-col l8 w3-padding">
+                              
+                              {" "}
+                              {/*container start for tags Header*/}
+                              <h5>TAGS</h5>
+                              {" "}
+                              <p>
+                                <span className="w3-tag w3-black w3-margin-bottom">
+                                  IKEA
+                                </span>
+                                <span className="w3-tag w3-black w3-margin-bottom">
+                                  NORWAY
+                                </span>
+                                <span className="w3-tag w3-black w3-margin-bottom">
+                                  DIY
+                                </span>
+                                <span className="w3-tag w3-black w3-margin-bottom">
+                                  IDEAS
+                                </span>
+                                <span className="w3-tag w3-black w3-margin-bottom">
+                                  NEWS
+                                </span>
+                              
+                              
+                              </p>
+                       
+                            {/*container end for tags only*/}
+                                </div>{" "}
+                           
+                            <div className="w3-col l4 w3-padding">
+                              {" "}
+                              {/*container start for tags Header*/}
+                              <h5>SHARE THIS POST</h5>
+             {/* start share-button container entries*/}
+            <div className="text-center">
+                                  {/* start Twitter Share Button */}
+                                  <TwitterShareButton
+                                    url={window.location.href}
+                                    title={post.title}
+                                    style={{ color: "#1877F2"}}
+                                  > 
+                                    <FaTwitter /> 
+                                  </TwitterShareButton> {/* end Twitter Share Button */}
+                                 {/* start Facebook Share Button */}
+                                  <FacebookShareButton
+                                    url={window.location.href}
+                                    quote={post.title}
+                                    style={{ color: "#1877F2" }}
+                                  >
+                                    <FaFacebook />
+                                  </FacebookShareButton>  {/*end Facebook Share Button */}
+                                  {/* start Pinterest Share Button */}
+                                  <PinterestShareButton
+                                    url={window.location.href}
+                                    media={post.imageUrl}
+                                    description={post.title}
+                                    style={{ color: "red" }}
+                                  >
+                                    <FaPinterest />
+                                  </PinterestShareButton> {/* end Pinterest Share Button */}
+                  
+            </div>{" "}
+            </div>
+
+
+                    </div>
+
+
+
+
+                    <div className="w3-card w3-margin m-4">
+                {" "}
+               
+
+
+    
+              </div>{" "}
+              {/*card end for all tags elements*/}
+
+
+
+
                   </div>
                   {/* end entries card content container*/}
                 </div>
@@ -280,6 +307,8 @@ const Blog = () => {
           </div>{" "}
           {/*row end for the whole page with exception of header & footer */}
         </div>
+
+         {/*
         <footer className="w3-container w3-dark-grey w3-padding-32 text-center">
           <button className="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">
             Previous
@@ -290,10 +319,13 @@ const Blog = () => {
           <p style={{ color: "#FDC5E8" }}>
             2FACE<span style={{ fontFamily: "tangerine" }}>Inc.</span>
           </p>
-        </footer>
+        </footer> 
+        */}
+
+
       </main>
     </div>
   );
 };
 
-export default Blog;
+export default PostsPageTest;

@@ -23,6 +23,7 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="#action1"><HiOutlineHomeModern/></Nav.Link>
+            <Nav.Link href="/posts" >Posts</Nav.Link>
             <Nav.Link href="/" >Graphics</Nav.Link>
             <Nav.Link href="/web-development" >Web Development</Nav.Link>
             <Nav.Link href="/digital-marketing" >Digital Marketing</Nav.Link>
