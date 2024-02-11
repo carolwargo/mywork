@@ -1,0 +1,10 @@
+#blog-image-col {
+    display: flex !important;
+    gap: 0 !important; /* Adjust the value as needed */
+    margin: -5px !important; /* Adjust the value as needed */
+  }
+  .container {
+    display: flex !important;
+    gap: 0 !important; /* Adjust the value as needed */
+  }
+      

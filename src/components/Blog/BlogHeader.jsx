@@ -26,7 +26,7 @@ const Header = () => {
         <div className="row d-flex h-100 px-5 text-center position-relative">
        
           <div className="col-sm-12 col-md-12 col-lg-12 text-white p-3 position-relative z-index-1">
-            <br></br>
+        <h1>BITS & PIXELS</h1>
             <h5
               className="mt-2 mb-2 "
               style={{

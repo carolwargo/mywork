@@ -44,10 +44,13 @@ function NavScrollExample() {
           </Nav>
           <Nav className="d-flex">
           <div>
+         
           <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center align-items-center">
+  <li>
+  <Nav.Link href="blog" >Blog</Nav.Link>
+  </li>
   <li className="nav-item justify-content-center">
-    <Link className="nav-link" to="/contact">
-      <i className="bi bi-envelope"></i> Contact
+    <Link className="nav-link" to="/contact">Contact
     </Link>
   </li>
   <li className="nav-item justify-content-center">

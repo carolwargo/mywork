@@ -16,10 +16,12 @@ import RecruitStats from "../assets/images/RecruitSite/RecruitStats.png";
 import RecruitDashboard from "../assets/images/RecruitSite/RecruitDashboard.png";
 import RecruitVideos from "../assets/images/RecruitSite/RecruitVideos.png";
 import RecruitLeagues from "../assets/images/RecruitSite/RecruitLeages.png";
+import Header from "../components/Header/Header.jsx";
 
 const Home = () => {
   return (
     <main>
+      <Header />
       <div className="container mt-5" style={{fontFamily:'sans-serif'}}>
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
