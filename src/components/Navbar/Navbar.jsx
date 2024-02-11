@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,15 +6,31 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
 import { HiOutlineHomeModern } from "react-icons/hi2";
 
-
-//import './header.css';  
+import './header.css';
 
 function NavScrollExample() {
+  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setIsNavbarFixed(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <Navbar expand="lg" className="bg-body-tertiary"
-    style={{fontFamily:'Poppins, sans-serif'}}>
+    <Navbar expand="lg" className={`bg-body-tertiary ${isNavbarFixed ? 'fixed-navbar' : ''}`} style={{ fontFamily: 'Poppins, sans-serif' }}>
       <Container fluid>
-        <Navbar.Brand href="#"></Navbar.Brand>
+        <Navbar.Brand href="/" style={{
+                  textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)",
+                  color: "#FDC5E8",
+                }}>2<span style={{color: '#00FFFF'}}>FACE</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -22,45 +38,35 @@ function NavScrollExample() {
             style={{ maxHeight: '100px'}}
             navbarScroll
           >
-            <Nav.Link href="#action1"><HiOutlineHomeModern/></Nav.Link>
+            <Nav.Link href="#action1" className='align-items-center'><HiOutlineHomeModern style={{textShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
             <Nav.Link href="/posts" >Posts</Nav.Link>
             <Nav.Link href="/" >Graphics</Nav.Link>
             <Nav.Link href="/web-development" >Web Development</Nav.Link>
             <Nav.Link href="/digital-marketing" >Digital Marketing</Nav.Link>
             
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3" style={{fontFamily:'serif', }}>tbd</NavDropdown.Item>
-              <NavDropdown.Item href="#action4" style={{fontFamily:'serif', }}>
-                Another action
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action3" style={{fontFamily:'serif'}}>tbd</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" style={{fontFamily:'serif'}}>Another action</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5" style={{fontFamily:'serif'}}>
-                Something else here
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action5" style={{fontFamily:'serif'}}>Something else here</NavDropdown.Item>
             </NavDropdown>
-          {/** <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
-             */} 
           </Nav>
           <Nav className="d-flex">
-          <div>
-         
-          <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center align-items-center">
-  <li>
-  <Nav.Link href="blog" >Blog</Nav.Link>
-  </li>
-  <li className="nav-item justify-content-center">
-    <Link className="nav-link" to="/contact">Contact
-    </Link>
-  </li>
-  <li className="nav-item justify-content-center">
-    <Link className="nav-link" to="/login">
-      <i className="bi bi-person"></i> Login
-    </Link>
-  </li>
-</ul>
-        </div>
+            <div>
+              <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center align-items-center">
+                <li>
+                  <Nav.Link href="blog" >Blog</Nav.Link>
+                </li>
+                <li className="nav-item justify-content-center">
+                  <Link className="nav-link" to="/contact">Contact</Link>
+                </li>
+                <li className="nav-item justify-content-center">
+                  <Link className="nav-link" to="/login">
+                    <i className="bi bi-person"></i> Login
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

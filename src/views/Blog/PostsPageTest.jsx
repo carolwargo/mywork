@@ -3,7 +3,7 @@ import Business from "../../assets/images/Business.png";
 import BlogHeader from "../../components/Blog/BlogHeader";
 import YogaSet from "../../assets/images/YogaStory/YogaSet.png";
 import moment from "moment";
-import { FaFacebook, FaTwitter, FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaPinterest, FaGithub } from "react-icons/fa";
 import {
   TwitterShareButton,
   FacebookShareButton,
@@ -199,85 +199,88 @@ const PostsPageTest = () => {
                     </p>
                   </div>
 
-                  {/* end entries card title & title description */}
-
                   {/* start entries card content container*/}
                   <div className="w3-container m-2">
                     <p>{post.content}</p>
                     {/* start entries card content container ROW*/}
-                    <div className="w3-row">
-                        <p>
-                          <button className="w3-button w3-padding-small w3-white w3-border">
-                            <b>READ MORE »</b>
-                          </button>
-                        </p>
-                    </div>
-                    <div className="row">
-                        <div className="w3-col l8 w3-padding">
-                              
+                    <br></br>
+            
+                    <div className="row d-flex border-top bg-black">
+                        <br></br>
+                        <div className="col-12 mt-2 text-white p-2">
+                        <div className="w3-container mb-2"> 
+  <h6><u>SHARE THIS POST...</u></h6>
+
+  <p className="mt-3">
+    <span className="mx-1">    
+      <TwitterShareButton
+        url={window.location.href}
+        title={post.title}
+      >
+        <button className="w3-button btn btn-xs text-white bg-white rounded">
+          <FaTwitter style={{ color: "black"}}/>
+        </button>
+      </TwitterShareButton> {/* end Twitter Share Button */}
+    </span>
+    <span className="mx-1"> 
+      {/* start Facebook Share Button */}
+      <FacebookShareButton
+        url={window.location.href}
+        quote={post.title}
+      >
+        <button className="w3-button btn btn-xs text-white bg-primary rounded">
+          <FaFacebook />
+        </button>
+      </FacebookShareButton>  {/*end Facebook Share Button */}
+    </span>
+    <span className="mx-1"> 
+      {/* start Pinterest Share Button */}
+      <PinterestShareButton
+        url={window.location.href}
+        media={post.imageUrl}
+        description={post.title}
+      >
+        <button className="w3-button btn btn-xs text-white rounded" style={{backgroundColor:'red'}}>
+          <FaPinterest style={{ color: "white"}}/>
+        </button>
+      </PinterestShareButton> {/* end Pinterest Share Button */}
+    </span>
+    <span className="mx-1"> 
+      {/* start Github Button */}
+      <button className="w3-button btn btn-xs text-white rounded" style={{backgroundColor:'#800080'}}>
+        <FaGithub style={{ color: "white"}}/>
+      </button>  
+    </span>
+  </p>
+</div>
+
+
+ {/*container start for tags Header
+                        <div className="w3-container mb-2">   
                               {" "}
-                              {/*container start for tags Header*/}
                               <h5>TAGS</h5>
-                              {" "}
                               <p>
-                                <span className="w3-tag w3-black w3-margin-bottom">
+                                <span className="w3-margin-bottom w-3 hover px-2">
                                   IKEA
                                 </span>
-                                <span className="w3-tag w3-black w3-margin-bottom">
+                                <span className="w3-margin-bottom px-2">
                                   NORWAY
                                 </span>
-                                <span className="w3-tag w3-black w3-margin-bottom">
+                               <span className="w3-margin-bottom px-2">
                                   DIY
                                 </span>
-                                <span className="w3-tag w3-black w3-margin-bottom">
+                               <span className="w3-margin-bottom px-2">
                                   IDEAS
                                 </span>
-                                <span className="w3-tag w3-black w3-margin-bottom">
+                               <span className="w3-margin-bottom px-2">
                                   NEWS
                                 </span>
                               
                               
                               </p>
-                       
-                            {/*container end for tags only*/}
-                                </div>{" "}
-                           
-                            <div className="w3-col l4 w3-padding">
-                              {" "}
-                              {/*container start for tags Header*/}
-                              <h5>SHARE THIS POST</h5>
-             {/* start share-button container entries*/}
-            <div className="text-center">
-                                  {/* start Twitter Share Button */}
-                                  <TwitterShareButton
-                                    url={window.location.href}
-                                    title={post.title}
-                                    style={{ color: "#1877F2"}}
-                                  > 
-                                    <FaTwitter /> 
-                                  </TwitterShareButton> {/* end Twitter Share Button */}
-                                 {/* start Facebook Share Button */}
-                                  <FacebookShareButton
-                                    url={window.location.href}
-                                    quote={post.title}
-                                    style={{ color: "#1877F2" }}
-                                  >
-                                    <FaFacebook />
-                                  </FacebookShareButton>  {/*end Facebook Share Button */}
-                                  {/* start Pinterest Share Button */}
-                                  <PinterestShareButton
-                                    url={window.location.href}
-                                    media={post.imageUrl}
-                                    description={post.title}
-                                    style={{ color: "red" }}
-                                  >
-                                    <FaPinterest />
-                                  </PinterestShareButton> {/* end Pinterest Share Button */}
-                  
-            </div>{" "}
-            </div>
-
-
+                                </div>
+                        */}    
+                                </div>
                     </div>
 
 

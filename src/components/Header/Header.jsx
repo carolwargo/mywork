@@ -27,12 +27,18 @@ const Header = () => {
        
           <div className="col-sm-12 col-md-12 col-lg-12 text-white p-3 position-relative z-index-1">
             <br></br>
+            <h1 style={{
+                  textShadow: "2px 1px 4px #6495ED",
+                  color: "#FDC5E8",
+                  fontSize: "3.5rem",
+                }}>2<span style={{color:'#00FFFF'}}>FACE</span><span style={{fontFamily:'tangerine',color:'#00FFFF', fontSize:'2rem'}}>& co.</span></h1>
             <h5
-              className="mt-2 mb-2 "
+              className="mt-2 mb-2"
               style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
                 fontFamily: "roboto",
                 lineHeight: "1.25",
+                color:'#00FFFF'
               }}
             >
               <i>"Make a lasting</i>
@@ -74,7 +80,7 @@ const Header = () => {
               <Link to="/web-development">
                 <button
                   type="button"
-                  className="btn btn-outline-light bg-black btn-sm m-1 px-2"
+                  className="btn btn-outline-info text-info bg-black btn-sm m-1 px-2"
                   data-mdb-ripple-init
                 >
                   <b>Web Development</b>
@@ -83,7 +89,7 @@ const Header = () => {
               <Link to="/digital-marketing">
                 <button
                   type="button"
-                  className="btn btn-outline-light bg-black btn-sm m-1 px-2"
+                  className="btn btn-outline-info text-info bg-black btn-sm m-1 px-2"
                   data-mdb-ripple-init
                 >
                   <b>Digital Marketing</b>
