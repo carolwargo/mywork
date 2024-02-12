@@ -1,442 +1,351 @@
-import React, { useState } from "react";
-import ServicesDropdown from "../../components/ServicesDropdown/ServicesDropdown";
-import Creator from "../../assets/images/DigitalMarketing/Creator.png";
+import React from "react";
+import Business from "../../assets/images/Business.png";
+import BlogHeader from "../../components/Blog/BlogHeader";
+import YogaSet from "../../assets/images/YogaStory/YogaSet.png";
+import moment from "moment";
 
-const DigitalMarketing = () => {
-  const [selected, setSelected] = useState(null);
 
+// Create blog post objects with Moment.js timestamp
+const blogPosts = [
+  {
+    id: 1,
+    title: "Blog Post 1",
+    timestamp: moment().toISOString(), // Current date and time
+    content:
+    "Lorem unde omnis iste natus error sit Sed ut perspiciatis unde omnis Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis...",
+  imageUrl: YogaSet,
+    comments: 5,
+  },
+  {
+    id: 2,
+    title: "Blog Post 2",
+    timestamp: moment().toISOString(), // Current date and time
+    content:
+    "Lorem unde omnis iste natus error sit Sed ut perspiciatis unde omnis Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis...",
+   imageUrl: YogaSet,
+    comments: 10,
+  },
+  // Add more blog post objects as needed
+];
+
+const Blog = () => {
   return (
-    <div style={{ fontFamily: "sans-serif" }}>
-      <div className="container mt-5 p-4">
-        <h1
-        style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}
-        >Digital Marketing</h1>
-        <div className="row d-flex justify-content-center ">
-          <div className="col-sm-12 col-md-6 col-lg-6 px-2 justify-content-center ">
-            <div className="digital-marketing-body p-4 justify-content-center ">
-              <div className="digital-marketing-title">
-                <p>DIGITAL MARKETING CONCEPTS AND CHANNELS</p>
-                <h4
-                style={{
-                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                    color:'#304E7C'
-                  }}
-                >OVERVIEW</h4>
+    <div>
+      <BlogHeader />
+      <main className="w3-light-grey">
+        <div className="w3-content" style={{ maxWidth: "1400px" }}>
+            {/* start Header */}
+          <header className="w3-container w3-center w3-padding-32 pb-1 mt-2 border-bottom">
+            <h1
+              style={{color:'#00FFFF', textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)"}}><b>BITS </b><span style={{color:'white', textShadow: "2px 2px 4px #000000"}}>& </span> <span style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+                  color: "#FDC5E8",}}>PIXELS</span>
+            </h1>
+            <p className="">
+              Welcome to the blog of{" "}
+              <span className="w3-tag" style={{ color: "#FDC5E8" }}>
+                2FACE<span style={{ fontFamily: "tangerine" }}>Inc.</span>
+              </span>
+            </p>
+          </header>  {/* end Header */}
+            {/*row start for the whole page with exception of header & footer */}
+          <div className="w3-row p-2">
+            {" "}
+
+ {/*card start for bio, popular posts & tags*/}
+ <div className="w3-col p-4 l4">
+              {" "}
+              {/*card start for bio*/}
+              <div className="w3-card w3-margin m-4">
+                {" "}
+                {/*card-image-start for bio*/}
+                <img
+                  src={Business}
+                  alt="Business"
+                  style={{ width: "100%" }}
+                ></img>{" "}
+                {/*card-image-start for bio*/}
+                <div className="w3-container w3-white justify-content-center">
+                  {" "}
+                  {/*card-container-start for bio*/}
+                  <br></br>
+                  <h5 className="mt-3" style={{ fontFamily: "sans-serif" }}>
+                    <b>Carol Wargo</b>
+                  </h5>
+                  <p className="mb-3">
+                    Just me, myself and I, exploring the universe of uknownment.
+                    I have a heart of love and a interest of lorem ipsum and
+                    mauris neque quam blog. I want to share my world with you.
+                  </p>
+                  <br></br>
+                </div>{" "}
+                {/*card-container-end for bio*/}
               </div>
-              <p
-                className="digital-marketing-text"
-                style={{ fontSize: "14px" }}
-              >
-                Digital marketing is a dynamic and multifaceted approach to
-                promoting products, services, or brands through various online
-                channels, leveraging the power of the internet to connect with
-                target audiences, build brand awareness, and drive engagement.
-                With its ability to reach global
-                audiences, track performance metrics, and adapt in real-time,
-                digital marketing offers businesses a powerful toolkit to
-                establish an online presence, connect with customers, and
-                achieve marketing goals in the ever-evolving digital landscape.
-              </p>
+              {/*card end for bio*/}
+              <hr />
+
+
+              <div className="w3-card w3-margin m-4">
+                {" "}
+                {/*card start for all popular posts elements*/}
+                <div className="w3-container w3-padding">
+                  {" "}
+                  {/*container start header popular posts */}
+                  <h4>Popular Posts</h4>
+                </div>
+                {/*container end header popular posts */}
+                <ul className="w3-ul w3-hoverable w3-white p-2">
+                  {" "}
+                  {/*list start popular posts */}
+                  <li className="w3-padding-16">
+                    {" "}
+                    {/*list-item-1 start popular posts */}
+                    <img
+                      src={Business}
+                      alt="Business"
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Lorem</span>
+                    <br />
+                    <span>Sed mattis nunc</span>
+                  </li>{" "}
+                  {/*list-item-1 end popular posts */}
+                  <li className="w3-padding-16">
+                    {" "}
+                    {/*list-item-2 start popular posts */}
+                    <img
+                      src={Business}
+                      alt="Business"
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Ipsum</span>
+                    <br />
+                    <span>Praes tinci sed</span>
+                  </li>{" "}
+                  {/*list-item-2 end popular posts */}
+                  <li className="w3-padding-16">
+                    {" "}
+                    {/*list-item-3 start popular posts */}
+                    <img
+                      src={Business}
+                      alt="Business"
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Dorum</span>
+                    <br />
+                    <span>Ultricies congue</span>
+                  </li>{" "}
+                  {/*list-item-3 end popular posts */}
+                  <li className="w3-padding-16 w3-hide-medium w3-hide-small">
+                    {" "}
+                    {/*list-item-4 start popular posts */}
+                    <img
+                      src={Business}
+                      alt="Business"
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Mingsum</span>
+                    <br />
+                    <span>Lorem ipsum dipsum</span>
+                  </li>
+                  {/*list-item-4 end popular posts */}
+                </ul>{" "}
+                {/*list end popular posts */}
+              </div>{" "}
+              {/*card end for all popular posts elements*/}
+              <hr />
+
+
+              
+              <div className="w3-card w3-margin m-4">
+                {" "}
+                {/*card start for all tags elements*/}
+                <div className="w3-container w3-padding">
+                  {" "}
+                  {/*container start for tags Header*/}
+                  <h4>Tags</h4>
+                </div>{" "}
+                {/*container end for tags Header*/}
+                <div className="w3-container w3-white">
+                  {" "}
+                  {/*container start for tags*/}
+                  <p>
+                    <span className="w3-tag w3-black w3-margin-bottom">
+                      Travel
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      New York
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      London
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      IKEA
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      NORWAY
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      DIY
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Ideas
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Baby
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Family
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      News
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Clothing
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Shopping
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Sports
+                    </span>
+                    <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
+                      Games
+                    </span>
+                  </p>
+                </div>{" "}
+                {/*container end for tags only*/}
+              </div>{" "}
+              {/*card end for all tags elements*/}
+            </div>{" "}
+            {/*col end for bio, popular posts & tags*/}
+
+
+             {/*col start for all posts iteration */}
+           <div className="w3-col p-4 l8 s12">
+              {" "}
+              {/*col start for all posts */}
+              {blogPosts.map((post) => (
+                <div key={post.id} className="w3-card-4 w3-margin w3-white m-4">
+                  <img
+                    src={post.imageUrl}
+                    alt="blog-post"
+                    style={{ width: "100%" }}
+                  />
+
+                
+
+                  <div className="w3-container m-2">  
+              
+                    <br></br>
+                    <h3>
+                      <b>
+                        <i>{post.title}</i>
+                      </b>
+                    </h3>
+                    <p>
+                      Title description,{" "}
+                      <span className="w3-opacity">
+                        Posted on:{" "}
+                        {moment(post.timestamp).format(
+                          "MMMM Do YYYY, h:mm:ss a"
+                        )}
+                      </span>
+                    </p>
+                  </div>
+
+                  {/* end entries card title & title description */}
+
+                  {/* start entries card content container*/}
+                  <div className="w3-container m-2">
+                    <p>{post.content}</p>
+                    {/* start entries card content container ROW*/}
+                    <div className="w3-row">
+                      {/* start entries card content container COL BUT*/}
+                      <div className="w3-col p-4 m12 s12">
+                        <p>
+                          <button className="w3-button w3-padding-large w3-white w3-border">
+                            <b>READ MORE »</b>
+                          </button>
+                        </p>
+                      </div>
+                      {/* start entries card content container COL COMMENTS*/}
+                    </div>
+                    {/* end entries card content container ROW*/}
+                  </div>
+                  {/* end entries card content container*/}
+                </div>
+              ))}
             </div>
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 p-2 mt-3 justify-content-center">
-            <div className="digital-marketing-body p-4 justify-content-center" style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",}}>
-              <div id="menu" className="digital-marketing-menu ">
-                <h4
-                style={{
-                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                    color:'#304E7C'
-                  }}
-                >KEY COMPONENTS MENU</h4>
-                <h6>TOPICS OF INTEREST</h6>
-                <br></br>
-                <p style={{ fontSize: "12px" }}>
-                  Choose a <i>'Key Component'</i> from the <b>Key Components</b> menu provided to learn more about a specific area of interest...
-                </p>
-                <ServicesDropdown
-                  selected={selected}
-                  setSelected={setSelected}
-                />
-              </div>
-            </div>
-          </div>
+              {/*col end for posts iteration */}
+           
+            
+          
+          </div>{" "}
+          {/*row end for the whole page with exception of header & footer */}
         </div>
-
-
-
-        <br></br>
-        <h1
-        style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}
-        >Key Components</h1>
-
-
-
-        <div className="container mt-5 p-4" id="seo">
-          <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-sm-12 col-md-6 col-lg-6 ">
-            <img
-              src={Creator}
-              alt="Creator"
-              className="mb-2 border border-black mx-auto d-block"
-              style={{ width: "85%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}
-            />         
-</div>
-
-<div className="col-sm-12 col-md-6 col-lg-6 ">
-<h4
-          style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}
-          >
-                SEO STRATEGIES
-              </h4>
-<div id="seo-strategies">
-                    <ul>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>SEARCH-ENGINE OPTIMIZATION:</b> Optimizing online
-                        content to improve its visibility in search engine
-                        results, to organically increase traffic.
-                      </li>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>SEARCH-ENGINE MARKETING:</b> Paid advertising on
-                        search engines to appear in sponsored listings when
-                        users search for specific keywords.
-                      </li>
-                    </ul>
-                  </div>
-            <h4>MYTH</h4>
-            <p style={{ fontSize: "12px" }}>Some mistakenly believe that producing a large volume of content is more beneficial than focusing on creating high-quality, valuable content. In reality, quality content that resonates with the target audience, provides genuine value, and aligns with strategic goals is often more effective in building trust, engagement, and driving meaningful results. Quantity alone does not guarantee success; it's the relevance and quality of the content that truly matter.</p>
-            </div>
-            <div className="p-3 text-center">
-           <a
-                        href="#menu"
-                        className="dropdown-link "
-                        style={{ fontSize: "12px" }}
-                      >
-                        Back to Menu
-                      </a>  
-                      </div>  
-          
-            </div>
-            </div>
-
-
-            <div className="container mt-5 p-4" id="content">
-          <div className="row d-flex justify-content-center p-2">
-       
-            <div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">
-            <h4
-          style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}
-          >
-               CONTENT MARKETING
-              </h4> 
-            <div id="content-marketing">
-                    <ul>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>SOCIAL MEDIA MARKETING:</b> Promoting products or
-                        services on social media platforms.
-                      </li>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>EMAIL MARKETING:</b> Sending targeted messages and
-                        promotional content direct via email to nurture leads or
-                        encourage loyalty.
-                      </li>
-                    </ul>
-                  </div>
-                  <h4>MYTH</h4>
-            <p style={{ fontSize: "12px" }}>Some mistakenly believe that producing a large volume of content is more beneficial than focusing on creating high-quality, valuable content. In reality, quality content that resonates with the target audience, provides genuine value, and aligns with strategic goals is often more effective in building trust, engagement, and driving meaningful results. Quantity alone does not guarantee success; it's the relevance and quality of the content that truly matter.</p>
-                 
-</div>
-<div className="col-sm-12 col-md-6 col-lg-6 ">
-            <img
-              src={Creator}
-              alt="Creator"
-              className="mb-2 border border-black mx-auto d-block"
-              style={{ width: "85%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}
-            />         
-</div>
-</div>
-            <div className="p-3 text-center">
-           <a
-                        href="#menu"
-                        className="dropdown-link "
-                        style={{ fontSize: "12px" }}
-                      >
-                        Back to Menu
-                      </a>  
-                      </div>  
-            
-            </div>
-
-            <div className="container mt-5 p-4" id="partnerships">
-            <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-sm-12 col-md-6 col-lg-6">
-            <img
-              src={Creator}
-              alt="Creator"
-              className="mb-2 border border-black mx-auto d-block"
-              style={{ width: "85%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}
-            />  
-            </div>
-<div className="col-sm-12 col-md-6 col-lg-6">      
-<h4
-          style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}
-          >
-               STRATEGIC PARTNERSHIPS
-              </h4> 
-            <div id="strategic-partnerships">
-                    <ul>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>AFFILIATE MARKETING:</b>Partnering with affiliates to
-                        promote a business's products or services in exchange
-                        for a commission for each sale or lead generated through
-                        their efforts.
-                      </li>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>INFLUENCER MARKETING:</b> Collaborating with
-                        influencers that have significant online following, to
-                        tap into their audience to promote products or services.
-                      </li>
-                    </ul>
-                  </div>
-                  <h4>MYTH</h4>
-            <p style={{ fontSize: "12px" }}>Some mistakenly believe that producing a large volume of content is more beneficial than focusing on creating high-quality, valuable content. In reality, quality content that resonates with the target audience, provides genuine value, and aligns with strategic goals is often more effective in building trust, engagement, and driving meaningful results. Quantity alone does not guarantee success; it's the relevance and quality of the content that truly matter.</p>
-           </div> 
-           <br></br>
-           <div className="p-3 text-center">
-           <a
-                        href="#menu"
-                        className="dropdown-link "
-                        style={{ fontSize: "12px" }}
-                      >
-                        Back to Menu
-                      </a>  
-                      </div>
-            </div>
-            </div>
-
-
-         
-            <div className="container mt-5 p-4" id="performance">
-            <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">
-            <h4
-          style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}>
-              PERFORMANCE-BASED INCENTIVES
-              </h4>
-            <div id="performance-based-incentives">
-                    <ul>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>PAY-PER-CLICK:</b> Promoting products or services on
-                        social media platforms.
-                      </li>
-                    </ul>
-                    <h4>MYTH</h4>
-            <p style={{ fontSize: "12px" }}>Some mistakenly believe that producing a large volume of content is more beneficial than focusing on creating high-quality, valuable content. In reality, quality content that resonates with the target audience, provides genuine value, and aligns with strategic goals is often more effective in building trust, engagement, and driving meaningful results. Quantity alone does not guarantee success; it's the relevance and quality of the content that truly matter.</p>
-            
-                  </div>
-</div>
-<br></br>
-<div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">
-<img
-              src={Creator}
-              alt="Creator"
-              className="mb-2 border border-black mx-auto d-block"
-              style={{ width: "85%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}
-            />  
-           </div> 
-           <div className="p-3 text-center">
-           <a
-                        href="#menu"
-                        className="dropdown-link "
-                        style={{ fontSize: "12px" }}
-                      >
-                        Back to Menu
-                      </a>  
-                      </div>      
-            </div>
-            </div>
-
-
-
-            <div className="container mt-5 p-4" id="data">
-          <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-sm-12 col-md-6 col-lg-6 ">
-            <img
-              src={Creator}
-              alt="Creator"
-              className="mb-2 border border-black mx-auto d-block"
-              style={{ width: "85%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}
-            />  
-</div>
-<div className="col-sm-12 col-md-6 col-lg-6 ">
-<h4
-          style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}>
-          DATA-DRIVEN STRATEGIES
-              </h4>
-            <div id="data-driven-strategies">
-                    <ul>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>DATA-DRIVEN MARKETING:</b> Using data analytics tools
-                        to measure the performance of marketing campaigns,
-                        gather insights, and optimize strategies for better
-                        results.
-                      </li>
-                    </ul>
-                 
-            <h4>MYTH</h4>
-            <p style={{ fontSize: "12px" }}>Some mistakenly believe that producing a large volume of content is more beneficial than focusing on creating high-quality, valuable content. In reality, quality content that resonates with the target audience, provides genuine value, and aligns with strategic goals is often more effective in building trust, engagement, and driving meaningful results. Quantity alone does not guarantee success; it's the relevance and quality of the content that truly matter.</p>
-         </div> 
-                      </div>
-                      <div className="p-3 text-center">
-           <a
-                        href="#menu"
-                        className="dropdown-link "
-                        style={{ fontSize: "12px" }}
-                      >
-                        Back to Menu
-                      </a>  
-                      </div>    
-            </div>
-            </div>
-
-
-
-
-            <div className="container mt-5 p-4" id="reputation">
-          <div className="row d-flex justify-content-center align-items-center">
-          
-            <div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">   
-            <h4
-          style={{
-            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-            color:'#304E7C'
-          }}
-          >
-          REPUTATION MANAGEMENT
-              </h4>  
-            <div id="reputation-management">
-                    <ul>
-                      <li className="mb-2" style={{ fontSize: "12px" }}>
-                        <b>PUBLIC RELATIONS MANAGEMENT</b>Managing a brand's
-                        online reputation through press releases, influencer
-                        collaborations, and addressing customer feedback.
-                      </li>
-                    </ul>
-                    <h4>MYTH</h4>
-            <p style={{ fontSize: "12px" }}>Some mistakenly believe that producing a large volume of content is more beneficial than focusing on creating high-quality, valuable content. In reality, quality content that resonates with the target audience, provides genuine value, and aligns with strategic goals is often more effective in building trust, engagement, and driving meaningful results. Quantity alone does not guarantee success; it's the relevance and quality of the content that truly matter.</p>
-                  </div>
-</div>
-<br></br>
-<div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">
-<img
-              src={Creator}
-              alt="Creator"
-              className="mb-2 border border-black mx-auto d-block"
-              style={{ width: "85%", height: "auto", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}
-            /> 
-          </div> 
-            </div>
-            <div className="p-3 text-center">
-           <a
-                        href="#menu"
-                        className="dropdown-link "
-                        style={{ fontSize: "12px" }}
-                      >
-                        Back to Menu
-                      </a>  
-                      </div>    
-            </div>
-
-
-      </div>
+        <footer className="w3-container w3-dark-grey w3-padding-32 text-center">
+          <button className="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">
+            Previous
+          </button>
+          <button className="w3-button w3-black w3-padding-large w3-margin-bottom">
+            Next »
+          </button>
+          <p style={{ color: "#FDC5E8" }}>
+            2FACE<span style={{ fontFamily: "tangerine" }}>Inc.</span>
+          </p>
+        </footer>
+      </main>
     </div>
   );
 };
 
-export default DigitalMarketing;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default Blog;
+
+
+
+
+
+
+
+/*<div className"w3-card w3-margin">
+    <div className"w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul className"w3-ul w3-hoverable w3-white">
+      <li className"w3-padding-16">
+        <img src="/w3images/workshop.jpg" a>lt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Lorem</span><br>
+        <span>Sed mattis nunc</span>
+      </li>
+      
+      
+      <li className"w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      
+      
+      
+      <li className"w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      
+      
+      
+      
+      
+      <li className"w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+
+*/
 
 

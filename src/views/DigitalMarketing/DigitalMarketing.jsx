@@ -30,7 +30,7 @@ const DigitalMarketing = () => {
                   className="mt-0"
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   LEVERAGE THE POWER OF THE INTERNET...
@@ -79,7 +79,7 @@ const DigitalMarketing = () => {
           <h1
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              color: "#304E7C",
+              color: "black",
             }}
           >
             DIGITAL MARKETING
@@ -99,7 +99,7 @@ const DigitalMarketing = () => {
             <p 
                 style={{
                   textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                  color: "#304E7C",
+                  color: "black",
                 }}>
               <u>
              KEY COMPONENTS MENU  
@@ -134,7 +134,7 @@ const DigitalMarketing = () => {
        <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   1. SEO STRATEGIES
@@ -180,7 +180,7 @@ const DigitalMarketing = () => {
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   2. CONTENT MARKETING
@@ -244,7 +244,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   3. STRATEGIC PARTNERSHIPS
@@ -289,7 +289,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                     fontSize: "2.25rem",
                   }}
                 >
@@ -345,7 +345,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                  5. DATA-DRIVEN STRATEGIES
@@ -385,7 +385,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                  6. REPUTATION MANAGEMENT
@@ -434,7 +434,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
           <h1
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              color: "#304E7C",
+              color: "black",
             }}
           >
             EMAIL MARKETING & CAMPAIGNS
@@ -468,7 +468,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
         <h1
           style={{
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-            color: "#304E7C",
+            color: "black",
           }}
         >
           GRAPHICS PORTFOLIO
@@ -490,7 +490,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
           className="mt-5"
           style={{
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-            color: "#304E7C",
+            color: "black",
           }}
         >
           DIGITAL RECRUITING TOOL
@@ -515,7 +515,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   1. LANDING PAGE{" "}
@@ -543,7 +543,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
               className="mb-2 border border-black"
               style={{ width: "80%", height: "auto" }}
             />
-            <p style={{ fontSize: "12px", color: "#304E7C" }}>
+            <p style={{ fontSize: "12px", color: "black" }}>
               {" "}
               <i>"1. Recruit landing sample page"</i>
             </p>
@@ -559,7 +559,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   2. PROFILE PAGE{" "}
@@ -589,7 +589,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color: "#304E7C" }}>
+            <p style={{ fontSize: "12px", color: "black" }}>
               {" "}
               <i>"2. Recruit profile sample page."</i>
             </p>
@@ -605,7 +605,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   3. STATS PAGE{" "}
@@ -635,7 +635,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color: "#304E7C" }}>
+            <p style={{ fontSize: "12px", color: "black" }}>
               {" "}
               <i>"3. Recruit stats sample page."</i>
             </p>
@@ -651,7 +651,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   4. DASHBOARD PAGE{" "}
@@ -683,7 +683,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color: "#304E7C" }}>
+            <p style={{ fontSize: "12px", color: "black" }}>
               {" "}
               <i>"4. Recruit dashboard sample page."</i>
             </p>
@@ -701,7 +701,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   5. VIDEO LIBRARY PAGE{" "}
@@ -733,7 +733,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color: "#304E7C" }}>
+            <p style={{ fontSize: "12px", color: "black" }}>
               {" "}
               <i>"5. Recruit video library sample page."</i>
             </p>
@@ -749,7 +749,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "black",
                   }}
                 >
                   6. LEAGUE AFFILIATION PAGE{" "}
@@ -781,7 +781,7 @@ This manipulation can involve tailoring content formats, optimizing posting time
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color: "#304E7C" }}>
+            <p style={{ fontSize: "12px", color: "black" }}>
               {" "}
               <i>"6. Recruit league affiliation sample page."</i>
             </p>

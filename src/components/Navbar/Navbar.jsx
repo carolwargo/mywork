@@ -38,7 +38,7 @@ function NavScrollExample() {
             style={{ maxHeight: '100px'}}
             navbarScroll
           >
-            <Nav.Link href="#action1" className='align-items-center'><HiOutlineHomeModern style={{textShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
+            <Nav.Link href="/" className='align-items-center'><HiOutlineHomeModern style={{boxShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
             <Nav.Link href="/posts" >Posts</Nav.Link>
             <Nav.Link href="/" >Graphics</Nav.Link>
             <Nav.Link href="/web-development" >Web Development</Nav.Link>

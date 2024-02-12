@@ -30,7 +30,7 @@ const Home = () => {
                 <h3 className="mt-0"
                  style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >TELL YOUR STORY...</h3>
               </div>
@@ -73,7 +73,7 @@ const Home = () => {
         <p>DIGITAL MARKETING BEYOND SOCIAL MEDIA</p>
         <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:' black'
                 }}>DIGITAL MARKETING</h1>
      
       <p style={{fontFamily:'sans-serif'}}>
@@ -108,7 +108,7 @@ const Home = () => {
                 <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
                 <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}>BUSINESS ESSENTIALS</h1>
               </div>
               <p className="business-essentials-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
@@ -139,7 +139,7 @@ const Home = () => {
                 <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
                 <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}>ORGANIZATIONS</h1>
               </div>
               <p className="organizations-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
@@ -188,7 +188,7 @@ const Home = () => {
                 <p>SHOP FOR THAT SPECIAL DAY</p>
                 <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}>SPECIAL EVENTS</h1>
               </div>
               <p className="special-event-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
@@ -220,7 +220,7 @@ const Home = () => {
                 <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
                 <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}>ORGANIZATIONS</h1>
               </div>
               <p className="organizations-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
@@ -269,7 +269,7 @@ const Home = () => {
                 <p>SHOP FOR THAT SPECIAL DAY</p>
                 <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}>SPECIAL EVENTS</h1>
               </div>
               <p className="spacial-event-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
@@ -298,7 +298,7 @@ const Home = () => {
 <h1
  style={{
   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-  color:'#304E7C'
+  color:'black'
 }}
 >GRAPHICS PORTFOLIO</h1>
 <p>All whole images or individual components, layers & text within the image can be animated separately.<br></br><span className="text-secondary" style={{fontSize:'12px'}}>"I typically save superficial functions like, animations & audio until the layout and content are set."</span></p>
@@ -310,7 +310,7 @@ const Home = () => {
         <h1 className="mt-5"
         style={{
           textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-          color:'#304E7C'
+          color:'black'
         }}>DIGITAL RECRUITING TOOL</h1>
         <p> <i>Why call it a recruiting "TOOL", instead of recruiting "site"? 
           Because, I designed it to be flexible- Capable of rendering either as a complete entity or as individual components. 
@@ -325,7 +325,7 @@ const Home = () => {
                 <h1 
                 style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >
                   1. LANDING PAGE </h1>
@@ -345,7 +345,7 @@ prompt for the user.</p>
               className="mb-2 border border-black"
               style={{ width: "80%", height: "auto" }}
             />
-            <p style={{ fontSize: "12px", color:'#304E7C' }}>
+            <p style={{ fontSize: "12px", color:'black' }}>
               {" "}
               <i>"1. Recruit landing sample page"</i>
             </p>
@@ -360,7 +360,7 @@ prompt for the user.</p>
                 <h1
                  style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >2. PROFILE PAGE </h1>
               </div>
@@ -381,7 +381,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color:'#304E7C' }}>
+            <p style={{ fontSize: "12px", color:'black' }}>
               {" "}
               <i>"2. Recruit profile sample page."</i>
             </p>
@@ -396,7 +396,7 @@ prompt for the user.</p>
                 <h1
                  style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >3. STATS PAGE </h1>
               </div>
@@ -418,7 +418,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color:'#304E7C' }}>
+            <p style={{ fontSize: "12px", color:'black' }}>
               {" "}
               <i>"3. Recruit stats sample page."</i>
             </p>
@@ -433,7 +433,7 @@ prompt for the user.</p>
                 <h1  
                 style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >4. DASHBOARD PAGE </h1>
               </div>
@@ -458,7 +458,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color:'#304E7C' }}>
+            <p style={{ fontSize: "12px", color:'black' }}>
               {" "}
               <i>"4. Recruit dashboard sample page."</i>
             </p>
@@ -474,7 +474,7 @@ prompt for the user.</p>
                 <h1
                  style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >5. VIDEO LIBRARY PAGE </h1>
               </div>
@@ -496,7 +496,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color:'#304E7C' }}>
+            <p style={{ fontSize: "12px", color:'black' }}>
               {" "}
               <i>"5. Recruit video library sample page."</i>
             </p>
@@ -511,7 +511,7 @@ prompt for the user.</p>
                 <h1
                  style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'#304E7C'
+                  color:'black'
                 }}
                 >
                   6. LEAGUE AFFILIATION PAGE </h1>
@@ -535,7 +535,7 @@ prompt for the user.</p>
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-            <p style={{ fontSize: "12px", color:'#304E7C' }}>
+            <p style={{ fontSize: "12px", color:'black' }}>
               {" "}
               <i>"6. Recruit league affiliation sample page."</i>
             </p>

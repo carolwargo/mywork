@@ -26,7 +26,8 @@ const Header = () => {
         <div className="row d-flex h-100 px-5 text-center position-relative">
        
           <div className="col-sm-12 col-md-12 col-lg-12 text-white p-3 position-relative z-index-1">
-        <h1>BITS & PIXELS</h1>
+        <h1 style={{color:'#00FFFF'}}>PIXELS <span style={{color:'black', textShadow: "2px 2px 4px #ffffff"}}>& </span> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+                  color: "#FDC5E8",}}>BITS</span></h1>
             <h5
               className="mt-2 mb-2 "
               style={{

@@ -16,7 +16,7 @@ function SocialMedia() {
           <h1
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              color: "#304E7C",
+              color: "#black",
             }}
           >
             SOCIAL MEDIA MARKETING & PLATFORMS
@@ -36,7 +36,7 @@ function SocialMedia() {
            </h6>
           <h5 className=" mb-2"  style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.25)",
-              color: "#304E7C",
+              color: "#black",
                 fontFamily:'serif'
             }}><b>BECAUSE SOCIAL MEDIA WAS NOT BUILT FOR BUSINESS...</b></h5> 
        <p> Social media platforms initially emerged as channels for personal communication and networking, rather than for commercial endeavors. However, businesses have recognized the immense potential of these platforms for marketing and customer engagement. To succeed in this space, businesses often need to adapt and manipulate their strategies to align with the dynamics and algorithms of each platform.</p>
@@ -54,7 +54,7 @@ function SocialMedia() {
         <h3 className="mt-0"
         style={{
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.25)",
-            color: "#304E7C",
+            color: "#black",
               fontFamily:'serif'
           }}
         >SOCIAL MEDIA PROS, CONS AND REMEDIES</h3>
@@ -67,7 +67,7 @@ function SocialMedia() {
                  <h4
                    style={{
                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                     color: "#304E7C",
+                     color: "#black",
                         fontFamily:'serif'
                    }}
                  >
@@ -95,7 +95,7 @@ function SocialMedia() {
                  <h4
                    style={{
                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                     color: "#304E7C",
+                     color: "#black",
                      fontFamily:'serif'
                    }}
                  >
@@ -124,7 +124,7 @@ function SocialMedia() {
                 <h4
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "#black",
                     fontFamily:'serif'
                   }}
                 >
@@ -158,7 +158,7 @@ function SocialMedia() {
                 <h1
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "#black",
                   }}
                 >
                  POWER 5 SOCIAL MEDIA PLATFORMS
@@ -191,7 +191,7 @@ function SocialMedia() {
                 <h2
                   style={{
                     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                    color: "#304E7C",
+                    color: "#black",
                   }}
                 >
                  POWER 5 SOCIAL MEDIA PLATFORMS
@@ -244,7 +244,7 @@ function SocialMedia() {
            <h3
               style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                color: "#304E7C",
+                color: "#black",
               }}><b>SOCIAL MEDIA ALGORITHIM UPDATES</b></h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam saepe, minus aspernatur fugit explicabo iste minima officia autem nisi aliquid ullam illo sit facere accusamus et quas, nesciunt, tempora nam?</p>
           </div>
@@ -255,7 +255,7 @@ function SocialMedia() {
            <h4
                style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                color: "#304E7C",
+                color: "#black",
               }}
            ><b>SOCIAL MEDIA ALGORITHIM UPDATES:</b></h4>
               </div>
@@ -272,7 +272,7 @@ function SocialMedia() {
            <h4
                style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                color: "#304E7C",
+                color: "#black",
               }}
            ><b>SOCIAL MEDIA ALGORITHIM UPDATES:</b></h4>
               </div>
