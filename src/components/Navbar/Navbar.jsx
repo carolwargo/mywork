@@ -39,12 +39,19 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="/" className='align-items-center'><HiOutlineHomeModern style={{boxShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
+            <Nav.Link href="/about" 
+                ><span style={{
+                  textShadow: "1px 1px 2px #F63DB0",
+                }}>About Us</span>
+                </Nav.Link>
             <Nav.Link href="/posts" >Posts</Nav.Link>
             <Nav.Link href="/" >Graphics</Nav.Link>
             <Nav.Link href="/web-development" >Web Development</Nav.Link>
             <Nav.Link href="/digital-marketing" >Digital Marketing</Nav.Link>
             
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+            <NavDropdown title="Services" id="navbarScrollingDropdown" style={{
+                  textShadow: "1px 1px 2px #F63DB0",
+                }}>
               <NavDropdown.Item href="#action3" style={{fontFamily:'serif'}}>tbd</NavDropdown.Item>
               <NavDropdown.Item href="#action4" style={{fontFamily:'serif'}}>Another action</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -55,7 +62,9 @@ function NavScrollExample() {
             <div>
               <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center align-items-center">
                 <li>
-                  <Nav.Link href="blog" >Blog</Nav.Link>
+                  <Nav.Link href="blog"><span style={{
+                  textShadow: "1px 1px 2px #F63DB0",
+                }}>Blog</span></Nav.Link>
                 </li>
                 <li className="nav-item justify-content-center">
                   <Link className="nav-link" to="/contact">Contact</Link>

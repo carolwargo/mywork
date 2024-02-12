@@ -35,18 +35,7 @@ const Blog = () => {
       <main className="w3-light-grey">
         <div className="w3-content" style={{ maxWidth: "1400px" }}>
             {/* start Header */}
-          <header className="w3-container w3-center w3-padding-32 p-2 text-white bg-black">
-            <h1 className="mt-4"
-         style={{color:'#00FFFF'}}>PIXELS <span style={{color:'black', textShadow: "2px 2px 4px #ffffff"}}>& </span> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-             color: "#FDC5E8",}}>BITS</span></h1>
-            <p className="">
-              Welcome to the blog of{" "}
-              <span className="w3-tag" style={{ color: "black", backgroundColor:'#FDC5E8', textShadow: "2px 2px 4px #00FFFF"}}>
-            <b>2FACE</b>
-              </span>
-            </p>
-          </header>  {/* end Header */}
-
+     
 
             {/*row start for the whole page with exception of header & footer */}
           <div className="w3-row p-2">

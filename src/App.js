@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Home from './views/Home';
+import About from './views/About/About';
 import Test from './views/Test/Test';
 import DigitalMarketing from './views/DigitalMarketing/DigitalMarketing';
 import WebDevelopment from './views/WebDevelopment/WebDevelopment';
@@ -20,6 +21,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/test" element={<Test />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/web-development" element={<WebDevelopment />} />
