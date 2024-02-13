@@ -12,6 +12,14 @@ const About = () => {
     </div>
     <div className='container container-sm container-content-values'>
     <p>Our values are the foundation of our company. They guide our actions and behavior. They influence the way we work with each other – and the way we serve our clients and engage with our communities.</p>  
+<ul>
+    <li>Tone</li>
+    <li>Values</li>
+    <li>Visuals</li>
+    <li>team</li>
+    <li>why trust us</li>
+    <li>contact</li>
+</ul>
 </div>
 </div>
                 </div>

@@ -11,6 +11,7 @@ import BusinessEssentials from './views/Business/BusinessEssentials';
 //import Header from './components/Header/Header';
 import Blog from './views/Blog/Blog';
 import PostsPageTest from './views/Blog/PostsPageTest';
+import Services from './views/Services/Services';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/business-essentials" element={<BusinessEssentials />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/posts" element={<PostsPageTest />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       </BrowserRouter>
     </div>
