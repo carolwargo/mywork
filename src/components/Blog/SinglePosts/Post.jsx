@@ -35,8 +35,18 @@ const Blog = () => {
       <main className="w3-light-grey">
         <div className="w3-content" style={{ maxWidth: "1400px" }}>
             {/* start Header */}
-     
-
+          <header className="w3-container w3-center w3-padding-32 pb-1 mt-2 border-bottom">
+            <h1
+              style={{color:'#00FFFF', textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)"}}><b>BITS </b><span style={{color:'white', textShadow: "2px 2px 4px #000000"}}>& </span> <span style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+                  color: "#FDC5E8",}}>PIXELS</span>
+            </h1>
+            <p className="">
+              Welcome to the blog of{" "}
+              <span className="w3-tag" style={{ color: "#FDC5E8" }}>
+                2FACE<span style={{ fontFamily: "tangerine" }}>Inc.</span>
+              </span>
+            </p>
+          </header>  {/* end Header */}
             {/*row start for the whole page with exception of header & footer */}
           <div className="w3-row p-2">
             {" "}
@@ -72,77 +82,78 @@ const Blog = () => {
               </div>
               {/*card end for bio*/}
               <hr />
+
+
               <div className="w3-card w3-margin m-4">
                 {" "}
                 {/*card start for all popular posts elements*/}
                 <div className="w3-container w3-padding">
+                  {" "}
                   {/*container start header popular posts */}
                   <h4>Popular Posts</h4>
                 </div>
                 {/*container end header popular posts */}
-                <ul className="w3-ul w3-hoverable w3-white">
-                
+                <ul className="w3-ul w3-hoverable w3-white p-2">
+                  {" "}
                   {/*list start popular posts */}
                   <li className="w3-padding-16">
-              
+                    {" "}
                     {/*list-item-1 start popular posts */}
                     <img
                       src={Business}
                       alt="Business"
-                      className='w3-left w3-margin-right'
-                      style={{ width: "20%" }}
+                      style={{ width: "100%" }}
                     ></img>{" "}
-                      <span className="w3-large">Lorem</span>
-                      <br/>
-        <span>Sed mattis nunc</span>
-      </li>
+                    <span className="w3-large">Lorem</span>
+                    <br />
+                    <span>Sed mattis nunc</span>
+                  </li>{" "}
                   {/*list-item-1 end popular posts */}
                   <li className="w3-padding-16">
+                    {" "}
                     {/*list-item-2 start popular posts */}
                     <img
                       src={Business}
                       alt="Business"
-                      className='w3-left w3-margin-right'
-                      style={{ width: "20%" }}
-                    ></img>
-                       <span className="w3-large">Lorem</span>
-                       <br></br>
-        <span>Sed mattis nunc</span>
-      </li>
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Ipsum</span>
+                    <br />
+                    <span>Praes tinci sed</span>
+                  </li>{" "}
                   {/*list-item-2 end popular posts */}
                   <li className="w3-padding-16">
-              
+                    {" "}
                     {/*list-item-3 start popular posts */}
                     <img
                       src={Business}
                       alt="Business"
-                      className='w3-left w3-margin-right'
-                      style={{ width: "20%" }}
-                    ></img>
-                        <span className="w3-large">Lorem</span>
-                        <br></br>
-        <span>Sed mattis nunc</span>
-      </li>
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Dorum</span>
+                    <br />
+                    <span>Ultricies congue</span>
+                  </li>{" "}
                   {/*list-item-3 end popular posts */}
-                  <li className="w3-padding-16 ">
+                  <li className="w3-padding-16 w3-hide-medium w3-hide-small">
                     {" "}
                     {/*list-item-4 start popular posts */}
                     <img
                       src={Business}
                       alt="Business"
-                      className='w3-left w3-margin-right'
-                      style={{ width: "20%" }}
-                    ></img>
-                       <span className="w3-large">Lorem</span>
-                       <br/>
-        <span>Sed mattis nunc</span>
-      </li>
+                      style={{ width: "100%" }}
+                    ></img>{" "}
+                    <span className="w3-large">Mingsum</span>
+                    <br />
+                    <span>Lorem ipsum dipsum</span>
+                  </li>
                   {/*list-item-4 end popular posts */}
-                </ul>
+                </ul>{" "}
                 {/*list end popular posts */}
-              </div>
+              </div>{" "}
               {/*card end for all popular posts elements*/}
               <hr />
+
 
               
               <div className="w3-card w3-margin m-4">
@@ -279,10 +290,8 @@ const Blog = () => {
           <button className="w3-button w3-black w3-padding-large w3-margin-bottom">
             Next »
           </button>
-          <p  style={{
-                  textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)",
-                  color: "#FDC5E8",
-                }}>2<span style={{color: '#00FFFF'}}>FACE</span>
+          <p style={{ color: "#FDC5E8" }}>
+            2FACE<span style={{ fontFamily: "tangerine" }}>Inc.</span>
           </p>
         </footer>
       </main>
@@ -291,3 +300,52 @@ const Blog = () => {
 };
 
 export default Blog;
+
+
+
+
+
+
+
+/*<div className"w3-card w3-margin">
+    <div className"w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul className"w3-ul w3-hoverable w3-white">
+      <li className"w3-padding-16">
+        <img src="/w3images/workshop.jpg" a>lt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Lorem</span><br>
+        <span>Sed mattis nunc</span>
+      </li>
+      
+      
+      <li className"w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      
+      
+      
+      <li className"w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      
+      
+      
+      
+      
+      <li className"w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" className"w3-left w3-margin-right" style="width:50px">
+        <span className"w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+
+*/
+
+

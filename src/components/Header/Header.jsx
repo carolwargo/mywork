@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
-    <header>
+    <header style={{fontFamily:'Raleway'}}>
      <Navbar />
       <div
         id="intro-example"
@@ -24,43 +24,56 @@ const Header = () => {
         ></div>
 
         <div className="row d-flex h-100 px-5 text-center position-relative">
-       
-          <div className="col-sm-12 col-md-12 col-lg-12 text-white p-3 position-relative z-index-1">
-            <br></br>
+       <div className="col-sm-12 col-md-3 col-lg-3"></div>
+          <div className="col-sm-12 col-md-6 col-lg-6 text-white p-3 position-relative z-index-1">
             <h1 style={{
                   textShadow: "2px 1px 4px #6495ED",
                   color: "#FDC5E8",
-                  fontSize: "3.5rem",
-                }}>2<span style={{color:'#00FFFF'}}>FACE</span><span style={{fontFamily:'tangerine',color:'#00FFFF', fontSize:'2rem'}}>& co.</span></h1>
-            <h5
+                  fontSize: "4.5rem",
+                  fontFamily:'Raleway'
+                }}>2<span style={{color:'#00FFFF', fontSize: "3.5rem", }}>FACE</span><span style={{fontFamily:'tangerine',color:'white', fontSize:'2rem'}}>& co.</span></h1>
+            <p
               className="mt-2 mb-2"
               style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                fontFamily: "roboto",
+                fontFamily:'Raleway',
                 lineHeight: "1.25",
-                color:'#00FFFF'
               }}
             >
-              <i>"Make a lasting</i>
+              "Make a lasting
               <span
                 style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-                  color: "#FDC5E8",
+                  textShadow: "2px 2px 4px #F63DB0",
+                  color: "white",
+                  fontSize: "1.5rem",
+                  fontFamily:'Raleway'
                 }}
-              >
+              > 
                 <b>
                   {" "}
-                  VISUAL IMPACT{" "}
+                   VISUAL IMPACT{" "}
                 </b>
               </span>
-             
-              <i> with  <br></br>stunning graphics or 
-              build a powerful</i>
-            
+              with
+              <span
+                   style={{
+                    color: "#00FFFF",
+                    fontSize: "1.5rem",
+                    fontFamily:'Raleway'
+                  }}
+              >
+                <b>
+                  {" "}STUNNING GRAPHICS{" "}
+                </b>
+              </span>
+              or 
+              build a powerful
               <span
                 style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-                  color: "#FDC5E8",
+                  textShadow: "2px 2px 4px #F63DB0",
+                  color: "white",
+                  fontSize: "1.5rem",
+                  fontFamily:'Raleway'
                 }}
               >
                 <b>
@@ -68,36 +81,45 @@ const Header = () => {
                   ONLINE PRESENCE{" "}
                 </b>
               </span>
-              <i>through web development."</i>
-            </h5>
+              through    
+             
+              <span
+                style={{
+                  color: "#00FFFF",
+                  fontSize: "1.5rem",
+                  fontFamily:'Raleway'
+                }}
+              >
+                <b>
+                   {" "}
+                 WEB DEVELOPMENT
+                  {" "}
+                </b>
+
+              </span>
+               ..."
+            </p>
             <br></br>
             <br></br>
             <div className="p-2">
               <h6   style={{
                   textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-                  color: "#FDC5E8",
-                }}>CHOOSE YOUR PATH...</h6>
+                  fontFamily: "raleway",
+                }}>Choose your path to get started...</h6>
               <Link to="/web-development">
-                <button
-                  type="button"
-                  className="btn btn-outline-info text-info bg-black btn-sm m-1 px-2"
-                  data-mdb-ripple-init
-                >
+              <button type="button" className="btn btn-outline-info mx-2">
                   <b>Web Development</b>
                 </button>
               </Link>
               <Link to="/digital-marketing">
-                <button
-                  type="button"
-                  className="btn btn-outline-info text-info bg-black btn-sm m-1 px-2"
-                  data-mdb-ripple-init
-                >
+              <button type="button" className="btn btn-outline-info mx-2 px-4">
                   <b>Digital Marketing</b>
                 </button>
               </Link>
            
             </div>
           </div>
+          <div className="col-sm-12 col-md-3 col-lg-3"></div>
         </div>
       </div>
     </header>

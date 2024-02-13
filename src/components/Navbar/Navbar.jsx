@@ -25,7 +25,7 @@ function NavScrollExample() {
   }, []);
 
   return (
-    <Navbar expand="lg" className={`bg-body-tertiary ${isNavbarFixed ? 'fixed-navbar' : ''}`} style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <Navbar expand="lg" className={`bg-body-tertiary ${isNavbarFixed ? 'fixed-navbar' : ''}`} style={{ fontFamily:'Raleway' }}>
       <Container fluid>
         <Navbar.Brand href="/" style={{
                   textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)",
@@ -44,6 +44,7 @@ function NavScrollExample() {
                   textShadow: "1px 1px 2px #F63DB0",
                 }}>About Us</span>
                 </Nav.Link>
+                <Nav.Link href="/test" >Test</Nav.Link>
             <Nav.Link href="/posts" >Posts</Nav.Link>
             <Nav.Link href="/" >Graphics</Nav.Link>
             <Nav.Link href="/web-development" >Web Development</Nav.Link>
