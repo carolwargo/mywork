@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 //import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-
+//import Dev from "../assets/images/WebDev/Dev.png";
 
 //import Business from "../assets/images/Business.png";
 //import Organizations from "../assets/images/Organizations.png";
@@ -59,11 +59,14 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <hr />
       </div>
 
 
+{/*start digital-marketing-home */}
       <div className="container mt-3">
         <div className="row d-flex p-3 justify-content-center align-items-center">
+       <div className="col-sm-12 col-md-6">
         <p>DIGITAL MARKETING BEYOND SOCIAL MEDIA</p>
         <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
@@ -73,6 +76,16 @@ const Home = () => {
       <p style={{fontFamily:'sans-serif'}}>
      Digital avenues play crucial roles in fostering brand visibility and interaction. Each channel presents a unique canvas for businesses to paint their stories, creating dynamic experiences that resonate with diverse audiences.
 </p>
+</div>
+<div className="col-sm-12 col-md-6 d-flex justify-content-center">
+<ul>
+  <li>Content Marketing</li>
+  <li>Social Media Marketing</li>
+  <li>Email Marketing</li>
+  <li>Search Engine Optimization</li>
+  <li>Pay-Per-Click</li>
+</ul>
+</div>
 <p className='text-center'>
                 <a href="/digital-marketing" className="text-decoration-none">
                   See more about digital marketing
@@ -81,227 +94,79 @@ const Home = () => {
               </p>
 </div>
 </div>
+{/*end digital-marketing-home */}
 
 
-
-
-      {/**Business Essentials Container 
-      <div className="container mt-5">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-            <img
-              src={Business}
-              alt="Business"
-              className="mb-2 border border-black"
-              style={{ width: "80%", height: "auto" }}
-            />
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-            <div className="business-essentials-body p-5 justify-content-center align-bottom">
-              <div className="business-essentials-title">
-                <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-                <h1   style={{
+{/*start web-dev-home */}
+<div className="container mt-3">
+        <div className="row d-flex p-3 justify-content-center align-items-center">
+       <div className="col-sm-12 col-md-6">
+        <p>DIGITAL MARKETING BEYOND SOCIAL MEDIA</p>
+        <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'black'
-                }}>BUSINESS ESSENTIALS</h1>
-              </div>
-              <p className="business-essentials-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
-                Explore our range of "Business Essentials" custom products
-                tailored to your requirements. We offer a variety of design
-                solutions to include graphic and digital design, promotional
-                campaigns, as well as software solutions and server-side
-                integrations.
-              </p>
-
-              <p className="mt-5">
-                <a href="/business-essentials" className="text-decoration-none">
-                  See Business Essentials
-                  <FaArrowRight className="ms-2" />
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="container mt-5">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
-            <div className="organizations-body p-5 justify-content-center align-items-center">
-              <div className="organizations-title">
-                <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-                <h1   style={{
-                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'black'
-                }}>ORGANIZATIONS</h1>
-              </div>
-              <p className="organizations-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi perspiciatis consequatur magnam, aperiam alias saepe
-                reprehenderit id animi soluta quae, neque commodi ratione dolor.
-                Dolorum ut assumenda inventore ratione nesciunt!
-              </p>
-              <p className="mt-5">
-                <a
-                  href="/graphic-design/contact-form"
-                  className="text-decoration-none"
-                >
-                  See Organization Items
-                  <FaArrowRight className="ms-2" />
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-            <img
-              src={Organizations}
-              alt="Organizations"
-              className="mb-2 border border-black"
-              style={{ width: "80%", height: "auto" }}
-            />
-          </div>
-        </div>
-      </div>
-
-
-
-      <div className="container mt-5">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-            <img
-              src={Business}
-              alt="Business"
-              className="mb-2 border border-black"
-              style={{ width: "80%", height: "auto" }}
-            />
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-            <div className="spacial-event-body p-5 justify-content-center align-bottom">
-              <div className="spacial-event-title">
-                <p>SHOP FOR THAT SPECIAL DAY</p>
-                <h1   style={{
-                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'black'
-                }}>SPECIAL EVENTS</h1>
-              </div>
-              <p className="special-event-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi perspiciatis consequatur magnam, aperiam alias saepe
-                reprehenderit id animi soluta quae, neque commodi ratione dolor.
-                Dolorum ut assumenda inventore ratione nesciunt!
-              </p>
-              <p className="mt-5">
-                <a
-                  href="/graphic-design/contact-form"
-                  className="text-decoration-none"
-                >
-                  See Special Event Items
-                  <FaArrowRight className="ms-2" />
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="container mt-5">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
-            <div className="organizations-body p-5 justify-content-center align-items-center">
-              <div className="organizations-title">
-                <p>SHOP SINGLE ITEMS OR PACKAGE OPTIONS</p>
-                <h1   style={{
-                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'black'
-                }}>ORGANIZATIONS</h1>
-              </div>
-              <p className="organizations-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi perspiciatis consequatur magnam, aperiam alias saepe
-                reprehenderit id animi soluta quae, neque commodi ratione dolor.
-                Dolorum ut assumenda inventore ratione nesciunt!
-              </p>
-              <p className="mt-5">
-                <a
-                  href="/graphic-design/contact-form"
-                  className="text-decoration-none"
-                >
-                  See Organization Items
-                  <FaArrowRight className="ms-2" />
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-            <img
-              src={Organizations}
-              alt="Organizations"
-              className="mb-2 border border-black"
-              style={{ width: "80%", height: "auto" }}
-            />
-          </div>
-        </div>
-      </div>
-
-
-
-      <div className="container mt-5">
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-            <img
-              src={Business}
-              alt="Business"
-              className="mb-2 border border-black"
-              style={{ width: "80%", height: "auto" }}
-            />
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
-            <div className="spacial-event-body p-5 justify-content-center align-bottom">
-              <div className="spacial-event-title">
-                <p>SHOP FOR THAT SPECIAL DAY</p>
-                <h1   style={{
-                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'black'
-                }}>SPECIAL EVENTS</h1>
-              </div>
-              <p className="spacial-event-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eligendi perspiciatis consequatur magnam, aperiam alias saepe
-                reprehenderit id animi soluta quae, neque commodi ratione dolor.
-                Dolorum ut assumenda inventore ratione nesciunt!
-              </p>
-              <p className="mt-5">
-                <a
-                  href="/graphic-design/contact-form"
-                  className="text-decoration-none"
-                >
-                  See Special Event Items
-                  <FaArrowRight className="ms-2" />
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      */} 
-<br></br>
-
-
-
-
-
-
-
-
-
-
-
-    
-      <br></br>
-      <br></br>
+                  color:' black'
+                }}>WEB DEVELOPMENT</h1>
      
+      <p style={{fontFamily:'sans-serif'}}>
+     Digital avenues play crucial roles in fostering brand visibility and interaction. Each channel presents a unique canvas for businesses to paint their stories, creating dynamic experiences that resonate with diverse audiences.
+</p>
+</div>
+<div className="col-sm-12 col-md-6 d-flex justify-content-center">
+<ul>
+  <li>Content Marketing</li>
+  <li>Social Media Marketing</li>
+  <li>Email Marketing</li>
+  <li>Search Engine Optimization</li>
+  <li>Pay-Per-Click</li>
+</ul>
+</div>
+<p className='text-center'>
+                <a href="/digital-marketing" className="text-decoration-none">
+                  See more about digital marketing
+                  <FaArrowRight className="ms-2" />
+                </a>
+              </p>
+</div>
+</div>
+{/*end web-dev-home */}
+
+
+
+{/*start graphic-design-home */}
+<div className="container mt-3">
+        <div className="row d-flex p-3 justify-content-center align-items-center">
+       <div className="col-sm-12 col-md-6">
+       <p>THE VALUE OF VISUALS...</p>
+        <h1   style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:' black'
+                }}>GRAPHIC DESIGN</h1>
+     
+      <p style={{fontFamily:'sans-serif'}}>
+      "Visuals possess the ability to evoke emotions and convey complex ideas instantly." <br />
+      "Images have the power to convey what words cannot."
+</p>
+</div>
+<div className="col-sm-12 col-md-6 d-flex justify-content-center">
+<ul>
+  <li>Content Marketing</li>
+  <li>Social Media Marketing</li>
+  <li>Email Marketing</li>
+  <li>Search Engine Optimization</li>
+  <li>Pay-Per-Click</li>
+</ul>
+</div>
+<p className='text-center'>
+                <a href="/digital-marketing" className="text-decoration-none">
+                  See more about digital marketing
+                  <FaArrowRight className="ms-2" />
+                </a>
+              </p>
+</div>
+</div>
+{/*end graphic-design-home */}
+<br />
+<br />
     </main>
   );
 };
