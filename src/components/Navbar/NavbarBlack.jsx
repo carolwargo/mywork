@@ -25,20 +25,20 @@ function NavScrollExample() {
   }, []);
 
   return (
-    <Navbar expand="lg" className={`bg-body-tertiary ${isNavbarFixed ? 'fixed-navbar' : ''}`} style={{ fontFamily:'Raleway' }}>
-      <Container fluid>
+    <Navbar expand="lg" className={`bg-white ${isNavbarFixed ? 'fixed-navbar' : ''}`} style={{ fontFamily:'Raleway' }}>
+      <Container fluid style={{ boxShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)"}}>
         <Navbar.Brand href="/" style={{
-                  textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)",
+                  textShadow: "1px 1px 2px white",
                   color: "#FDC5E8",
                 }}>2<span style={{color: '#00FFFF'}}>FACE</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0 align-items-center"
+            className="me-auto my-2 my-lg-0  text-center"
             style={{ maxHeight: '100px'}}
             navbarScroll
           >
-            <Nav.Link href="/" className='align-items-center'><HiOutlineHomeModern style={{boxShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
+            <Nav.Link href="/" className='text-white'><HiOutlineHomeModern style={{boxShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
             <Nav.Link href="/about" 
                 ><span style={{
                   textShadow: "1px 1px 2px #F63DB0",
@@ -60,13 +60,12 @@ function NavScrollExample() {
               <NavDropdown.Item href="#action5" style={{fontFamily:'serif'}}>Something else here</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav className="d-flex">
-            <div>
-              <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center align-items-center">
-                <li>
-                  <Nav.Link href="blog"><span style={{
-                  textShadow: "1px 1px 2px #F63DB0",
-                }}>Blog</span></Nav.Link>
+          <Nav className="fluid justify-content-center text-center">
+            <div className='justify-content-center text-center'>
+              <ul className="navbar-nav ms-auto text-center">
+             
+                <li className="nav-item justify-content-center text-center">
+                  <Link className="nav-link" to="/blog">Blog</Link>
                 </li>
                 <li className="nav-item justify-content-center">
                   <Link className="nav-link" to="/contact">Contact</Link>

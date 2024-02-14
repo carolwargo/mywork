@@ -1,7 +1,7 @@
 import React from "react";
 import HomeBig from "../../assets/images/HomeBig.png";
 import { Link } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/NavbarWhite";
 
 const Header = () => {
   return (

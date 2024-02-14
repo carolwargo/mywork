@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col} from "react-bootstrap";
 import Business from "../../assets/images/Business.png";
+import Navbar from "../../components/Navbar/NavbarWhite";
 //import SideNav from "../../components/Graphics/SideNav/SideNav";
 
 const Test = () => {
   return (
     <div style={{ fontFamily: "raleway" }}>
+        <Navbar/>
       <Container className="p-4 px-0">
         {/*Intro Row */}
         <Row className="d-flex py-4 justify-content-center">
