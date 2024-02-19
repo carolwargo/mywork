@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col} from "react-bootstrap";
 import Business from "../../assets/images/Business.png";
-import Navbar from "../../components/Navbar/NavbarWhite";
+import Navbar from "../../components/Navbar/NavbarBlack";
 //import SideNav from "../../components/Graphics/SideNav/SideNav";
 
 const Test = () => {

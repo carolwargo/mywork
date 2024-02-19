@@ -13,7 +13,7 @@ function StripedRowExample() {
     <main className='border border-opacity-25% px-3'style={{ boxShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
       
    
-    <Table striped small className='bg-black' style={{fontFamily:'sans-serif'}}>
+    <Table striped className='bg-black' style={{fontFamily:'sans-serif'}}>
       <thead style={{color:'light-gray'}} className='bg-black'>
         <tr>
           <th></th>

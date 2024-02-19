@@ -1,12 +1,12 @@
 import React from "react";
 import HomeBig from "../../assets/images/HomeBig.png";
 import { Link } from "react-router-dom";
-import Navbar from "../Navbar/NavbarWhite";
+import NavbarBlack from "../Navbar/NavbarBlack";
 
 const Header = () => {
   return (
     <header>
-     <Navbar />
+     <NavbarBlack/>
       <div
         id="intro-example"
         className="p-4 bg-image position-relative"

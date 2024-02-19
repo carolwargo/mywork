@@ -1,7 +1,7 @@
 import React from "react";
 import HomeBig from "../../assets/images/HomeBig.png";
 import { Link } from "react-router-dom";
-import Navbar from "../Navbar/NavbarWhite";
+import Navbar from "../Navbar/NavbarBlack";
 
 const Header = () => {
   return (
@@ -107,7 +107,7 @@ const Header = () => {
                   fontFamily: "raleway",
                 }}>Choose your path to get started...</h6>
               <Link to="/web-development">
-              <button type="button" className="btn btn-outline-info mx-2">
+              <button type="button" className="btn btn-outline-info mx-2 my-2">
                   <b>Web Development</b>
                 </button>
               </Link>

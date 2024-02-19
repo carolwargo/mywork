@@ -8,7 +8,7 @@ function SocialMedia() {
 
     return (
         <div style={{fontFamily:'serif'}}>
-        
+       
 {/**SOCIAL MEDIA CONTAINER */}
 <div className="container mt-5" >
         <div className="row d-flex p-3 text-center justify-content-center align-items-center">
