@@ -8,8 +8,15 @@ const About = () => {
             <NavbarBlack />
             <header className="container py-5">
                 <div className="text-center">
-                    <h1 className="mb-4">Meet the TWO FACES of Technology...</h1>
-                    <p className="lead">Welcome to our about page! Here, we'll introduce you to our team and tell you a bit about what we do.</p>
+                    <h1 className="mb-4">Meet the 2FACES of Technology...</h1>
+                    <p className="lead">Welcome to 2FACE, where we specialize in two core aspects of technology: design and development. Our team is dedicated to bringing your digital vision to life through innovative design concepts and expert development solutions.</p>
+                
+                    <h1>Meet the 2FACES of Technology...</h1>
+<p>1. Design: Our design team is passionate about creating visually stunning and user-friendly interfaces that captivate your audience and enhance your brand identity. From website design to graphic design, we tailor each project to meet your unique requirements and exceed your expectations.</p>
+<p>2. Development: With our development expertise, we turn your ideas into functional and dynamic digital experiences. Whether you need a responsive website, a custom web application, or mobile app development, our developers have the skills and experience to deliver high-quality solutions that drive results.</p>
+<p>At 2FACES, we're committed to helping you leverage the power of technology to achieve your goals and stay ahead in today's digital landscape. Let us be your partner in success.</p>
+
+                
                 </div>
             </header>
 

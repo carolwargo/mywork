@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBlack from "../../components/Navbar/NavbarBlack.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
+import { Button } from "react-bootstrap";
 //import { FaArrowLeft } from "react-icons/fa";
 //import { FaArrowRight } from "react-icons/fa";
 
@@ -14,193 +15,340 @@ import SocialMedia from "../../components/SocialMedia/SocialMedia.jsx";
 //import RecruitDashboard from "../../assets/images/RecruitSite/RecruitDashboard.png";
 //import RecruitVideos from "../../assets/images/RecruitSite/RecruitVideos.png";
 //import RecruitLeagues from "../../assets/images/RecruitSite/RecruitLeages.png";
-import CoverResize from '../../assets/images/CoverResize.png';
+import CoverResize from "../../assets/images/CoverResize.png";
 const DigitalMarketing = () => {
   return (
     <main style={{ fontFamily: "raleway" }}>
+      {/** start nav menu*/}
       <HeaderBlack />
-         
-      <div className="container-fluid py-4 bg-black text-white" style={{backgroundImage: `url(${CoverResize})`}}>
-       
+      {/** end nav menu*/}
+      {/** start actual header*/}
+      <div
+        className="container-fluid py-5 bg-black text-white"
+        style={{ backgroundImage: `url(${CoverResize})` }}
+      >
         <div className="row d-flex px-4 justify-content-center align-items-center text-center">
           <div className="col-sm-12 col-md-12 col-lg-12">
             <div className="story-essentials-body p-2 ">
               <div className="story-essentials-title my-2">
-                <h3
-                  className="mb-2"
-                  style={{
-                    textShadow: "1px 1px 2px white",
-                    color: "#00ffff"
-                  }}
-                >
-                  AMPLIFY YOUR BRAND ...
-                </h3>
+                <h4 style={{ fontWeight: "400" }}>
+                  Amplify your brand's online presence....
+                </h4>
                 <h1
+                  className=""
                   style={{
+                    color: "#00FFFF",
                     fontSize: "4rem",
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
                   }}
                 >
-                  DIGITAL MARKETING
+                  {" "}
+                  DIGITAL{" "}
+                  <span
+                    style={{
+                      textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+                      color: "#FDC5E8",
+                    }}
+                  >
+                    MARKETING
+                  </span>
                 </h1>
-                <h2 className="digital-marketing-text m-2 px-5">
-            Leverage the power of the internet to connect to your target audience,
-            build brand awareness, and drive User engagement.
-          </h2>
+                <h3
+                  className="digital-marketing-text px-1"
+                  style={{ fontWeight: "400" }}
+                >
+                  <i>
+                    Leverage the power of the internet to{" "}
+                    <span style={{ color: "#00ffff" }}>CONNECT </span>to your
+                    target audience,
+                    <span style={{ color: "#00ffff" }}> BUILD </span> brand
+                    awareness, and{" "}
+                    <span style={{ color: "#00ffff" }}> DRIVE</span> User
+                    engagement with custom strategies tailored to your specific
+                    needs.
+                  </i>
+                </h3>
+                <br />
+                <br />
+                <div className="container">
+                  <h5 className="pb-2 mb-1">Contact us now to get started...</h5>
+                  <Button variant="outline-info" size="lg" className="px-2">
+                    Contact Us
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
-     <br />
-    
-      
-      {/**side menu start */}
-      <div className="container">
-        
-      <div className="container-fluid mt-3">
- <ul className="breadcrumb">
-    <li className="breadcrumb-item"><a href="/">Home</a></li>
-    <li className="breadcrumb-item"><a href="/web-development">Web Design</a></li>
-    <li className="breadcrumb-item"><a href="/graphic-design">Graphic Design</a></li>
-    <li className="breadcrumb-item active">Digital Marketing</li>
-  </ul>
-</div>
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-lg-4 p-4">
-          <div className="container">
-              <p>DIGITAL MARKETING STRATEGIES</p>
-              <h1
-                style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                  color: "black",
-                }}
-              >
-                OPTIMIZING BUSINESS PERFORMANCE
-              </h1>
-
-              <p>
-                Digital marketing is a dynamic and multifaceted approach to
-                promoting products, services, or brands through various online
-                channels. Digital avenues play crucial roles in fostering brand
-                visibility and interaction. Each channel presents a unique
-                canvas for businesses to paint their stories, creating dynamic
-                experiences that resonate with diverse audiences.
-              </p>
-           </div>
+      </div>
+      <br />
+      {/** end actual header*/}
+      {/** start BREADCRUMBS*/}
+      <div className="container-fluid mt-3 px-5">
+        <ul className="breadcrumb">
+          <li className="breadcrumb-item">
+            <a href="/">Home</a>
+          </li>
+          <li className="breadcrumb-item active">Digital Marketing</li>
+        </ul>
+      </div>
+      {/** end BREADCRUMBS*/}
+ {/**start intro and image*/}
+      <div className="row d-flex justify-content-center align-items-center p-4">
+        <div className="col-sm-12 col-md-4 col-lg-4 px-4">
+          <div className="container justify-content-center align-items-center mt-2">
+            <h5>ENHANCE PERFORMANCE & MAXIMIZE YOUR POTENTIAL</h5>
+            <h1
+              style={{
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                color: "black",
+              }}
+            >
+              DIGITAL STRATEGIES
+            </h1>
+            <br />
+            <p>
+              Digital marketing is a dynamic and multifaceted approach to
+              promoting products, services, or brands through various online
+              channels. Digital avenues play crucial roles in fostering brand
+              visibility and interaction. Each channel presents a unique canvas
+              for businesses to paint their stories, creating dynamic
+              experiences that resonate with diverse audiences.
+            </p>
           </div>
-
-          <div className="col-sm-12 col-md-8 col-lg-8 d-flex p-4 justify-content-center align-items-center">
-            <div className="container">
+        </div>
+        <div className="col-sm-12 col-md-8 col-lg-8 px-4">
+          <div className="container justify-content-center align-items-center mt-5">
             <img
               src={MainImage}
               alt="MainImage"
               className="mb-2 border border-black"
               style={{
-                width: "110%",
+                width: "100%",
                 height: "auto",
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
             />
-             <p className='text-center' style={{ fontSize: "12px" }}>
+            <p className="text-center" style={{ fontSize: "12px" }}>
               {" "}
-             <b> <i>"SAMPLE: digital marketing campaign"</i></b>
+              <b>
+                {" "}
+                <i>"SAMPLE: digital marketing campaign"</i>
+              </b>
             </p>
-            </div>
-            </div>
+          </div>
         </div>
-        {/**side menu end */}
-       {/*start what we offer */}
-        <div className="w3-row w3-container">
-          <div className="w3-center w3-padding-64">
+     <div>
+     <br />
+     <br />
+<div className="container p-3 mb-4 text-center">
+  <br />
+  <h5><b>Ready to take your business to new heights? </b></h5>
+<p className='mx-1 px-5'>
+Our team of marketing experts are here to help you achieve your goals.  
+ <span className="mx-1 mb-3">
+   <a href="/contact" className="text-decoration-none link-info">
+<b>Contact us</b> </a>
+  </span> today to get started.
+              </p>
+              </div>
+      </div>
+      </div>
+      {/**end intro and image */}
+
+
+      {/** 
+      <div className="row d-flex justify-content-center align-items-center p-4">
+      <div className="w3-center w3-padding-48 pt-0">
             <span className="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">
-             WHAT WE DO BEST...
-            </span> <br />
-            <p></p>
+              WHAT WE DO BEST...
+            </span>
           </div>
-           {/*start what we offer SEO*/}
-          <div className="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-            <h3>SEARCH ENGINE MARKETING</h3>
-            <p style={{ fontSize: "14px", fontFamily: "serif" }}>
-                  <i>
-                    "A search engine is a software system designed to retrieve
-                    and display information stored on the internet in response
-                    to user queries."
-                  </i>
-                </p>
-          </div>
-{/*end what we offer SEO*/}
-{/*start what we offer social media*/}
-          <div className="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-            <h3>SOCIAL MEDIA MARKETING</h3>
-            <p>
+        
+        <div className="col-sm-12 col-md-4 col-lg-4 px-4">
+          <div className="w3-m3 w3-black w3-container w3-padding-16">
+            <h5>SEARCH ENGINE MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
               Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
               sodales pellentesque elementum.
             </p>
           </div>
-          {/*end what we offer social media*/}
-{/*start what we offer content marketing*/}
-          <div className="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-            <h3>CONTENT MARKETING</h3>
-            <p>
+          <div className="w3-m3 bg-dark text-white w3-container w3-padding-16">
+            <h5>CONTENT MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
               Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
               sodales pellentesque elementum.
             </p>
           </div>
-          {/*end what we offer content marketing*/}
-{/*start what we offer social media marketing*/}
-          <div className="w3-col l3 m6 w3-black w3-container w3-padding-16">
-            <h3>EMAIL MARKETING</h3>
-            <p>
+          <div className="w3-m3 bg-dark text-white w3-container w3-padding-16">
+            <h5>CONTENT MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+          <div className="w3-m3 w3-dark-grey w3-container w3-padding-16">
+            <h5>EMAIL MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+        </div>
+
+        <div className="col-sm-12 col-md-8 col-lg-8 px-4">
+        <div className="w3-m3 w3-black w3-container w3-padding-16">
+            <h5>SEARCH ENGINE MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+          <div className="w3-m3 bg-dark text-white w3-container w3-padding-16">
+            <h5>CONTENT MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+          <div className="w3-m3 bg-dark text-white w3-container w3-padding-16">
+            <h5>CONTENT MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+          <div className="w3-m3 w3-dark-grey w3-container w3-padding-16">
+            <h5>EMAIL MARKETING</h5>
+            <p style={{ fontSize: "13px" }}>
               Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
               sodales pellentesque elementum.
             </p>
           </div>
         </div>
       </div>
+       */}
+
+
+      {/** start side menu */}
+      <div className="row d-flex justify-content-center align-items-center p-4 bg-danger-subtle">
+      <div className="w3-center w3-padding-48 pt-0">
+            <span className="w3-xlarge w3-bottombar w3-border-black w3-padding-16" style={{
+                    color:'#00ffff',textShadow: "2px 2px 4px rgba(0, 0, 0, .5)"}}>
+              <b style={{fontSize:'2.5rem'}}>WHAT WE DO BEST...</b>
+            </span>
+          </div>
+     
+        <div className="col-sm-12 col-md-3 col-lg-3 px-4">
+        <div className="w3-m3 w3-black w3-container w3-padding-16">
+            <h4 style={{color:'#00ffff'}}>SEARCH ENGINE MARKETING</h4>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <hr />
+          </div>
+        </div>
+
+        <div className="col-sm-12 col-md-3 col-lg-3 px-4">
+        <div className="w3-m3 w3-black w3-container w3-padding-16">
+            <h4 style={{color:'#00ffff'}}>CONTENT MARKETING</h4>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <hr />
+          </div>
+        </div>
+
+        <div className="col-sm-12 col-md-3 col-lg-3 px-4">
+        <div className="w3-m3 w3-black w3-container w3-padding-16">
+            <h4 style={{color:'#00ffff'}}>SOCIAL MEDIA MARKETING</h4>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <hr />
+          </div>
+        </div>
+
+        <div className="col-sm-12 col-md-3 col-lg-3 px-4">
+        <div className="w3-m3 w3-black w3-container w3-padding-16">
+            <h4 style={{color:'#00ffff'}}>EMAIL MARKETING</h4>
+            <p style={{ fontSize: "13px" }}>
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <hr />
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      {/*start what we offer */}
+      <div className="w3-row w3-container">
+        <div className="w3-center w3-padding-64">
+          <span className="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">
+            WHAT WE DO BEST...
+          </span>{" "}
+          <br />
+          <p></p>
+        </div>
+        {/*start what we offer SEO*/}
+        <div className="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+          <h3>SEARCH ENGINE MARKETING</h3>
+          <p style={{ fontSize: "14px", fontFamily: "serif" }}>
+            <i>
+              "A search engine is a software system designed to retrieve and
+              display information stored on the internet in response to user
+              queries."
+            </i>
+          </p>
+        </div>
+        {/*end what we offer SEO*/}
+        {/*start what we offer social media*/}
+        <div className="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+          <h3>SOCIAL MEDIA MARKETING</h3>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+        </div>
+        {/*end what we offer social media*/}
+        {/*start what we offer content marketing*/}
+        <div className="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+          <h3>CONTENT MARKETING</h3>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+        </div>
+        {/*end what we offer content marketing*/}
+        {/*start what we offer social media marketing*/}
+        <div className="w3-col l3 m6 w3-black w3-container w3-padding-16">
+          <h3>EMAIL MARKETING</h3>
+          <p>
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+        </div>
+      </div>
+
       {/**end WAHT WE DO*/}
 
-
-
-
-
-
-
-      {/**INTRO & MENU */}
-      <div className="container mt-5">
-        <div className="row d-flex p-3 justify-content-center align-items-center">
-          <div className="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-bottom">
- 
-          </div>
-          <div className="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-center align-bottom">
-            <div className="container">
-              <p>DIGITAL MARKETING-SOCIAL MEDIA AND BEYOND</p>
-              <h1
-                style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-                  color: "black",
-                }}
-              >
-                DIGITAL MARKETING
-              </h1>
-
-              <p>
-                Digital marketing is a dynamic and multifaceted approach to
-                promoting products, services, or brands through various online
-                channels. Digital avenues play crucial roles in fostering brand
-                visibility and interaction. Each channel presents a unique
-                canvas for businesses to paint their stories, creating dynamic
-                experiences that resonate with diverse audiences.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
       <br></br>
-      <br></br>
-
-
       {/**SEO Container */}
-      <div className="container mt-5" id="seo-strategies">
+      <div className="container mt-2" id="seo-strategies">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
             <img
@@ -221,21 +369,26 @@ const DigitalMarketing = () => {
                 >
                   1. SEO STRATEGIES
                 </h1>
-               
               </div>
               <p className="mb-2" style={{ fontSize: "12px" }}>
-              Search Engine Marketing (SEM):
-Search Engine Optimization (SEO):
-On-Page SEO: Optimizing individual web pages to rank higher and earn more relevant traffic in search engines.
-Off-Page SEO: Building backlinks and improving website authority through external factors like link building and social signals.
-Technical SEO: Optimizing website structure, performance, and accessibility for search engine crawlers.
-Local SEO: Optimizing for local search results, such as appearing in Google Maps or local directories.
-<b>Pay-Per-Click (PPC) Advertising:</b>
-Google Ads (formerly Google AdWords): Creating and managing paid search campaigns on Google's search engine results pages (SERPs).
-Bing Ads: Running PPC campaigns on Microsoft's Bing search engine.
-Display Advertising: Placing image or video ads on websites, apps, or social media networks within ad networks like Google Display Network.
-</p>
-<p className="mb-2" style={{ fontSize: "12px" }}>
+                Search Engine Marketing (SEM): Search Engine Optimization (SEO):
+                On-Page SEO: Optimizing individual web pages to rank higher and
+                earn more relevant traffic in search engines. Off-Page SEO:
+                Building backlinks and improving website authority through
+                external factors like link building and social signals.
+                Technical SEO: Optimizing website structure, performance, and
+                accessibility for search engine crawlers. Local SEO: Optimizing
+                for local search results, such as appearing in Google Maps or
+                local directories.
+                <b>Pay-Per-Click (PPC) Advertising:</b>
+                Google Ads (formerly Google AdWords): Creating and managing paid
+                search campaigns on Google's search engine results pages
+                (SERPs). Bing Ads: Running PPC campaigns on Microsoft's Bing
+                search engine. Display Advertising: Placing image or video ads
+                on websites, apps, or social media networks within ad networks
+                like Google Display Network.
+              </p>
+              <p className="mb-2" style={{ fontSize: "12px" }}>
                 <b>SEARCH-ENGINE OPTIMIZATION:</b> Optimizing online content to
                 improve its visibility in search engine results, to organically
                 increase traffic.

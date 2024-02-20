@@ -1,9 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaHeart } from "react-icons/fa";
 import YogaSet from "../assets/images/YogaStory/YogaSet.png";
 import Header from "../components/Header/Header.jsx";
+import ServicesCards from "../components/Home/ServicesCards/ServicesCards.jsx";
+
 
 const Home = () => {
   return (
@@ -25,10 +27,11 @@ const Home = () => {
             <p className="px-5 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea expedita libero, repellat eum accusamus iure quo, eius ullam quis doloribus labore omnis placeat soluta ipsa dolorum quasi maxime nostrum eligendi?</p>
           </header>  {/* end Header */}
         </div>
-        <div className="col-lg-6 py-lg-5" style={{backgroundColor:'#F471C2'}}>
+
+        <div className="col-lg-6 py-lg-5 bg-dark">
         <header className="w3-container w3-center w3-padding-32 p-2 text-white" style={{fontFamily:'Raleway'}}>
         <h1 className="mt-4"
-         style={{color:'#00FFFF', fontSize:'4rem'}}>WHAT<br /> <span style={{color:'black', textShadow: "2px 2px 4px #ffffff", fontFamily:'Raleway'}}>WE</span> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+         style={{color:'#00FFFF', fontSize:'4rem', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',}}>WHAT<br /> <span style={{color:'black', textShadow: "2px 2px 4px #ffffff", fontFamily:'Raleway'}}>WE</span> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
              color: "#FDC5E8",}}>DO</span></h1>
             <p className="" style={{fontFamily:'Raleway'}}>
               Welcome to the blog of{" "}
@@ -47,12 +50,17 @@ const Home = () => {
          style={{color:'#00FFFF', fontSize:'4rem'}}>DIGITAL<br /> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
              color: "#FDC5E8",}}>MARKETING</span></h1>
             <p className="" style={{fontFamily:'Raleway'}}>
-              Welcome to the blog of{" "}
+              {" "}
               <span className="w3-tag" style={{ color: "black", backgroundColor:'#FDC5E8', textShadow: "2px 2px 4px #00FFFF", fontFamily:'Raleway'}}>
-            <b>2FACE</b>
-              </span>
+            <b>2FACE </b>
+            {" "}
+               </span>
+               {" "}
+               digital marketing services...
             </p>
-            <p className="px-5 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea expedita libero, repellat eum accusamus iure quo, eius ullam quis doloribus labore omnis placeat soluta ipsa dolorum quasi maxime nostrum eligendi?</p>
+            <p className="px-5 py-2"> Digital avenues play crucial roles in fostering brand 
+            visibility and interaction. Each channel presents a unique canvas for businesses to 
+            paint their stories, creating dynamic experiences that resonate with diverse audiences.</p>
           </header>  {/* end Header */}
         </div>
         <div className="col-lg-6 bg-dark py-lg-5">
@@ -119,15 +127,62 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
+{/*start what we do services*/}
 
 {/*start digital-marketing-home */}
 <div className="bg-danger-subtle py-3">
+<div className="container text-center mt-4 pt-3">
+<p className="mb-0" style={{fontFamily:'Raleway'}}>
+              {" "}
+              <span 
+              className="w3-tag" 
+              style={{ 
+                color: "black", 
+                backgroundColor:'#FDC5E8', 
+                textShadow: "2px 2px 4px #00FFFF", fontFamily:'Raleway'}}>
+            <b>2FACE</b> {" "}
+              </span>
+             CUSTOM SERVICES... 
+            </p>
+      <h1 className="mt-0"
+         style={{
+          color:'#00FFFF', 
+          fontSize:'4rem', 
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)',
+        }}>
+          WHAT 
+          <span 
+          style={{color:'black',  
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)', 
+          fontFamily:'Raleway', }}>
+            WE
+            </span> 
+            <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+             color: "#FDC5E8",}}>DO</span></h1>
+           
+            <h4>WHERE CREATIVITY KNOWS NO BOUNDS AND VISIONS BECOME REALITY!</h4>
+  <p className="mx-5">Our specialty lies in crafting custom solutions that bring a touch of magic to every project. From stunning design work to fantastical development, we're here to make your digital concepts a reality! </p>
+        <p>Our specialties, our niche, what we <FaHeart/> to do...</p>
+  
+      </div>
+<div className="container">
+  <div className="row">
+    <ServicesCards />
+    </div>
+    </div>
+
       <div className="container pt-5">
         <div className="row d-flex p-1 justify-content-center align-items-center">
        <div className="col-sm-12 col-md-6 px-4">
+       <h1 className="mt-4"
+         style={{color:'#00FFFF', fontSize:'4rem', textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)',}}>DIGITAL<br /> <span style={{color:'black',  textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)', fontFamily:'Raleway'}}>MARKETING</span> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+             color: "#FDC5E8",}}>SERVICES</span></h1>
+            <p className="" style={{fontFamily:'Raleway'}}>
+              Welcome to the blog of{" "}
+              <span className="w3-tag" style={{ color: "black", backgroundColor:'#FDC5E8', textShadow: "2px 2px 4px #00FFFF", fontFamily:'Raleway'}}>
+            <b>2FACE</b>
+              </span>
+            </p>
        <p className="mb-0">DIGITAL MARKETING BEYOND SOCIAL MEDIA</p>
         <h1   style={{
                   textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
