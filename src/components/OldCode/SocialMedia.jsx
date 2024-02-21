@@ -1,17 +1,25 @@
 import React from "react";  
 //import Business from "../../assets/images/Business.png";
 //import SevenThings from '../../assets/images/SocialMedia/SevenThings.png'
-import Power5 from '../../assets/images/SocialMedia/Power5.png'
-import PlatformTable from "../../components/SocialMedia/PlatformTable";
+import BGSocialMedia from '../../../assets/images/SocialMedia/BGSocialMedia.png'
+import Power5 from '../../../assets/images/SocialMedia/Power5.png'
+import PlatformTable from "./PlatformTable";
+
 
 function SocialMedia() {
 
     return (
-        <div style={{fontFamily:'serif'}}>
-       
-{/**SOCIAL MEDIA CONTAINER */}
+        <div 
+        style={{
+          backgroundImage: `url(${BGSocialMedia})`,
+          backgroundSize: "contain",
+        }}
+        >
+
 <div className="container mt-5" >
         <div className="row d-flex p-3 text-center justify-content-center align-items-center">
+         <div className="col-sm-12 col-md-8 col-lg-8">
+          <div className="container">
           <p className="mb-0">THE REALITY OF SOCIAL PLATFORMS IN BUSINESS..</p>
           <h1
             style={{
@@ -30,10 +38,10 @@ function SocialMedia() {
             and potential customers on a more personal level</b>.
             </p>
             </div>
-            <br></br>
-            <br></br>
-            <h6 className="mt-4 mb-4"style={{fontFamily:'serif'}}><i> "Why is strategic manipulation is essential to harness its potential for business growth?"</i>
-           </h6>
+         
+            <div className="container">
+            <h5 className="mt-4 mb-4"style={{fontFamily:'serif'}}><i>Why is strategic manipulation of social platforms essential?</i>
+           </h5>
           <h5 className=" mb-2"  style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.25)",
               color: "#black",
@@ -42,6 +50,17 @@ function SocialMedia() {
        <p> Social media platforms initially emerged as channels for personal communication and networking, rather than for commercial endeavors. However, businesses have recognized the immense potential of these platforms for marketing and customer engagement. To succeed in this space, businesses often need to adapt and manipulate their strategies to align with the dynamics and algorithms of each platform.</p>
           </div>
           </div>
+          </div>
+
+          <div className="col-sm-12 col-md-4 col-lg-4">
+  
+          </div>
+          </div>
+          <hr />
+          </div>
+
+{/**End used content */}
+{/** */}
 
 
 {/**SOCIAL MEDIA PROS & CONS AND REMEDIES*/}
