@@ -14,9 +14,11 @@ const FourCards = () => {
               <b style={{fontSize:'2.5rem'}}>WHAT WE DO BEST...</b>
             </span>
           </div>
-        <div className="col-sm-12 col-md-3 col-lg-3 px-4  justify-content-center align-items-center">
-        <div className="w3-m3 w3-light-grey text-black w3-container w3-padding-16 p-4">
-          <div className="m-1">
+        <div className="col-sm-12 col-md-3 col-lg-3 p-3 justify-content-center align-items-center">
+        <div className="w3-m3 w3-light-grey text-black w3-container w3-padding-16"
+         style={{boxShadow: '3px 3px 5px rgba(0, 0, 0, 0.5)'}}
+        >
+          <div className="p-4">
             <h3 style={{color:'black'}}>SEARCH ENGINE STRATEGIES</h3>
             <p style={{ fontSize: "12px", fontWeight:'200' }}> Techniques and practices aimed at improving a website's visibility and ranking on search engine results pages.</p>
             <hr />
@@ -26,8 +28,7 @@ const FourCards = () => {
           <li>PAY-PER-CLICK</li>
             </ul>
             <hr />
-            <p>LEARN MORE ABOUT STRATEGIC MANIPULATIOM</p>
-            <div className="text-center">
+           <div className="text-center">
         <Button variant="info" size="sm" href="/contact" alt='contact'>
           Get Started
         </Button>{' '}
@@ -39,9 +40,11 @@ const FourCards = () => {
           </div>
         </div>
     
-        <div className="col-sm-12 col-md-3 col-lg-3 mt-2 px-4 justify-content-center align-items-center">
-        <div className="w3-m3 w3-container w3-padding-16 p-4 w3-grey text-black">
-          <div className="m-1">
+        <div className="col-sm-12 col-md-3 col-lg-3 p-3justify-content-center align-items-center">
+        <div className="w3-m3 w3-container w3-padding-16 w3-grey text-black"
+         style={{boxShadow: '3px 3px 5px rgba(0, 0, 0, 0.5)'}}
+        >
+          <div className="p-4">
             <h3 style={{color:'black'}}>CONTENT CREATION</h3>
             <p style={{ fontSize: "12px" }}>
             "Creating and distributing valuable, relevant, and consistent content to attract and retain a clearly defined consumer."
@@ -53,8 +56,6 @@ const FourCards = () => {
           <li>PROFITABLE CUSTOMER ACTION</li>
             </ul>
             <hr />
-            <p>LEARN MORE ABOUT STRATEGIC MANIPULATIOM</p>
-
             <div className="text-center">
         <Button variant="info" size="sm" href="/contact" alt='contact'>
           Get Started
@@ -67,9 +68,11 @@ const FourCards = () => {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-3 col-lg-3 mt-2 px-4 justify-content-center align-items-center w3-dark-grey text-white">
-        <div className="w3-m3 w3-container w3-padding-16 p-4">
-          <div className="m-1">
+        <div className="col-sm-12 col-md-3 col-lg-3 p-3justify-content-center align-items-center">
+        <div className="w3-m3 w3-dark-gray w3-container w3-padding-16"
+         style={{boxShadow: '3px 3px 5px rgba(0, 0, 0, 0.5)'}}
+         >
+          <div className="p-4">
             <h3 style={{color: 'white'}}>SOCIAL MEDIA MARKETING</h3>
             <p style={{ fontSize: "12px" }}>
             Harnessing the vast reach and influence of its platform to connect with customers on a more personal level.
@@ -82,7 +85,6 @@ const FourCards = () => {
           <li>QUALITY CONTENT DISTRIBUTION</li>
             </ul>
             <hr />
-<p>LEARN MORE ABOUT STRATEGIC MANIPULATIOM</p>
             <div className="text-center">
         <Button variant="info" size="sm" href="/contact" alt='contact'>
           Get Started
@@ -95,12 +97,14 @@ const FourCards = () => {
         </div>
         </div>
 
-        <div className="col-sm-12 col-md-3 col-lg-3 mt-2 px-4 justify-content-center align-items-center">
-        <div className="w3-m3 w3-black w3-container w3-padding-16 p-4">
-          <div className="m-1">
+        <div className="col-sm-12 col-md-3 col-lg-3 p-3justify-content-center align-items-center">
+        <div className="w3-m3 w3-black w3-container w3-padding-16"
+         style={{boxShadow: '3px 3px 5px rgba(0, 0, 0, 0.5)'}}
+        >
+          <div className="p-4">
             <h3 style={{color:'white'}}>EMAIL <br></br> MARKETING</h3>
             <p style={{ fontSize: "12px" }}>
-            Sending targeted messages and promotional content direct via email to nurture leads or encourage loyalty.
+            Sending messages and promotional content direct via email to a targeted audience to nurture leads or encourage loyalty.
             </p>
             <hr />
            <ul style={{ fontSize: "12px" }}>
@@ -109,8 +113,7 @@ const FourCards = () => {
           <li>PERFORMANCE TRACKING TOOLS</li>
             </ul>
             <hr />
-            <p>LEARN MORE ABOUT STRATEGIC MANIPULATIOM</p>
-            <div className="text-center">
+           <div className="text-center">
         <Button variant="info" size="sm" href="/contact" alt='contact'>
           Get Started
         </Button>{' '}
