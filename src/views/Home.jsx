@@ -87,8 +87,8 @@ const Home = () => {
            
           <h5 className="fw-lighter">
     In today's ever-evolving market landscape, businesses require more than mere survival tactics; they necessitate strategies that foster growth and ensure sustainability. When it comes to technology, the prevailing notion often revolves around the idea that more equates to better results. At{" "} 
-    <span style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)", color: "pink", fontSize: "1.5rem" }}>2</span>
-    <span style={{ color: '#00FFFF', fontSize:'1.4rem', textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)" }}>FACE</span>
+    <span style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)", color: "pink", fontSize: "1rem" }}>2</span>
+    <span style={{ color: '#00FFFF', fontSize:'1rem', textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)" }}>FACE</span>
     <span>
         {" "}
         {/** <img
