@@ -29,7 +29,7 @@ function NavScrollExample() {
     <Container fluid className='mx-2'>
       <Navbar.Brand href="/" style={{
         textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)",
-        color: "#F63DB0",
+        color:  "#FDC5E8",
         fontSize: "1.5rem"
       }}>2<span style={{color: '#00FFFF', fontSize:'1.2rem'}}>FACE</span></Navbar.Brand>
 <Navbar.Toggle aria-controls="navbarScroll" id='navbarToggle' style={{ borderColor: 'white', backgroundColor:'white' }} />
@@ -42,8 +42,8 @@ function NavScrollExample() {
             <Nav.Link href="/" className='align-items-center'><HiOutlineHomeModern style={{boxShadow: '1px 1px 4px #00FFFF'}}/></Nav.Link>
             <Nav.Link href="/about" 
                 ><span style={{
-                  textShadow: "1px 1px 2px #F63DB0",
-                    color:' #F63DB0'
+                  textShadow: "1px 1px 2px ",
+                    color:' '
                 }}>About Us</span>
                 </Nav.Link>
                 <Nav.Link href="/test" >Test</Nav.Link>
@@ -54,7 +54,7 @@ function NavScrollExample() {
             <Nav.Link href="/digital-marketing" >Digital Marketing</Nav.Link>
             
             <NavDropdown title="Services" id="navbarScrollingDropdown" style={{
-                  textShadow: "1px 1px 2px #F63DB0"
+                  textShadow: "1px 1px 2px "
                 }}>
               <NavDropdown.Item href="#action3" style={{fontFamily:'serif'}}>tbd</NavDropdown.Item>
               <NavDropdown.Item href="#action4" style={{fontFamily:'serif'}}>Another action</NavDropdown.Item>
@@ -68,8 +68,8 @@ function NavScrollExample() {
               <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center align-items-center">
                 <li>
                   <Nav.Link href="blog"><span style={{
-                  textShadow: "1px 1px 2px #F63DB0",
-                  color:' #F63DB0'
+                  textShadow: "1px 1px 2px ",
+                  color:' '
                 }}>Blog</span></Nav.Link>
                 </li>
                 <li className="nav-item justify-content-center" >

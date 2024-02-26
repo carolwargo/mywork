@@ -10,6 +10,34 @@
 }
 //start home "what we do" css
 //palette
+
+//end home "what we do" css
+
+
+//start Test css
+
+//graphic design
+#digital-icon-palette:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-palette:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+#digital-icon-palette:hover {
+  color: #00FFFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#digital-icon-palette:active {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+//palette graphic design
 #digital-icon-palette:link {
   color: green !important;
   background-color: transparent !important;
@@ -21,17 +49,21 @@
   text-decoration: none !important;
 }
 #digital-icon-palette:hover {
-  color: red !important;
+  color: #00FFFF !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 #digital-icon-palette:active {
-  color: yellow !important;
+  color: aqua !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 
-//
+
+
+
+
+//ARROW EMAIL MARKETING
 #digital-icon-arrow:link {
   color: green !important;
   background-color: transparent !important;
@@ -43,63 +75,39 @@
   text-decoration: none !important;
 }
 #digital-icon-arrow:hover {
-  color: red !important;
+  color: #00FFFF !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 #digital-icon-arrow:active {
-  color: yellow !important;
+  color: aqua !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 
 
-#digital-icon-arrow:link {
+//WEB DESIGN LiaLaptopCodeSolid
+#digital-icon-laptop:link {
   color: green !important;
   background-color: transparent !important;
   text-decoration: none !important;
 }
-#digital-icon-arrow:visited {
+#digital-icon-laptop:visited {
   color: pink !important;
   background-color: transparent !important;
   text-decoration: none !important;
 }
-#digital-icon-arrow:hover {
-  color: red !important;
+#digital-icon-laptop:hover {
+  color: #00FFFF !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
-#digital-icon-arrow:active {
-  color: yellow !important;
+#digital-icon-laptop:active {
+  color: aqua !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 
-//end home "what we do" css
-
-
-//start Test css
-//ARROW
-#digital-icon-arrow:link {
-  color: green !important;
-  background-color: transparent !important;
-  text-decoration: none !important;
-}
-#digital-icon-arrow:visited {
-  color: pink !important;
-  background-color: transparent !important;
-  text-decoration: none !important;
-}
-#digital-icon-arrow:hover {
-  color: red !important;
-  background-color: transparent !important;
-  text-decoration: underline !important;
-}
-#digital-icon-arrow:active {
-  color: yellow !important;
-  background-color: transparent !important;
-  text-decoration: underline !important;
-}
 
 //BOOK
 #digital-icon-book:link {
@@ -113,17 +121,17 @@
   text-decoration: none !important;
 }
 #digital-icon-book:hover {
-  color: red !important;
+  color: #00FFFF !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 #digital-icon-book:active {
-  color: yellow !important;
+  color: aqua !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 
-//PHONE
+//PHONE digital marketing
 #digital-icon-phone:link {
   color: green !important;
   background-color: transparent !important;
@@ -135,17 +143,17 @@
   text-decoration: none !important;
 }
 #digital-icon-phone:hover {
-  color: red !important;
+  color: #00FFFF !important;
   background-color: transparent !important;
   text-decoration: underline !important;
 }
 #digital-icon-phone:active {
-  color: yellow !important;
+  color: aqua !important;
   background-color: transparent !important;
   text-decoration: underline;
 }
 
-//EMAIL
+//email marketing
 #digital-icon-mail:link {
   color: green;
   background-color: transparent;
@@ -157,12 +165,12 @@
   text-decoration: none;
 }
 #digital-icon-mail:hover {
-  color: red;
+  color: #00FFFF;
   background-color: transparent;
   text-decoration: underline;
 }
 #digital-icon-mail:active {
-  color: yellow;
+  color: aqua;
   background-color: transparent;
   text-decoration: underline;
 }

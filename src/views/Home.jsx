@@ -1,29 +1,35 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
-import { FaArrowRight, FaHeart } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import YogaSet from "../assets/images/YogaStory/YogaSet.png";
-import Header from "../components/Header/Header.jsx";
+import Header from "../components/Header/Header";
 //import ServicesCards from "../components/Home/ServicesCards/ServicesCards.jsx";
 //import { BsGraphUpArrow } from "react-icons/bs";
 import { SlBookOpen } from "react-icons/sl";
 import { GiSmartphone } from "react-icons/gi";
 import { SiMinutemailer } from "react-icons/si";
 import { GiPalette } from "react-icons/gi";
+import { GiLaptop } from "react-icons/gi";
+
+//import { Container, Row } from "react-bootstrap";
+
 
 const Home = () => {
   return (
     <main>
       <Header />
+     
       <div className="container py-2 mt-3" style={{fontFamily:'sans-serif'}}>
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col d-flex justify-content-center align-bottom px-4">
+          <div className="col d-flex justify-content-center align-bottom px-4"
+          id="what-we-do">
             <div className="story-essentials-body justify-content-center align-bottom">
               <div className="story-essentials-title">
                 <h1 className="mt-0"
-                 style={{
-                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color:'black'
+                 style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+                 color: "#FDC5E8",
+                fontSize:'3.5rem',
                 }}
                 >TELL YOUR STORY...</h1>
               </div>
@@ -50,7 +56,7 @@ const Home = () => {
               alt="YogaSet"
               className="mb-2 border border-black"
               style={{
-                width: "90%",
+                width: "95%",
                 height: "auto",
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)",
               }}
@@ -62,14 +68,46 @@ const Home = () => {
           </div>
         </div>
       </div>
+    
+
+
 
 {/*start what we do services*/}
 
-{/*start digital-marketing-home */}
-<div className="bg-danger-subtle">
 <div className="container text-center mt-3">
       <div className='row d-flex p-lg-5 justify-content-center'>
-      <p className="mb-0 pb-0" style={{fontFamily:'Raleway'}}>
+    
+      <h1 className="mt-0"
+          style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+          color: "#FDC5E8",
+          fontSize:'3.5rem',  
+          }}>
+              LET US HELP YOU TRANSFORM YOUR BUSINESS TO MAXIMIZE ITS POTENTIAL...
+          </h1>
+           
+          <h5 className="fw-lighter">
+    In today's ever-evolving market landscape, businesses require more than mere survival tactics; they necessitate strategies that foster growth and ensure sustainability. When it comes to technology, the prevailing notion often revolves around the idea that more equates to better results. At{" "} 
+    <span style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)", color: "pink", fontSize: "1.5rem" }}>2</span>
+    <span style={{ color: '#00FFFF', fontSize:'1.4rem', textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)" }}>FACE</span>
+    <span>
+        {" "}
+        {/** <img
+            src={LogoIcon}
+            alt="LogoIcon"
+            style={{
+                width: "100px",
+                height: "auto",
+                marginTop: "-1rem",
+            }}
+        />
+        */}
+    </span>
+    , our commitment lies in aiding you to enhance the value of your operations through customized solutions without inundating your users. Our objective is to streamline your organization, eliminate redundancies, and amplify your market presence, all while preserving clarity and functionality.
+</h5>
+
+      
+           
+  {/*} <p>OUR SPECIALTIES, OUR NICHE, WHAT WE <FaHeart style={{color:'#00ffff', textShadow:'2px 2px 4px rgba(0, 0, 0, 3.5)'}}/> TO DO. <span className="mb-0 pb-0" style={{fontFamily:'Raleway'}}>
               {" "}
               <span 
               className="w3-tag" 
@@ -80,49 +118,77 @@ const Home = () => {
             <b>2FACE</b> {" "}
               </span>
              CUSTOM SERVICES... 
+            </span>
             </p>
+*/}
+
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+    <a href='/' id='digital-icon-palette' style={{ fontSize: '12rem' }}>
+          <GiPalette className='rounded p-5 ' id='digital-icon-palette' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }}/></a>  
+          <a href="/graphic-design" alt='graphic-design' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>GRAPHIC DESIGN</b></a>
+    </div>
+
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-laptop' style={{ fontSize: '12rem' }}>
+          <GiLaptop className='rounded p-5 ' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }} id='digital-icon-laptop'/></a> 
+          <a href="/web-devopment" alt='web-devopment' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>WEB DESIGN</b></a>
+    </div>
+ 
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-phone' style={{ fontSize: '12rem' }}>
+          < GiSmartphone className='rounded p-5 ' id='digital-icon-phone' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }}/></a> 
+          <a href="/digital-marketing" alt='digital-marketing' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>DIGITAL MARKETING</b></a>
+    </div>
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-arrow' style={{ fontSize: '12rem' }}>
+          <SiMinutemailer className='rounded p-5' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }} id='digital-icon-arrow'/></a> 
+          <a href="/digital-marketing" alt='digital-marketing' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>EMAIL CAMPAIGNS</b></a>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+{/*start digital-marketing-home */}
+<div className="container text-center mt-3">
+      <div className='row d-flex p-lg-5 justify-content-center'>
       <h1 className="mt-0"
-         style={{
-          color:'#00FFFF', 
-          fontSize:'4rem', 
-          textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)',
-        }}>
-          WHAT 
-          <span 
-          style={{color:'black',  
-          textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)', 
-          fontFamily:'Raleway', }}>
-            WE
-            </span> 
-            <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-             color: "#FDC5E8",}}>DO</span></h1>
-           
-            <h4>WHERE CREATIVITY KNOWS NO BOUNDS AND VISIONS BECOME REALITY!</h4>
-  <p className="mx-5">Our specialty lies in crafting custom solutions that bring a touch of magic to every project. From stunning design work to fantastical development, we're here to make your digital concepts a reality! </p>
-        <p>Our specialties, our niche, what we <FaHeart/> to do...</p>
+          style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+          color: "#FDC5E8",
+          fontSize:'3.5rem',  
+          }}>
+          WHAT WE DO
+          </h1>
+  <h5 className="mx-5">Our specialty lies in crafting custom solutions that bring a touch of magic to every project. From stunning design work to meticulous development, we're here to make your digital concepts a reality! </h5>
+
                  <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-palette' style={{ fontSize: '12rem' }}>
           <GiPalette className='rounded p-5 shadow' id='digital-icon-palette'/></a> 
-        <h4>icon header</h4>
+        <h5>GRAPHIC DESIGN</h5>
     </div>
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-book' style={{ fontSize: '12rem' }}>
           <SlBookOpen className='rounded p-5 shadow' id='digital-icon-book'/></a> 
-        <h4>icon header</h4>
+        <h5>WEB DEVELOPMENT</h5>
     </div>
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-phone' style={{ fontSize: '12rem' }}>
           < GiSmartphone className='rounded p-5 shadow' id='digital-icon-phone'/></a> 
-        <h4>icon header</h4>
+        <h5>DIGITAL MARKETING</h5>
     </div>
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-mail' style={{ fontSize: '12rem' }}>
-          <SiMinutemailer className='rounded p-5 shadow' id='digital-icon-mail'/></a> 
-        <h4>icon header</h4>
+          <SiMinutemailer className='rounded p-5 shadow bg-danger-subtle'  id='digital-icon-mail'/></a> 
+        <h4>EMAIL CAMPAIGNS</h4>
     </div>
     </div>
     </div>
-              </div>
    {/*end what we do services         
 <div className="container">
   <div className="row">
@@ -130,6 +196,9 @@ const Home = () => {
     </div>
     </div>
 */ }  
+
+
+{/*start digital-marketing-home */}
       <div className="container pt-5">
         <div className="row d-flex p-1 justify-content-center align-items-center">
        <div className="col-sm-12 col-md-6 px-4">
@@ -195,8 +264,6 @@ Pays-Per-Click
               <br />
               </div>
 </div>
-
-
 {/*end digital-marketing-home */}
 
 

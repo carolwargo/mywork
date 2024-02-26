@@ -1,9 +1,8 @@
 import React from "react";
-import HomeBig from "../../assets/images/HomeBig.png";
-import { Link } from "react-router-dom";
-import Navbar from "../Navbar/NavbarBlack";
+import HomeBig from "../../../assets/images/HomeBig.png";
+import Navbar from "../../Navbar/NavbarBlack";
 
-const Header = () => {
+const HomeHeader = () => {
   return (
     <header style={{fontFamily:'Raleway'}}>
      <Navbar />
@@ -26,7 +25,7 @@ const Header = () => {
         <div className="row d-flex h-100 px-5 text-center position-relative">
        <div className="col-sm-12 col-md-3 col-lg-3"></div>
           <div className="col-sm-12 col-md-6 col-lg-6 text-white p-3 position-relative z-index-1">
-          <h1 style={{
+            <h1 style={{
                   textShadow: "2px 1px 4px #6495ED",
                   color: "#FDC5E8",
                   fontSize: "4.5rem",
@@ -101,23 +100,9 @@ const Header = () => {
             </p>
             <br></br>
             <br></br>
-            <div className="p-2">
-              <h6   style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-                  fontFamily: "raleway",
-                }}>Choose your path to get started...</h6>
-              <Link to="/contact">
-              <button type="button" className="btn btn-outline-info mx-2 my-2">
-                  <b>Contact us</b>
-                </button>
-              </Link>
-              <Link to="/#what-we-do">
-              <button type="button" className="btn btn-outline-info mx-2 px-4">
-                  <b>Learn more</b>
-                </button>
-              </Link>
-           
-            </div>
+     <div className="continer">
+
+     </div>
           </div>
           <div className="col-sm-12 col-md-3 col-lg-3"></div>
         </div>
@@ -126,4 +111,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HomeHeader;
