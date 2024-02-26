@@ -49,7 +49,7 @@ function NavScrollExample() {
                 <Nav.Link href="/test" >Test</Nav.Link>
             <Nav.Link href="/posts" >Posts</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
-            <Nav.Link href="/" >Graphics</Nav.Link>
+            <Nav.Link href="/graphic-design" >Graphics</Nav.Link>
             <Nav.Link href="/web-development" >Web Development</Nav.Link>
             <Nav.Link href="/digital-marketing" >Digital Marketing</Nav.Link>
             

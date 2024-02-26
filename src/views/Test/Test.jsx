@@ -1,104 +1,43 @@
-import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
-import Business from "../../assets/images/Business.png";
-import Navbar from "../../components/Navbar/NavbarBlack";
-//import SideNav from "../../components/Graphics/SideNav/SideNav";
+import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+//import { GiPalette } from "react-icons/gi";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { SlBookOpen } from "react-icons/sl";
+import { GiSmartphone } from "react-icons/gi";
+import { SiMinutemailer } from "react-icons/si";
+import '../../App.css';  
 
-const Test = () => {
-  return (
-    <div style={{ fontFamily: "raleway" }}>
-        <Navbar/>
-      <Container className="p-4 px-0">
-        {/*Intro Row */}
-        <Row className="d-flex py-4 justify-content-center">
-         
-          <Col xs={12} md={8}>
-            <h1 style={{ fontSize: "4rem" }}>SERVICE MENU</h1>
-            <br />
-            <br />
-            <br />
-            <h3>Services & Pricing</h3>
-            <p>
-              DESCRIPTION; Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Culpa officia totam architecto placeat at vitae amet facilis
-              inventore. Porro vitae possimus expedita. Dolores accusantium
-              accusamus mollitia quaerat architecto! Natus, quod.
-            </p>
-          </Col>
-          <Col
-            xs={12}
-            md={4}
-            className="p-3 d-flex align-items-center"
-          >
-            <div
-              className="card rounded-0"
-              style={{ boxShadow: "2px 2px 5px black" }}
-            >
-              <div className="rounded-0">
-                {/*start menu ul */}
-                <div className="w3-card w3-margin m-4 align-items-center">
-                  {" "}
-                  {/*container end header popular posts */}
-                  <ul className="w3-ul w3-hoverable w3-white align-items-center">
-                    <li className="w3-padding-8 d-flex align-items-center">
-                      {/*list-item-3 start popular posts */}
-                      <img
-                        src={Business}
-                        alt="Business"
-                        className="w3-left w3-margin-right"
-                        style={{ width: "18%" }}
-                      ></img>
-                      <span className="w3-large"><b>GRAPHIC DESIGN</b></span>
-                    </li>
-                    {/*list-item-1 end popular posts */}
-                    <li className="w3-padding-8 d-flex align-items-center">
-                      {/*list-item-2 start popular posts */}
-                      <img
-                        src={Business}
-                        alt="Business"
-                        className="w3-left w3-margin-right"
-                        style={{ width: "18%" }}
-                      ></img>
-                      <span className="w3-large"><b>WEB DESIGN</b></span>
-                    </li>
-                    {/*list-item-2 end popular posts */}
-                    <li className="w3-padding-8 d-flex align-items-center">
-                      {/*list-item-3 start popular posts */}
-                      <img
-                        src={Business}
-                        alt="Business"
-                        className="w3-left w3-margin-right"
-                        style={{ width: "18%" }}
-                      ></img>
-                     <span className="w3-large"><b>DIGITAL MARKETING</b></span>
-                    </li>
-                    {/*list-item-3 end popular posts */}
-                    <li className="w3-padding-8 d-flex align-items-center">
-                      {/*list-item-3 start popular posts */}
-                      <img
-                        src={Business}
-                        alt="Business"
-                        className="w3-left w3-margin-right"
-                        style={{ width: "18%" }}
-                      ></img>
-                      <span className="w3-large"><b>GRAPHIC DESIGN</b></span>
-                    </li>
-                  </ul>
-                  {/*list end */}
-                </div>
-                {/*card end for all elements*/}
-              </div>
-            </div>
-          </Col>
+const TestDigitalMarketing = () => {
 
-        </Row>
-
-        <br></br>
-
-      
-      </Container>
+    return (
+        <div>
+            <h1>Test Digital Marketing</h1>
+            <div>
+              <div className='row d-flex p-lg-5 justify-content-center'>
+                 <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-arrow' style={{ fontSize: '12rem' }}>
+          <BsGraphUpArrow className='rounded p-5 shadow' id='digital-icon-arrow'/></a> 
+        <h4>icon header</h4>
     </div>
-  );
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-book' style={{ fontSize: '12rem' }}>
+          <SlBookOpen className='rounded p-5 shadow' id='digital-icon-book'/></a> 
+        <h4>icon header</h4>
+    </div>
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-phone' style={{ fontSize: '12rem' }}>
+          < GiSmartphone className='rounded p-5 shadow' id='digital-icon-phone'/></a> 
+        <h4>icon header</h4>
+    </div>
+    <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+        <a href='/' id='digital-icon-mail' style={{ fontSize: '12rem' }}>
+          <SiMinutemailer className='rounded p-5 shadow' id='digital-icon-mail'/></a> 
+        <h4>icon header</h4>
+    </div>
+              </div>
+  </div>
+        </div>
+    )
 };
 
-export default Test;
+export default TestDigitalMarketing;

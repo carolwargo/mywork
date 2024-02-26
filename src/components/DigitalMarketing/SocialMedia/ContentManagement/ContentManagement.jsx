@@ -16,34 +16,16 @@ function ContentManagement() {
         <div className="row d-flex p-3 justify-content-center align-items-center">
           <div className="col-sm-12 col-md-7 col-lg-7 p-4 my-2">
             <div className="container ">
-            <img
-            src={SocialForms}
-            alt="forms"
-            style={{ width: "100%" }}
-            className=" border border-dark bg-white"
-        />
-    </div>
-            </div>
-            <div className="col-sm-12 col-md-5 col-lg-5 bg-white 
-            border border-3 d-flex flex-column align-items-center py-4"
-           style={{ boxShadow: '3px 3px 5px rgba(0, 0, 0, 0.5)'}}
-           id="social-media-content-management"
-          >
-               <img
-            src={SocialForms}
-            alt="forms"
-            style={{ width: "100%" }}
-            className=" border border-dark bg-white"
-        />
-            <p>In the dynamic realm of social media marketing, organization and 
-              scheduling play pivotal roles in ensuring a cohesive and effective 
-              strategy. At [Your Company Name], we understand the importance of 
-              strategic planning and streamlined execution to maximize your social 
-              media presence. 
-              Let's delve into why our organization and scheduling services are 
-              essential:
+       
+        <h2>Best Practices</h2>
+            <p>Organization and scheduling ensure a cohesive and 
+            effective strategy. 
+             At 2FACE, we understand the importance of 
+              strategic planning and streamlined execution to maximize 
+              yourpresence. 
+              Let's delve into why our organization and scheduling 
+              services are essential:
               </p>
-
               {/*start list of social media organization methods*/}
               <ul>
                 <li><b>Tailored Content Planning:</b> We work closely with you to understand 
@@ -80,19 +62,28 @@ optimize strategies to maximize campaign success.</li>
 {/*end list of social media organization methods*/}
 
 {/*start CTA for organization*/}
-<p>Partnering with [Your Company Name] for organization and scheduling 
-services empowers you to harness the full potential of social media 
-marketing while enjoying peace of mind knowing that your strategy is in 
-expert hands. Let us help you elevate your brand's online presence and 
-achieve your business objectives with precision and efficiency.</p>
+     
+    </div>
+            </div>
+            <div className="col-sm-12 col-md-5 col-lg-5 bg-white 
+            border border-3 d-flex flex-column align-items-center py-4"
+           style={{ boxShadow: '3px 3px 5px rgba(0, 0, 0, 0.5)'}}
+           id="social-media-content-management"
+          >
+            <p>2FACE social media marketing services empowers you to 
+                harness the full potential of social media marketing 
+                while enjoying peace of mind knowing that your 
+                strategy is in expert hands. Let us help you elevate 
+                your brand's online presence and achieve your 
+                business objectives with precision and efficiency.</p> 
+                <img
+            src={SocialForms}
+            alt="forms"
+            style={{ width: "100%" }}
+            className=" border border-dark bg-white"
+        />
 {/*DO-TO: review all 3<p> tags in this column*/}
-            <p>In the dynamic realm of social media marketing, organization 
-              and scheduling play pivotal roles in ensuring a cohesive and 
-              effective strategy. At [Your Company Name], we understand the 
-              importance of strategic planning and streamlined execution to 
-              maximize your social media presence. Let's delve into why our 
-              organization and scheduling services are essential:</p>
-{/*end CTA for organization*/}
+   {/*end CTA for organization*/}
 
 
     <div className="py-3 d-flex justify-content-end flex-grow-1">
@@ -109,6 +100,7 @@ achieve your business objectives with precision and efficiency.</p>
 
          
             <div className="container px-3">
+          
         <h2 >LET US HELP YOU</h2>
         <ul>
           <li  style={{ fontSize: '1.4rem' }} ><b>CREATE</b> your narrative,</li>

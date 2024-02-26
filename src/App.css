@@ -8,7 +8,164 @@
 .long-text {
   width: 300px; 
 }
+//start home "what we do" css
+//palette
+#digital-icon-palette:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-palette:visited {
+  color: pink !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-palette:hover {
+  color: red !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+#digital-icon-palette:active {
+  color: yellow !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
 
+//
+#digital-icon-arrow:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-arrow:visited {
+  color: pink !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-arrow:hover {
+  color: red !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+#digital-icon-arrow:active {
+  color: yellow !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+
+
+#digital-icon-arrow:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-arrow:visited {
+  color: pink !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-arrow:hover {
+  color: red !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+#digital-icon-arrow:active {
+  color: yellow !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+
+//end home "what we do" css
+
+
+//start Test css
+//ARROW
+#digital-icon-arrow:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-arrow:visited {
+  color: pink !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-arrow:hover {
+  color: red !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+#digital-icon-arrow:active {
+  color: yellow !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+
+//BOOK
+#digital-icon-book:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-book:visited {
+  color: pink !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-book:hover {
+  color: red !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+#digital-icon-book:active {
+  color: yellow !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+
+//PHONE
+#digital-icon-phone:link {
+  color: green !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-phone:visited {
+  color: pink !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+#digital-icon-phone:hover {
+  color: red !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+}
+#digital-icon-phone:active {
+  color: yellow !important;
+  background-color: transparent !important;
+  text-decoration: underline;
+}
+
+//EMAIL
+#digital-icon-mail:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+#digital-icon-mail:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+#digital-icon-mail:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#digital-icon-mail:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 600px) {
   #intro-example {
