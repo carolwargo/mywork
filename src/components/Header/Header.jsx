@@ -102,18 +102,14 @@ const Header = () => {
             <br></br>
             <br></br>
             <div className="p-2">
-              <h6   style={{
-                  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-                  fontFamily: "raleway",
-                }}>Choose your path to get started...</h6>
               <Link to="/contact">
-              <button type="button" className="btn btn-outline-info mx-2 my-2">
+              <button type="button" className="btn btn-light mx-2 my-2">
                   <b>Contact us</b>
                 </button>
               </Link>
               <Link to="/#what-we-do">
-              <button type="button" className="btn btn-outline-info mx-2 px-4">
-                  <b>Learn more</b>
+              <button type="button" className="btn btn-light mx-2">
+                  <b style={{ textShadow: "2px 2px 4px #F63DB0",}}>Learn more</b>
                 </button>
               </Link>
            

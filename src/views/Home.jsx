@@ -86,27 +86,13 @@ const Home = () => {
           </h1>
            
           <h5 className="fw-lighter">
-    In today's ever-evolving market landscape, businesses require more than mere survival tactics; they necessitate strategies that foster growth and ensure sustainability. When it comes to technology, the prevailing notion often revolves around the idea that more equates to better results. At{" "} 
-    <span style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)", color: "pink", fontSize: "1rem" }}>2</span>
-    <span style={{ color: '#00FFFF', fontSize:'1rem', textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)" }}>FACE</span>
-    <span>
-        {" "}
-        {/** <img
-            src={LogoIcon}
-            alt="LogoIcon"
-            style={{
-                width: "100px",
-                height: "auto",
-                marginTop: "-1rem",
-            }}
-        />
-        */}
-    </span>
-    , our commitment lies in aiding you to enhance the value of your operations through customized solutions without inundating your users. Our objective is to streamline your organization, eliminate redundancies, and amplify your market presence, all while preserving clarity and functionality.
-</h5>
+    In today's ever-evolving market, businesses require more than 
+    mere survival tactics- They need strategies in place that foster growth 
+    and ensure sustainability.   Our objective is to streamline your organization, eliminate redundancies,
+     and amplify your market presence, all while preserving clarity, simplicity and 
+     functionality.
+</h5>     
 
-      
-           
   {/*} <p>OUR SPECIALTIES, OUR NICHE, WHAT WE <FaHeart style={{color:'#00ffff', textShadow:'2px 2px 4px rgba(0, 0, 0, 3.5)'}}/> TO DO. <span className="mb-0 pb-0" style={{fontFamily:'Raleway'}}>
               {" "}
               <span 
@@ -130,8 +116,8 @@ const Home = () => {
 
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-laptop' style={{ fontSize: '12rem' }}>
-          <GiLaptop className='rounded p-5 ' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }} id='digital-icon-laptop'/></a> 
-          <a href="/web-devopment" alt='web-devopment' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>WEB DESIGN</b></a>
+          <GiLaptop className='rounded p-5' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }} id='digital-icon-laptop'/></a> 
+          <a href="/web-devopment" alt='web-devopment' className="shadow-" style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>WEB DESIGN</b></a>
     </div>
  
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
@@ -147,6 +133,43 @@ const Home = () => {
     </div>
     </div>
 
+    <div className='row d-flex p-lg-5 justify-content-center'>
+    <div className='col-sm-12 col-md-6 col-lg-6 d-flex flex-column 
+    justify-content-center align-items-center'>    
+    <ul>  
+  <li>CLEAR</li>
+  <li>CONCISE</li>
+  <li>FUNCTIONAL</li>
+  <li>INTUITIVE</li>
+  <li>EFFICIENT</li>
+  <li>ENGAGING</li>
+  <li>INTERACTIVE</li>
+  <li>INNOVATIVE</li>
+  <li>MEMORABLE</li>
+  <li>UNIQUE</li>
+  <li>CONSISTENT</li>
+  <li>RELEVANT</li>
+  </ul>      
+    </div>
+    <div className='col-sm-12 col-md-6 col-lg-6 d-flex flex-column 
+    justify-content-center align-items-center'>    
+    <ul>  
+    <li>RESPONSIVE</li>
+  <li>ACCESSIBLE</li>
+  <li>SCALABLE</li>
+  <li>SECURE</li>
+  <li>RELIABLE</li>
+  <li>OPTIMIZED</li>
+  <li>INTEGRATED</li>
+  <li>ADAPTABLE</li>
+  <li>PERSONALIZED</li>
+  <li>PROFESSIONAL</li>
+  <li>EFFORTLESS</li>
+  <li>EMOTIONALLY RESONANT</li>
+  <li>VISUALLY PLEASE</li>
+  </ul>      
+    </div>
+</div>
 
 
 
@@ -155,7 +178,8 @@ const Home = () => {
 
 
 
-{/*start digital-marketing-home */}
+
+{/*start additional services*/}
 <div className="container text-center mt-3">
       <div className='row d-flex p-lg-5 justify-content-center'>
       <h1 className="mt-0"
@@ -170,22 +194,25 @@ const Home = () => {
                  <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-palette' style={{ fontSize: '12rem' }}>
           <GiPalette className='rounded p-5 shadow' id='digital-icon-palette'/></a> 
-        <h5>GRAPHIC DESIGN</h5>
+        <h5>SOCIAL MEDIA ORGANIZATION FORMS</h5>
     </div>
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-book' style={{ fontSize: '12rem' }}>
           <SlBookOpen className='rounded p-5 shadow' id='digital-icon-book'/></a> 
-        <h5>WEB DEVELOPMENT</h5>
+        <h5>E-COMMERCE</h5>
+        <h5>PAYMENT PLATFORMS</h5>
     </div>
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-phone' style={{ fontSize: '12rem' }}>
           < GiSmartphone className='rounded p-5 shadow' id='digital-icon-phone'/></a> 
-        <h5>DIGITAL MARKETING</h5>
+        <h5>BRAND IDENITY</h5>
+       <p>********************BRANDING BOOK********************</p> 
     </div>
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
         <a href='/' id='digital-icon-mail' style={{ fontSize: '12rem' }}>
           <SiMinutemailer className='rounded p-5 shadow bg-danger-subtle'  id='digital-icon-mail'/></a> 
-        <h4>EMAIL CAMPAIGNS</h4>
+        <h4>LOGO DESIGN</h4>
+        <p>********************FACTS********************</p> 
     </div>
     </div>
     </div>

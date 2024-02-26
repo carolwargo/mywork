@@ -20,7 +20,16 @@ const About = () => {
 <p>2. Development: With our development expertise, we turn your ideas into functional and dynamic digital experiences. Whether you need a responsive website, a custom web application, or mobile app development, our developers have the skills and experience to deliver high-quality solutions that drive results.</p>
 
 
-
+<p>When it comes to using technology, many believe 
+    that more equates to better. At{" "} 
+    <span style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)", color: "pink", fontSize: "1rem" }}>2</span>
+    <span style={{ color: '#00FFFF', fontSize:'1rem', textShadow: "1px 1px 2px rgba(0, 0, 0, 2.8)" }}>FACE</span>
+ 
+    , our commitment lies in aiding you to enhance the value of your 
+    operations through customized solutions without overwhelming our clients and their customers. 
+    Our objective is to streamline your organization, eliminate redundancies,
+     and amplify your market presence, all while preserving clarity, simplicity and 
+     functionality.</p>
 <p> Our team is dedicated to bringing your digital vision to life through innovative design concepts and expert development solutions.</p>
                   <p>At 2FACES, we're committed to helping you leverage the power of technology to achieve your goals and stay ahead in today's digital landscape. Let us be your partner in success.</p>
 
