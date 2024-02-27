@@ -1,6 +1,5 @@
 import React from "react";
-
-//import Graphics from "../../components/Graphics/Graphics.jsx";
+import Graphics from "../../components/Graphics/Graphics.jsx";
 //import RecruitHome from "../../assets/images/RecruitSite/RecruitHome.png";
 //import RecruitProfile from "../../assets/images/RecruitSite/RecruitProfile.png";
 //import RecruitStats from "../../assets/images/RecruitSite/RecruitStats.png";
@@ -11,21 +10,20 @@ import React from "react";
 const GraphicDesign = () => {
     return (
         <div>
-          <div>
-<div className="mt-3">
-  <h2>Breadcrumbs</h2>
-  <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>                  
-  <ul id="breadcrumb">
-    <li className="breadcrumb-item"><a href="/">Photos</a></li>
-    <li className="breadcrumb-item"><a href="/">Summer 2017</a></li>
-    <li className="breadcrumb-item"><a href="/">Italy</a></li>
-    <li className="breadcrumb-item active">Rome</li>
-  </ul>
-</div>
-</div>
+  {/** start BREADCRUMBS*/}
+  <div className="container-fluid mt-3 px-5">
+        <ul className="breadcrumb">
+          <li className="breadcrumb-item">
+            <a href="/">Home</a>
+          </li>
+          <li className="breadcrumb-item active">Graphic Design</li>
+        </ul>
+      </div>
+      {/** end BREADCRUMBS*/}
 
 <div className="mt-5">
         <h1>Graphic Design</h1>
+        <Graphics/>
         <h3>Brand Idenity</h3>
         </div>
         {/**Graphic Designs*/}

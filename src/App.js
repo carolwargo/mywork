@@ -10,7 +10,7 @@ import WebDevelopment from './views/WebDevelopment/WebDevelopment';
 import BusinessEssentials from './views/Business/BusinessEssentials';
 //import Header from './components/Header/Header';
 import Blog from './views/Blog/Blog';
-import PostsPageTest from './views/Blog/PostsPageTest';
+import FullPosts from './views/Blog/FullPosts';
 import Services from './views/Services/Services';
 import GraphicDesign from './views/GraphicDesign/GraphicDesign';
 
@@ -30,7 +30,7 @@ function App() {
         <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/business-essentials" element={<BusinessEssentials />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/posts" element={<PostsPageTest />} />
+        <Route path="/full-posts" element={<FullPosts />} />
         <Route path="/services" element={<Services />} />
 
       </Routes>

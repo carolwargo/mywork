@@ -11,7 +11,8 @@ import { GiSmartphone } from "react-icons/gi";
 import { SiMinutemailer } from "react-icons/si";
 import { GiPalette } from "react-icons/gi";
 import { GiLaptop } from "react-icons/gi";
-
+import GraphicServices from "../components/Home/GraphicServices/GraphicServices.jsx";
+import Business from "../assets/images/Business.png";
 //import { Container, Row } from "react-bootstrap";
 
 
@@ -28,7 +29,7 @@ const Home = () => {
               <div className="story-essentials-title">
                 <h1 className="mt-0"
                  style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-                 color: "#FDC5E8",
+    
                 fontSize:'3.5rem',
                 }}
                 >TELL YOUR STORY...</h1>
@@ -79,7 +80,6 @@ const Home = () => {
     
       <h1 className="mt-0"
           style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-          color: "#FDC5E8",
           fontSize:'3.5rem',  
           }}>
               LET US HELP YOU TRANSFORM YOUR BUSINESS TO MAXIMIZE ITS POTENTIAL...
@@ -133,45 +133,123 @@ const Home = () => {
     </div>
     </div>
 
-    <div className='row d-flex p-lg-5 justify-content-center'>
-    <div className='col-sm-12 col-md-6 col-lg-6 d-flex flex-column 
-    justify-content-center align-items-center'>    
-    <ul>  
-  <li>CLEAR</li>
-  <li>CONCISE</li>
-  <li>FUNCTIONAL</li>
-  <li>INTUITIVE</li>
-  <li>EFFICIENT</li>
-  <li>ENGAGING</li>
-  <li>INTERACTIVE</li>
-  <li>INNOVATIVE</li>
-  <li>MEMORABLE</li>
-  <li>UNIQUE</li>
-  <li>CONSISTENT</li>
-  <li>RELEVANT</li>
-  </ul>      
-    </div>
-    <div className='col-sm-12 col-md-6 col-lg-6 d-flex flex-column 
-    justify-content-center align-items-center'>    
-    <ul>  
-    <li>RESPONSIVE</li>
-  <li>ACCESSIBLE</li>
-  <li>SCALABLE</li>
-  <li>SECURE</li>
-  <li>RELIABLE</li>
-  <li>OPTIMIZED</li>
-  <li>INTEGRATED</li>
-  <li>ADAPTABLE</li>
-  <li>PERSONALIZED</li>
-  <li>PROFESSIONAL</li>
-  <li>EFFORTLESS</li>
-  <li>EMOTIONALLY RESONANT</li>
-  <li>VISUALLY PLEASE</li>
-  </ul>      
-    </div>
+
+
+    {/*********************start business-services**********************/}
+      <div className="container mt-5">
+        <div className="row d-flex justify-content-center align-items-center">
+             
+          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+            <img
+              src={Business}
+              alt="Business"
+              className="mb-2 border border-black"
+              style={{ width: "90%", height: "auto" }}
+            />
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-bottom">
+            <div className="business-essentials-body p-3 justify-content-center align-bottom">
+              <div className="business-essentials-title">
+              <h1 className="mt-0"
+        style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)"
+        }}>
+        BUSINESS ESSENTIALS
+        </h1>
+        <p>CUSTOM PRODUCTS FOR ALL YOUR BUSINESS NEEDS</p>
+              </div>
+              <p className="business-essentials-text" style={{fontSize:'14px', fontFamily:'sans-serif'}}>
+                Our "Business Essentials" custom products are
+                tailored to your requirements. We offer a variety of design
+                solutions to include graphic and digital design, promotional
+                campaigns, as well as software solutions and server-side
+                integrations.
+              </p>
+<div className="row">
+<div className="col">
+  <p>Whatever format needed, we can provide it:</p> 
+<ul>
+  <li>PRINTABLE</li>
+  <li>DIGITAL</li>
+  <li>ON-LINE</li>
+  <li>MOBILE</li>
+ 
+</ul>
+</div>
+<div className="col">  <ul>
+                <li>Forms</li>
+                <li>Letterhead</li>
+                <li>Business Cards</li>
+                <li>Custom Forms</li>
+                <li>Post Cards</li>
+                <li>Signage</li>
+                <li>Logo Design</li>
+                <li>Labels</li>
+
+              </ul>
+</div>
 </div>
 
+              <p>Printables</p>
+            </div>
+          </div>
+        </div>
 
+        <div className='row d-flex p-lg-3 justify-content-center'>
+        <div className='col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center'>    
+<div className="p-5 rounded-circle shadow bg-info-subtle"><GiPalette className='w3-text-amber' style={{fontSize:'4rem'}}  /></div>
+</div>
+          </div>
+
+        <div className='row d-flex p-lg-3 justify-content-center'>
+  <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+  <a href='/' id='digital-icon-palette' style={{ fontSize: '12rem' }}>
+        <GiPalette className='rounded p-5 ' id='digital-icon-palette' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }}/></a>  
+        <a href="/graphic-design" alt='graphic-design' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>GRAPHIC DESIGN</b></a>
+  </div>
+
+  <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+      <a href='/' id='digital-icon-laptop' style={{ fontSize: '12rem' }}>
+        <GiLaptop className='rounded p-5' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }} id='digital-icon-laptop'/></a> 
+        <a href="/web-devopment" alt='web-devopment' className="shadow-" style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>WEB DESIGN</b></a>
+  </div>
+
+  <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+      <a href='/' id='digital-icon-phone' style={{ fontSize: '12rem' }}>
+        < GiSmartphone className='rounded p-5 ' id='digital-icon-phone' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }}/></a> 
+        <a href="/digital-marketing" alt='digital-marketing' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>DIGITAL MARKETING</b></a>
+  </div>
+  <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
+      <a href='/' id='digital-icon-arrow' style={{ fontSize: '12rem' }}>
+        <SiMinutemailer className='rounded p-5' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }} id='digital-icon-arrow'/></a> 
+        <a href="/digital-marketing" alt='digital-marketing' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>EMAIL CAMPAIGNS</b></a>
+  </div>
+  </div>
+  
+  <p className="mt-5 text-center">
+                <a href="/business-essentials" className="text-decoration-none link-secondary link-opacity-50-hover">
+                  Contact us to get started or learn more about our business essentials
+                  <FaArrowRight className="ms-2" />
+                </a>
+              </p>
+      </div>
+      <br />
+<br />
+<br />
+      <br />
+<br />
+<br />
+<br />
+{/*********************end business-services**********************/}
+{/*********************start graphic-services**********************/}
+
+
+
+
+
+
+
+
+<GraphicServices />
 
 
 
@@ -184,7 +262,6 @@ const Home = () => {
       <div className='row d-flex p-lg-5 justify-content-center'>
       <h1 className="mt-0"
           style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
-          color: "#FDC5E8",
           fontSize:'3.5rem',  
           }}>
           WHAT WE DO
@@ -223,7 +300,100 @@ const Home = () => {
     </div>
     </div>
 */ }  
+{/*start digital-marketing-home */}
+<div className="container pt-5">
+        <div className="row d-flex p-1 justify-content-center align-items-center">
+       <div className="col-sm-12 col-md-6 px-4">
+       <h1 className="mt-4"
+         style={{color:'#00FFFF', fontSize:'4rem', textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)',}}>BUSINESS<br /> <span style={{color:'black',  textShadow: '2px 2px 4px rgba(0, 0, 0, 3.5)', fontFamily:'Raleway'}}>MARKETING</span> <span style={{  textShadow: "2px 2px 4px rgba(0, 0, 0, 3.5)",
+             color: "#FDC5E8",}}>SERVICES</span></h1>
+            <p className="" style={{fontFamily:'Raleway'}}>
+              Welcome to the blog of{" "}
+              <span className="w3-tag" style={{ color: "black", backgroundColor:'#FDC5E8', textShadow: "2px 2px 4px #00FFFF", fontFamily:'Raleway'}}>
+            <b>2FACE</b>
+              </span>
+            </p>
+       <p className="mb-0">DIGITAL MARKETING BEYOND SOCIAL MEDIA</p>
+        <h1   style={{
+                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                  color:' black'
+                }}>DIGITAL MARKETING</h1>
+     <br />
+      <p style={{fontFamily:'sans-serif'}}>
+     Digital avenues play crucial roles in fostering brand visibility and interaction. Each channel presents a unique canvas for businesses to paint their stories, creating dynamic experiences that resonate with diverse audiences.
+</p>
+</div>
 
+<div className="col-sm-12 col-md-6 d-flex justify-content-center">
+  <div className="container">
+<span className="p-4 mx-2 my-2">
+SEO Strategies
+</span>
+<br />
+<span className="p-4 mx-2 my-2">
+Content Marketing 
+</span>
+<br />
+<span className="p-4 mx-2 my-2">
+Pays-Per-Click
+</span>
+</div>
+<br />
+<div className="container">
+<span className="p-4 mx-2 my-2">
+  Content Marketing
+</span>
+<br />
+<span className="p-4 mx-2 my-2">
+ Data Analytics
+</span>
+<br />
+<span className="p-4 mx-2 my-2">
+ Reputation Management
+</span>
+</div>
+</div>
+</div>
+
+
+<div className="container py-3">
+  <div className="row d-flex p-1 justify-content-center align-items-center">
+  <div className="col-sm-12 col-md-6 px-4">
+<p className='text-center'>
+  <br />
+                <a href="/digital-marketing" className="text-decoration-none">
+                  See more about digital marketing
+                  <FaArrowRight className="ms-2" />
+                </a>
+              </p>
+              <br />
+              </div>
+              <div className="col-sm-12 col-md-6 px-4">
+                </div>
+              </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+<div className="container py-3">
+<p className='text-center'>
+  <br />
+                <a href="/digital-marketing" className="text-decoration-none">
+                  See more about digital marketing
+                  <FaArrowRight className="ms-2" />
+                </a>
+              </p>
+              <br />
+              </div>
+</div>
+{/*end digital-marketing-home */}
 
 {/*start digital-marketing-home */}
       <div className="container pt-5">
