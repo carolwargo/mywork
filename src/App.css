@@ -16,27 +16,7 @@
 
 //start Test css
 
-//graphic design
-#digital-icon-palette:link {
-  color: green !important;
-  background-color: transparent !important;
-  text-decoration: none !important;
-}
-#digital-icon-palette:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-#digital-icon-palette:hover {
-  color: #00FFFF;
-  background-color: transparent;
-  text-decoration: underline;
-}
-#digital-icon-palette:active {
-  color: aqua;
-  background-color: transparent;
-  text-decoration: underline;
-}
+
 //palette graphic design
 #digital-icon-palette:link {
   color: green !important;

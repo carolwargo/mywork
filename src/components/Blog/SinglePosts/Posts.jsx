@@ -18,33 +18,12 @@ const Posts = () => {
       processes and drives growth...`,
       imageUrl: YogaSet,
       postURL: "/full-posts#1",
-    },
-
-    {
-        id: 2,
-        title: "Blog Post 1",
-        timestamp: moment().toISOString(), // Current date and time
-        content:
-        "Lorem unde omnis iste natus error sit Sed ut perspiciatis unde omnis Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis...",
-      imageUrl: YogaSet,
-        comments: 5,
-      },
-      {
-        id: 3,
-        title: "Blog Post 2",
-        timestamp: moment().toISOString(), // Current date and time
-        content:
-        "Lorem unde omnis iste natus error sit Sed ut perspiciatis unde omnis Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem unde omnis iste natus error sit. Sed ut perspiciatis unde omnis...",
-       imageUrl: YogaSet,
-        comments: 10,
-      },
-
+    },    
   ];
 
   return (
     <div>
-     
-              {/*col start for all posts */}
+     {/*col start for all posts */}
               {blogPosts.map((post) => (
                 <div key={post.id} className="w3-card-4 w3-margin w3-white m-4">
                   <img

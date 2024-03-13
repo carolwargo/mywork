@@ -192,6 +192,7 @@ const FullPosts = () => {
         </button>
       </TwitterShareButton> {/* end Twitter Share Button */}
     </span>
+    
     <span className="mx-1"> 
       {/* start Facebook Share Button */}
       <FacebookShareButton

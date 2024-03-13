@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import YogaSet from "../assets/images/YogaStory/YogaSet.png";
 import Header from "../components/Header/Header";
@@ -109,8 +110,8 @@ const Home = () => {
 */}
 
     <div className='col-sm-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-items-center'>    
-    <a href='/' id='digital-icon-palette' style={{ fontSize: '12rem' }}>
-          <GiPalette className='rounded p-5 ' id='digital-icon-palette' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }}/></a>  
+    <Link href='/' id='digital-icon-palette' style={{ fontSize: '12rem' }}>
+          <GiPalette className='rounded p-5 ' id='digital-icon-palette' style={{boxShadow:'0 .5rem 1rem gray', transition: 'box-shadow 0.3s' }}/></Link>  
           <a href="/graphic-design" alt='graphic-design' style={{ textShadow: "2px 2px 4px #00ffff", fontSize:'1.2rem', color:'black', textDecoration:'none'}}><b>GRAPHIC DESIGN</b></a>
     </div>
 
